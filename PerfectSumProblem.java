@@ -35,6 +35,54 @@ public class PerfectSumProblem {
 		System.out.println();
 	}
 	
+	public static int booleanOrForInteger(int a, int b) {
+		if(a==1 || b==1)
+			return 1;
+		return 0;
+	}
+	public static void PerfectSumProblemS(int sum, int[] set) {
+		
+		int len = set.length;
+		int[][] dp = new int[sum+1][len+1];
+		
+		//initializing the matrix
+		for(int i=0; i<len; i++)
+			dp[0][i] = 1;
+		for(int j=1; j<=sum; j++)
+			dp[j][0] = 0;
+		
+		/*filling the matrix*/
+		for(int i=1; i<=sum; i++) {
+			for(int  j=1; j<=len; j++) {
+				if(i>=set[j-1]) {
+					dp[i][j] = booleanOrForInteger(dp[i][j-1], dp[ i - set[j-1] ][j-1]);
+				}
+			}
+		}
+		
+		//CAUTION CAUTION CAUTION!!!!!!!!!
+		/*STILL UNDER WORK!!!!!!!!Printing the subsets with the perfect sum*/
+		for(int j=0; j<=len; j++) {
+			if(dp[sum][j]==1) {	/*Fulfills the sum property*/
+				
+				int sumIndex = 6;
+				int setIndex = j;
+				while(!(sumIndex<=setIndex))
+				while(sumIndex-setIndex  > 0) {
+					//System.out.println("sumIndex: "+sumIndex+" ssetIndex: "+setIndex);
+					System.out.print(set[setIndex-1]+" ");
+					sumIndex -= set[setIndex-1];
+					setIndex-=1;
+					
+				}
+				System.out.print(set[sumIndex-1]+"\n");
+			   //System.out.println("Printing next set");
+			}
+		}
+	}
+	
+	
+	/*Perfectly working solution, normal recursive approach*/
 	public static void perfectSumProblem(int sum, int index, int[] set) {
 		
 		if(index<=set.length) {
@@ -100,8 +148,10 @@ public class PerfectSumProblem {
 	*/
 		
 	int sum = 10;
+	//int[] set = new int[] {1,2,3,4,5};
 	int[] set = new int[] {2, 3, 5, 6, 8, 10};
-	perfectSumProblem(sum, 0, set);
+	PerfectSumProblemS(sum, set);
+	//perfectSumProblemS(sum, 0, set);
 	
 		} 
 	}
