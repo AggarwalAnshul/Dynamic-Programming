@@ -20,7 +20,7 @@ public class AssemblyLineScheduling {
 	public static int  assemblyLineSchedulingSolution(int time, int index, int assemblyLine, String str) {
 		str+="\t";
 		try {
-		System.out.println(str+"Function called for station: "+workTime[assemblyLine][index]+" for index: "+index+" at line: "+assemblyLine+" with time: "+time);
+		//System.out.println(str+"Function called for station: "+workTime[assemblyLine][index]+" for index: "+index+" at line: "+assemblyLine+" with time: "+time);
 		str+="\t";
 		}
 		catch(Exception exception) {
@@ -29,7 +29,7 @@ public class AssemblyLineScheduling {
 		}
 		//CASE: When there are no more stations in the line
 		if(index==station) { 
-			System.out.println(str+"Reached the final station returning with: "+time);
+			//System.out.println(str+"Reached the final station returning with: "+time);
 			return time;
 		}
 		
@@ -38,78 +38,43 @@ public class AssemblyLineScheduling {
 		//System.out.println(str+"Assembly line switched to: "+altAssemblyLine);
 		
 		//continue the current path
-		System.out.println(str+"finding branch 1 at index: "+index+ " stationed at: "+workTime[assemblyLine][index]+"  with cost: "+time+ " at line: "+assemblyLine);
+		//System.out.println(str+"finding branch 1 at index: "+index+ " stationed at: "+workTime[assemblyLine][index]+"  with cost: "+time+ " at line: "+assemblyLine);
 		int branch1 = assemblyLineSchedulingSolution(time+workTime[assemblyLine][index], index+1, assemblyLine, str);
 		//switch to the different assembly line
 		int branch2;
-		System.out.println(str+"finding branch 2 at index: "+index+ " stationed at: "+workTime[altAssemblyLine][index]+"  with cost: "+time+ " at line: "+altAssemblyLine);
+		//System.out.println(str+"finding branch 2 at index: "+index+ " stationed at: "+workTime[altAssemblyLine][index]+"  with cost: "+time+ " at line: "+altAssemblyLine);
 		if(index==station-1) {
-			System.out.println(str+"return value: "+Integer.MAX_VALUE);
+			//System.out.println(str+"return value: "+Integer.MAX_VALUE);
 			branch2 = Integer.MAX_VALUE;
 		}
 		else {
-			System.out.println(str+"Branch is calculatin with shift time: "+ shiftTime[assemblyLine][index+1]);
-			branch2  = assemblyLineSchedulingSolution(time+workTime[altAssemblyLine][index]+shiftTime[assemblyLine][index+1], index+1, altAssemblyLine, str);
+			//System.out.println(str+"Branch is calculatin with shift time: "+ shiftTime[assemblyLine][index+1]);
+			branch2  = assemblyLineSchedulingSolution(time+workTime[altAssemblyLine][index]+shiftTime[assemblyLine][index], index+1, altAssemblyLine, str);
 		
 		}
 		return Math.min(branch1, branch2);
 	}
 	
-	public static int assemblyLineScheduling(int[][] workTime, int[][] shiftTime, int[] enterTime, int[]exitTime, int time, int index, int assemblyLine,String str) {
-		System.out.println("Fucntion invoked for index: "+index);
-		if(index==workTime.length)
-		{	System.out.println(str+"Line: " + assemblyLine + " at index: "+index+" cost:" + time);
-		
-			return time;
-		}
-			if(index == 0) {
 
-			int branch1 = assemblyLineScheduling(workTime, shiftTime, enterTime, exitTime, workTime[0][0], 1, 0,str+"\t");
-			int branch2 = assemblyLineScheduling(workTime, shiftTime, enterTime, exitTime, workTime[1][0], 1, 1,str+"\t");
-			return Math.min(branch1, branch2);
-		}
-		
-		
-		int i = index;
-		int altAssemblyLine = (assemblyLine==0 ? 1 : 0);
-		
-		//continue the stream
-		int sameLine = time + workTime[assemblyLine][i];
-		int switchLine = time + workTime[altAssemblyLine][i] + shiftTime[assemblyLine][i+1];
-		
-		str+="\t";
-		int branch1 = assemblyLineScheduling(workTime, shiftTime, enterTime, exitTime, sameLine, index+1, assemblyLine,str);
-		int branch2 = assemblyLineScheduling(workTime, shiftTime, enterTime, exitTime, switchLine, index+1, altAssemblyLine,str);
-/*	
-		if(branch1 < branch2) {
-			System.out.println(str+"Maintaining the line: " + assemblyLine + " at index: "+index+" cost:" + sameLine);
-			return branch1;
-		}else {
-			System.out.println(str+"Switching to line: " + altAssemblyLine + " at index: "+index+" cost:" + switchLine);
-			return branch1;
-		}
-	*/
-		return Math.min(branch1, branch2);
-
-		
-	}
 	
 	static int workTime[][] = { { 4, 5, 3, 2 }, { 2, 10, 1, 4 } };
 	static int shiftTime[][] = { { 0, 7, 4, 5 }, { 0, 9, 2, 8 } };
 	static int enterTime[] = { 10, 12 }, exitTime[] = { 18, 7 };
 	static int station = workTime[0].length;
+	
+	
 	public static void main(String args[]) {
 
-		
 		//saves from the trouble of adding entry and exit timings
-		
-		System.out.println("station: "+station);
+		//System.out.println("station: "+station);
 
 		workTime[0][0] += enterTime[0];
 		workTime[1][0] += enterTime[1];
 		workTime[0][station-1] += exitTime[0];
 		workTime[1][station-1] += exitTime[1];
 		
+		/*
+		 * PRINTS THE TIME TAKEN STATION ON ASSEMBLY LINES
 		for(int[] a : workTime) {
 			for(int b : a) {
 				System.out.print("\t"+b);
@@ -123,8 +88,8 @@ public class AssemblyLineScheduling {
 			}
 			System.out.println();
 		}
-		
+		*/
 		System.out.println(assemblyLineSchedulingSolution(0, 0, 0, ""));
-		System.out.println(assemblyLineScheduling(workTime, shiftTime, enterTime, exitTime, 0, 0, 0,""));
+		//System.out.println(assemblyLineScheduling(workTime, shiftTime, enterTime, exitTime, 0, 0, 0,""));
 	 }
 }
