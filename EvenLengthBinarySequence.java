@@ -26,7 +26,7 @@ public class EvenLengthBinarySequence {
 		if(length==2) {
 			if(diff==1 || diff==-1)
 				return 1;
-			return (diff==0 ? 2 : 0); //return 2, if diff is 0, Otehrwise return 0
+			return (diff==0 ? 2 : 0); //return 2, if diff is 0, Otherwise return 0
 		}
 		
 		return 2*evenLengthBinarySequenceSolution(length-2, diff) +
