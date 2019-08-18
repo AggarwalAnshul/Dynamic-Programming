@@ -8,7 +8,7 @@ package go;
 
 public class MaximumSumIncreasingSubseqeunce {
 	
-	public static int maximumLengthSnakeSequence(int[] array) {
+	public static int maximumSumIncreasingSubsequence(int[] array) {
 		int length = array.length;
 		int maxLength = 0;
 		
@@ -33,7 +33,7 @@ public class MaximumSumIncreasingSubseqeunce {
 	public static void main(String args[]) {
 		
 		int[] array = new int[]{1, 101, 2, 3, 100, 4, 5};
-		System.out.println( maximumLengthSnakeSequence(array) );
+		System.out.println( maximumSumIncreasingSubsequence(array) );
 	}
 	
 }
