@@ -15,7 +15,8 @@ Explanation: Subarray with consecutive elements
 and maximum sum will be {4, -1, -2, 1, 5}.
 
 Temporal maker: 14:12 Hours | Aug20, Tuesday
-
+Temporal marker untethered: 14:27 Hours | Aug20, Tuesday
+LINK: https://www.geeksforgeeks.org/size-subarray-maximum-sum/
 """
 
 def findSubarraySizeWithMaximumSum(lis):
