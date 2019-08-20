@@ -1,29 +1,27 @@
-"""
-Maximum path sum in a triangle.
-We have given numbers in form of triangle, by starting at the top of the
-triangle and moving to adjacent numbers on the row below,
-find the maximum total from top to bottom.
+""""
+Maximum sum of a path in a Right Number Triangle
+Given a right triangle of numbers, find the largest of the sum of numbers
+that appear on the paths starting from the top towards the base, so that on
+each path the next number is located directly below or
+below-and-one-place-to-the-right.
 
 Examples :
 
-Input : 
-   3
-  7 4
- 2 4 6
-8 5 9 3
-Output : 23
-Explanation : 3 + 7 + 4 + 9 = 23 
+Input : 1
+        1 2
+        4 1 2
+        2 3 1 1        
+Output : 9
+Explanation : 1 + 1 + 4 + 3
 
-Input :
-   8
- -4 4
- 2 2 6
-1 1 1 1
-Output : 19
-Explanation : 8 + 4 + 6 + 1 = 19
+Input : 2
+        4 1
+        1 2 7
+Output : 10
+Explanation : 2 + 1 + 7
 
-Temporal maker: 13:32 Hours | Aug20, Tuesday
-Temporal marker untethered: 13:47 Hours | Aug20, Tuesday
+Temporal maker: 13:59 Hours | Aug20, Tuesday
+Temporal marker untethered: 13:59 Hours | Aug20, Tuesday
 LINK: https://www.geeksforgeeks.org/maximum-path-sum-triangle/
 """
 #triangle = [[8, 0, 0, 0], [-4, 4, 0, 0], [2, 2, 6, 0], [1, 1, 1, 1]]
@@ -34,7 +32,7 @@ def printMatrix(dp):
             print(y, end=" ")
         print()
         
-def findMaximumSumPathInTriangle(triangle):
+def findMaximumSumPathInRightTriangle(triangle):
     length = len(triangle)
     dp = [[0]*length for x in range(length)]
 
@@ -55,6 +53,8 @@ def findMaximumSumPathInTriangle(triangle):
 triangle = [  [1, 0, 0, 0], [1, 2, 0, 0], [4, 1, 2, 0],[2, 3, 1, 1] ]            
 #triangle = [  [3, 0, 0, 0], [7, 4, 0, 0], [2, 4, 6, 0],[8, 5, 9, 3] ]
 #triangle = [[8, 0, 0, 0], [-4, 4, 0, 0], [2, 2, 6, 0], [1, 1, 1, 1]]
-print(findMaximumSumPathInTriangle(triangle))
+print(findMaximumSumPathInRightTriangle(triangle))
+
+
 
 
