@@ -46,7 +46,7 @@ def findMaximumPathSumPositionJumpsDivisibilityCondition(lis):
     dp = [0]*(length)
     dp[0] = lis[0]
 
-    print("The orignal list is: "+str(lis))
+    print("The original list is: "+str(lis))
     for i in range(0, length):
         localMax = 0
         for j in range(0, i):
