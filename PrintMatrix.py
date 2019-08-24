@@ -3,3 +3,4 @@ def printMatrix(matrix):
         print()
         for col in row:
             print(col, end=" ")
+    print("-------------")
