@@ -20,14 +20,27 @@ Output : 17
 [+]Temporal marker untethered : 10:29 Hours | Aug28, 2019
 [+]Tread speed                : Relaxed
 [+]Comments                   : So glad I figured this out with absolutely no help
-                                from GFG. Employed the learned technique of breaking
-                                the problem into subproblems, in this case particularly the techinuqe
-                                of cutting the structure by one faction at the time!!!!
-[+]LINK : https://www.geeksforgeeks.org/count-ways-build-street-given-constraints/
+                                from GFG. Employed the, learned technique of breaking
+                                the problem into subproblems, in this case particularly
+                                the techinuqe of cutting the structure by one faction at
+                                a time!!!! :D
+[+]LINK : https://www.geeksforgeeks.org/ount-ways-build-street-given-constraints/
 
 """
 #S-Complexity: O(n) | T-Complexity: O(n)
 def findCountWaysBuildStreetGivenConstraints(num):
+    dp = [[0]*3 for x in range(num+1)]
+    dp[1] = [1,1,1]
+
+    for x in range(2, num+1):
+        dp[x][0] = dp[x-1][1] + dp[x-1][2]     #When there is an office in 1st lane
+        dp[x][1] = dp[x-1][0] + dp[x-1][2]     #When there is an office in 2nd lane
+        dp[x][2] = dp[x-1][0] + dp[x-1][1] + dp[x-1][2] #When there is no office in neither one
+
+    return dp[num][0]+dp[num][1]+dp[num][2]
+
+#S-Complexity: O(n) | T-Complexity: O(n)
+def findCountWaysBuildStreetGivenConstraintsS(num):
     dp = [[0]*2 for x in range(num+1)]
     dp[1] = [2,1]
 
@@ -41,5 +54,5 @@ if __name__ == "__main__":
     num = 2
     num = 4
     num = 5
-    print(findCountWaysBuildStreetGivenConstraints(num))
+    print(findCountWaysBuildStreetGivenConstraintsS(num))
 
