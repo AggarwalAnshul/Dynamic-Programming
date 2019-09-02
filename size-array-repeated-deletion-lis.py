@@ -23,10 +23,11 @@ Input : arr[] = {5, 3, 2}
 Output : 3
 [+]Temporal marker            : 12:15 Hours | Sept02, 2019
 [+]Temporal marker untethered : 13:20 Hours | Sept02, 2019
-[+]Comments                   : *Recursive solution produced in record time
-                                *idk why but dp solution took quite a time
-                                *later realized the solution was staring right at
-                                 my face, recusive formula was to be used! DAMN!
+[+]Comments                   : *LIS finding algo produced in record time
+                                *LIS Printing algo also produced in record time
+                                *Time took a hit during deletion of LIS form list and
+                                *creating a driver function to repeat the process until the
+                                *condition is satisfied
 [+]LINK                       : https://www.geeksforgeeks.org/size-array-repeated-deletion-lis/
 """
 #A function that prints the LIS from a lis
