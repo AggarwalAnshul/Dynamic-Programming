@@ -105,5 +105,6 @@ if __name__ == "__main__":
     lis = [5, 3, 2]
     lis = [1, 2, 5, 3, 6, 4, 1]
     lis = [1, 2, 3, 1, 5, 2]
+    lis = [ 1, 2, 5, 3, 4 ]
     print("\nLength of the final modified list is: \n>> "+str(findSolution(lis)))
 
