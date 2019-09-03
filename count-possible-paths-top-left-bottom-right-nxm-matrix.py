@@ -48,9 +48,10 @@ def findTotalWaysRecursive(m, n, i, j, count):
     return down + right
 
 if __name__ == "__main__":
-    lis = [2, 2]
     lis = [3, 3]
     lis = [10, 18]
+    lis = [2, 2]
+    
     print(findTotalWaysDP(lis[0], lis[1]))
     print("computing using recursive solution...")
     print(findTotalWaysRecursive(lis[0], lis[1], 0, 0, 0))
