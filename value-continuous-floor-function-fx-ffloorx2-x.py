@@ -1,5 +1,5 @@
 """
-#105
+#104
 Value of continuous floor function : F(x) = F(floor(x/2)) + x
 Given an array of positive integers. For every element x of array, we need to
 find the value of continuous floor function defined as F(x) = F(floor(x/2)) + x,
