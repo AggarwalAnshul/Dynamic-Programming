@@ -1,4 +1,5 @@
 """
+#98
 Longest alternating (positive and negative) subarray starting at every index
 A subarray is called alternating if any two consecutive numbers in it have opposite
 signs (i.e. one of them should be negative, whereas the other should be positive).
