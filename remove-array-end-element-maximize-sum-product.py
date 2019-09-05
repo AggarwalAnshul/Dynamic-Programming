@@ -25,8 +25,23 @@ Output : 5.
 [+]Comments                   : *Recursive solution produced in record time
                                 *DP Solution not satisfactory in GFG
                                 *Some erros in DP Solution, laid down for now
+                                UPDATE:
+                                *DP Solution devised
+                                *Works in accordance to recursive solution
+                                *Had the same approach to execute it initially,
+                                *After layoff, had a comprehensive look at the GFG DP Solution
+                                *Problem is now CLOSED! :D
 [+]LINK                       : https://www.geeksforgeeks.org/remove-array-end-element-maximize-sum-product/
 """
+
+def findSolutionDp(lis, count, start, end, dp):
+    if(start==end):
+        return (count+1)*lis[start]
+    if(dp[start][end] == -1):
+        branchOne = lis[start]*(count+1) + findSolutionDp(lis, count+1, start+1, end, dp)
+        branchTwo = lis[end]*(count+1) + findSolutionDp(lis, count+1, start, end-1, dp)
+        dp[start][end] = max(branchOne, branchTwo)
+    return dp[start][end]
 
 def findSolutionR(lis, count, start, end, sumCount):
     #print("start: "+str(start)+" end: "+str(end)+" : sum" + str(sumCount))
@@ -45,8 +60,8 @@ if __name__ == "__main__":
     lis = [3, 3]
     lis = [10, 18]
     lis = [1,2]
+    lis = [1,3,1,5,2]
     lis = [1, 3, 1,8,54,7,5,778,10,18, 5, 2 ]
-    dp = [[-1]*(len(lis)) for x in range(len(lis))]
-    print(findSolutionDP(lis, 0, 0, len(lis)-1, 0, dp))
+    dp = [[-1] *(len(lis)) for x in range(len(lis))]
     print(findSolutionR(lis, 0, 0, len(lis)-1, 0))
-
+    print(findSolutionDp(lis, 0, 0, len(lis)-1, dp))
