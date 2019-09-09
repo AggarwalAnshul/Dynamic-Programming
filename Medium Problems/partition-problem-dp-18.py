@@ -36,15 +36,17 @@ def findSolution(lis):
     for i in range(1, halfSum+1):
         for j in range(1, length+1):
             dp[i][j] = dp[i][j-1]
-            if(i>=j):
-                dp[i][j] += dp[i-j][j]
+            if(i>=lis[j-1]):
+                dp[i][j] += dp[i-lis[j-1]][j-1]
     import PrintMatrix as pm
     pm.printss(dp)
     if (dp[halfSum][length]>=1):
         return True
+    return False
 
 if __name__ == "__main__":
+    lis = [1, 5, 13, 5]
+    lis = [3, 1, 1, 2, 2, 1]
     lis = [1,5,3]
     lis = [1, 5, 11, 5]
-    lis = [3, 1, 1, 2, 2, 1]
     print(findSolution(lis))
