@@ -18,8 +18,8 @@ Output: Yes
 The string can be segmented as "i like samsung" 
 or "i like sam sung".
 
-[+]Temporal marker            : 19:05 Hours,  | Sunday, Sept08, 19
-[+]Temporal marker untethered : 19:25 Hours,  | Sunday, Sept08, 19
+[+]Temporal marker            : 19:05 Hours,                  | Sunday, Sept08, 19
+[+]Temporal marker untethered : 19:25 Hours, 20:32(Final D*)  | Sunday, Sept08, 19
 [+]Comments                   : Already had the apporach in my mind
                                 Implementation took 15 mins max
                                 All test cases passed
