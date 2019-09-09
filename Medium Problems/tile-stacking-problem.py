@@ -65,7 +65,7 @@ def findSolutionDP(tiles, ranges, limits):
                 dp[i][j] -= dp[i-1][j+2]
 
     import PrintMatrix as pm
-    #pm.printss(dp)
+    pm.printss(dp)
     return dp[tiles-1][0]
 
     
