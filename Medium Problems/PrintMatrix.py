@@ -3,9 +3,9 @@ def printsss(matrix):
         printss(layer)
         
 def printss(matrix):
-    print("  ",end="")
+    print("\t",end="")
     for index in range(0, len(matrix[0])):
-        print(index, end="   ")
+        print(index, end="\t")
     print()
     for index in range(0, len(matrix[0])):
         print("--------",end="")
@@ -13,9 +13,9 @@ def printss(matrix):
     #print("\n------------------------------------------------------")
     index = 0
     for row in matrix:
-        print(str(index)+"|",end="   ")
+        print(str(index)+"|",end="\t")
         for col in row:
-            print(col, end="   ")
+            print(col, end="\t")
         index+=1
         print()
     print()
