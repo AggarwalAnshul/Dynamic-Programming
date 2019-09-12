@@ -11,19 +11,57 @@ Input:   str1 = "AGGTAB",  str2 = "GXTXAYB"
 Output:  "AGXGTXAYB"
 
 [+]Temporal marker            : 12:40  Hours, | Thursday  Sept12, 19
-[+]Temporal marker untethered : 14:00  Hours  | Thursday  Sept12, 19
-[+]Comments                   : *Problem similar to find no. of palindromic substrings
-                                *For the ranges just split the string as per range
-                                *Rest of the algo is same
-                                *Also the problem requires substring of length=1 also
-                                *So jsut added the length of the string in the final ans also
-                                *Problem is now solved
-                                *Don't let go of that transgression acquired last night[+]Tread speed                : Relaxed
+[+]Temporal marker untethered : 14: 00 Hours  | Thursday  Sept12, 19
+[+]Comments                   : Took a couple of hour
+                                Developed the recursive algo on my own
+                                Recursion looks good
+                                Later saw the easier DP Approach
+                                MindBlowing approach Truly!
+                                problem is now solved completely:D
 [+]Level                      : Easy
 [+]Tread speead               : Paced
 [+]LINK                       : https://www.geeksforg eeks.org/shortest-common-supersequence/
 """
 
+def findSolutionDP(one, two):
+    print(one, "\t", two)
+    dp = [[0]*(len(two)+1) for x in range(len(one)+1)]
+    for i in range(1, len(one)+1):
+        for j in range(1, len(two)+1):
+            if(one[i-1]==two[j-1]):
+                dp[i][j] = dp[i-1][j-1]+1
+            else:
+                dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+    #Printing the lcs
+    i = len(one)
+    j = len(two)
+    lcs = ""
+    import PrintMatrix as pm
+    pm.printss(dp, two, one)
+    while(i>0 and j>0):
+        if(one[i-1]==two[j-1]):
+            lcs += one[i-1]
+            i-=1
+            j-=1
+        else:
+            if(dp[i-1][j]>dp[i][j-1]):
+                i-=1
+            else:
+                j-=1
+    print("lcs: "+lcs[::-1])
+
+    #finding the solution
+    index = 0
+    left = ""
+    for x in reversed(one):
+        if(index<len(lcs) and x==lcs[index]):
+                index+=1
+        else:
+            left+=x
+
+    return left[::-1]+two
+
+   
 def findSolution(one, two, x, y, cost, string):
     #print(string+" cost: "+str(cost))
     #print("x: "+str(x)+ " y: "+str(y)+ " cost: "+str(cost))
@@ -48,9 +86,10 @@ def findSolution(one, two, x, y, cost, string):
     return b
 
 if __name__ == "__main__":
-    lis = ["AGGTAB", "GXTXAYB"]
     lis = ["geek","eke"]
+    lis = ["AGGTAB", "GXTXAYB"]
     
+    print(findSolutionDP(lis[0], lis[1]))
     print(findSolution(lis[0], lis[1], 0, 0, 0,""))
     """
     if(len(lis[1])>len(lis[0])):
