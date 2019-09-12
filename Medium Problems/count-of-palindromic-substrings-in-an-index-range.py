@@ -1,7 +1,9 @@
 """
 #M.36
 Count of Palindromic substrings in an Index range
-Given a string str of small alphabetic characters other than this we will be given many substrings of this string in form of index tuples. We need to find out the count of the palindromic substrings in given substring range.
+Given a string str of small alphabetic characters other than this we will be
+given many substrings of this string in form of index tuples.
+We need to find out the count of the palindromic substrings in given substring range.
 Examples:
 
 Input : String str = "xyaabax"
@@ -16,17 +18,17 @@ For Range2,  substring is "aa"
 Count of palindromic substring in "aa" is 
 3 : "a", "a", "aa"
 
-[+]Temporal marker            : 15:06  Hours, | Wednesday Sept11, 19
-[+]Temporal marker untethered : 10:40  Hours  | Thursday  Sept12, 19
-[+]Comments                   : *Laid it off for the day
-                                *yesterday was pretty drowsy and low
-                                *Solved in about an hour today
-                                *Tried recursive apporach, redundant solution was computing up
-                                *Tabulization worked fine
-                                *One step closer to know LCS category inside out
-                                *Matter is closed now
+[+]Temporal marker            : 12:25  Hours, | Thursday  Sept12, 19
+[+]Temporal marker untethered : 12:28  Hours  | Thursday  Sept12, 19
+[+]Comments                   : *Problem similar to find no. of palindromic substrings
+                                *For the ranges just split the string as per range
+                                *Rest of the algo is same
+                                *Also the problem requires substring of length=1 also
+                                *So jsut added the length of the string in the final ans also
+                                *Problem is now solved
                                 *Don't let go of that transgression acquired last night[+]Tread speed                : Relaxed
-[+]Level                      : Medium
+[+]Level                      : Easy
+[+]Tread speead               : Paced
 [+]LINK                       : https://www.geeksforg eeks.org/count-of-palindromic-substrings-in-an-index-range/
 """
 
@@ -53,7 +55,7 @@ def findSolution(string):
     
     import PrintMatrix as pm
     pm.printss(dp, string, string)
-    return count-1
+    return count-1+len(string)
 
 if __name__ == "__main__":
     string = "aaaa"
@@ -62,7 +64,10 @@ if __name__ == "__main__":
     string = "abcb"
     string = "abbaeae"
     string = "abaab"
-    string = "dsisbaafajih" #Manual Test case verified for integrity, Topic is closed:D
+    string = "xyaabax"
+    ranges = [3, 5] #inclusive
+    ranges = [2, 3]
+    #string = "dsisbaafajih" #Manual Test case verified for integrity, Topic is closed:D
     length = len(string)
-    print(findSolution(string))
+    print(findSolution(string[ranges[0]:ranges[1]+1]))
     #print(findSolution(string, 0, len(string)-1, 0))
