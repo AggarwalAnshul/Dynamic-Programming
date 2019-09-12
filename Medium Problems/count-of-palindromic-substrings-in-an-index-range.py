@@ -1,8 +1,20 @@
 """
-#M.34
-Count All Palindrome Sub-Strings in a String | Set 1
-Given a string, the task is to count all palindrome sub
-string in a given string. Length of palindrome sub string is greater than or equal to 2.
+#M.36
+Count of Palindromic substrings in an Index range
+Given a string str of small alphabetic characters other than this we will be given many substrings of this string in form of index tuples. We need to find out the count of the palindromic substrings in given substring range.
+Examples:
+
+Input : String str = "xyaabax"
+           Range1 = (3, 5)   
+           Range2 = (2, 3) 
+Output : 4
+         3
+For Range1,  substring is "aba"
+Count of palindromic substring in "aba" is 
+four : "a", "b", "aba", "a"
+For Range2,  substring is "aa"
+Count of palindromic substring in "aa" is 
+3 : "a", "a", "aa"
 
 [+]Temporal marker            : 15:06  Hours, | Wednesday Sept11, 19
 [+]Temporal marker untethered : 10:40  Hours  | Thursday  Sept12, 19
@@ -15,7 +27,7 @@ string in a given string. Length of palindrome sub string is greater than or equ
                                 *Matter is closed now
                                 *Don't let go of that transgression acquired last night[+]Tread speed                : Relaxed
 [+]Level                      : Medium
-[+]LINK                       : https://www.geeksforg eeks.org/count-palindrome-sub-strings-string/
+[+]LINK                       : https://www.geeksforg eeks.org/count-of-palindromic-substrings-in-an-index-range/
 """
 
 #S-Complexity: O(N*N) | T-Complexity: O(N*N)
