@@ -1,32 +1,42 @@
-# A DP based Python3 program to find maximum tasks. 
-# Returns the maximum among the 2 numbers 
-def max1(x, y): 
+# Python3 code to Count Palindromic 
+# Subsequence in a given String 
 
-	return x if(x > y) else y; 
+# Function return the total 
+# palindromic subsequence 
+def countPS(str): 
 
-# Returns maximum amount of task 
-# that can be done till day n 
-def maxTasks(high, low, n): 
+	N = len(str) 
+	
+	# Create a 2D array to store the count 
+	# of palindromic subsequence 
+	cps = [[0 for i in range(N + 2)]for j in range(N + 2)] 
+	
+	# palindromic subsequence of length 1 
+	for i in range(N): 
+		cps[i][i] = 1
+	
+	# check subsequence of length L 
+	# is palindrome or not 
+	for L in range(2, N + 1): 
+	
+		for i in range(N): 
+			k = L + i - 1
+			if (k < N): 
+				if (str[i] == str[k]): 
+					cps[i][k] = (cps[i][k - 1] +
+								cps[i + 1][k] + 1) 
+				else: 
+					cps[i][k] = (cps[i][k - 1] +
+								cps[i + 1][k] -
+								cps[i + 1][k - 1]) 
+	
+	# return total palindromic subsequence 
+	return cps[0][N - 1] 
+	
+# Driver program 
+str = "abaab"
+print("Total palindromic subsequence are : "
+							, countPS(str)) 
 
-	# An array task_dp that stores 
-	# the maximum task done 
-	task_dp = [0] * (n + 1); 
 
-	# If n = 0, no solution exists 
-	task_dp[0] = 0; 
-
-	# If n = 1, high effort task 
-	# on that day will be the solution 
-	task_dp[1] = high[0]; 
-
-	# Fill the entire array determining 
-	# which task to choose on day i 
-	for i in range(2, n + 1): 
-		task_dp[i] = max(high[i - 1] + task_dp[i - 2], 
-						low[i - 1] + task_dp[i - 1]); 
-	return task_dp[n]; 
-
-# Driver code 
-n = 5; 
-
-# This code is contributed by mits 
+# This code is contributed by Anant Agarwal. 
