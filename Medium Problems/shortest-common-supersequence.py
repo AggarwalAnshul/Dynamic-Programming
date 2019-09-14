@@ -17,9 +17,11 @@ Output:  "AGXGTXAYB"
                                 Recursion looks good
                                 Later saw the easier DP Approach
                                 MindBlowing approach Truly!
-                                problem is now solved completely:D
-[+]Level                      : Easy
-[+]Tread speead               : Paced
+                                FUN Fact is GFG only provides length of soln
+                                My Algo provides the string too just like example
+                                problem is now solved completely:D 
+[+]Level                      : Medium
+[+]Tread speead               : Relaxed / Paced
 [+]LINK                       : https://www.geeksforg eeks.org/shortest-common-supersequence/
 """
 
