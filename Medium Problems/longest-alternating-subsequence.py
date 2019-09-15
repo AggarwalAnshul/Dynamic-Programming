@@ -24,15 +24,33 @@ are longest subsequence of length 6.
 
 [+]Temporal marker            : N/A, | Saturday Sept14, 19
 [+]Temporal marker untethered : 30/40 Mins  | Saturday Sept14, 19
-[+]Comments                   : Took a couple of hour
-                                Developed the recursive algo on my own
-                                Recursion looks good
-                                DP Solution is not understandable
-                                Laying off for now
+[+]Comments                   : *Took a couple of hour
+                                *Developed the DP(not so optimized) Algo on my own
+                                *Algo looks good
+                                *More optimized elegant DP Solution from GFG
+                                *Uses the approach  that i discarded/not pursued enough
+                                during brainstorming
+                                *DPO Solution is vaguely understandable
+                                *Problem is now closed
 [+]Level                      : Medium
 [+]Tread speead               : Relaxed / Paced
 [+]LINK                       : https://www.geeksforgeeks.org/longest-alternating-subsequence/
 """
+#S-Complexity: O(N) | T-Complexity: O(N*N)
+def findSolutionDPO(lis):
+    length = len(lis)
+    dp = [[1]*length for x in range(2)]
+    ans = 0
+    for x in range(1, length):
+        for y in range(x):
+            if(lis[y]>lis[x]):
+                dp[0][x] = max(dp[0][x], dp[1][y]+1)
+            if(lis[y]<lis[x]):
+                dp[1][x] = max(dp[1][x], dp[0][y]+1)
+        ans = max(ans, dp[1][x], dp[0][x])
+    return ans
+    #import PrintMatrix as pm
+    #pm.printss(dp, lis, [0,1])
 
 #S-Complexity: O(N) | T-Complexity: O(N*N)
 def findSolution(lis):
@@ -74,12 +92,11 @@ def findSolution(lis):
         dp[4][y] = localMax+1
     import PrintMatrix as pm
     liss = [0]*5
-    for x in range(5):
-        liss[x] = x
-    pm.printss(dp, lis, liss)
+    #pm.printss(dp, lis, [1,2,3,4,5])
     return max(max(dp[1]), max(dp[4]))
 if __name__ == "__main__":
+    lis = [1, 5, 4]
     lis = [10, 22, 9, 33, 49, 50, 31, 60]
     lis = [1, 4, 5]
-    lis = [1, 5, 4]
+    print(findSolutionDPO(lis))
     print(findSolution(lis)) 
