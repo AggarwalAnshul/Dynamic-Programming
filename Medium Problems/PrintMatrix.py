@@ -16,9 +16,14 @@ def printss(matrix, string , rev):
     print()
     #print("\n------------------------------------------------------")
     index = 0
-    rev = "0"+str(rev)
+    flag = 0
+    #rev = "0"+str(rev)
     for row in matrix:
-        print(str(rev[index])+"|",end="\t")
+        if(flag==0):
+            print("0|",end="\t")
+            flag = 1
+        else:
+            print(str(rev[index-1])+"|",end="\t")
         for col in row:
             print(col, end="\t")
         index+=1
