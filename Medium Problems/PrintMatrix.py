@@ -7,9 +7,9 @@ def printss(matrix, string , rev):
     for x in string:
         temp.append(x)
     string = temp
-    print("\t",end="")
+    print("   ",end="")
     for index in string:
-        print(index, end="\t")
+        print(index, end=" ")
     print()
     for index in range(0, len(matrix[0])):
         print("--------",end="")
@@ -20,12 +20,12 @@ def printss(matrix, string , rev):
     #rev = "0"+str(rev)
     for row in matrix:
         if(flag==0):
-            print("0|",end="\t")
+            print("0|",end=" ")
             flag = 1
         else:
-            print(str(rev[index-1])+"|",end="\t")
+            print(str(rev[index-1])+"|",end=" ")
         for col in row:
-            print(col, end="\t")
+            print(col, end=" ")
         index+=1
         print()
     print()
