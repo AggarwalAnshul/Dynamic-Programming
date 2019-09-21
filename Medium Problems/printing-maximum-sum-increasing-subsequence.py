@@ -2,7 +2,9 @@
 #M.47
 
 Printing Maximum Sum Increasing Subsequence
-The Maximum Sum Increasing Subsequence problem is to find the maximum sum subsequence of a given sequence such that all elements of the subsequence are sorted in increasing order.
+The Maximum Sum Increasing Subsequence problem is to find the maximum sum
+subsequence of a given sequence such that all elements of the subsequence are
+sorted in increasing order.
 
 Examples:
 
