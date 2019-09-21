@@ -26,9 +26,33 @@ Output : 28
 [+]Tread speead               : Paced
 [+]LINK                       : https://www.geeksforgeeks.org/largest-sum-zig-zag-sequence-in-a-matrix/
 """
-
-#S-Complexity: O(N) | T-Complexity: O(N*N)
+#S-Compelxity: O(N*N)  | Aux Space: None | T-Complexity: O(N*N)
 def findSolution(matrix):
+    length = len(matrix)
+
+    for row in range(1, length):
+        #Finding the maxima before this loop
+        first = 0
+        second = 0
+        for col in matrix[row-1]:
+            if(col>first):
+                second = first
+                first = col
+            elif(col> second):
+                second = col
+           #We now have the max and the second max value for each row     
+        #print("the max for the previous row is: "+str(first)+ " and the second is: "+str(second))
+        for col in range(length):
+            el = matrix[row][col]
+            if(matrix[row-1][col]==first):
+                matrix[row][col] = second + el
+            else:
+                matrix[row][col] = first  + el
+    return max(matrix[length-1])
+            
+
+#S-Complexity: O(N*N) | Aux space: NONE | T-Complexity: O(N*N*N) 
+def findSolutionOb(matrix):
     length = len(matrix)
 
     for i in range(1, length):
@@ -44,6 +68,7 @@ def findSolution(matrix):
 if __name__ == "__main__":
     matrix =[[3, 1, 2],[4, 8, 5],[6, 9, 7]]
     matrix = [[4, 2, 1], [3, 9, 6], [11, 3, 15]]
+    
     print(findSolution(matrix))
 
     
