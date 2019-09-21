@@ -17,11 +17,31 @@ Output : 5
 [+]Temporal marker            : 11:00, | Saturday Sept21, 19
 [+]Temporal marker untethered : 11:24  | Saturday Sept21, 19
 [+]Comments                   : *Easy peasy lemon squeezy!
+                                *Had a clear approach in my worked that worked flawlessly
+                                *saw a much more elegant solution from GFG
+                                *Based on the same approach
+                                *Was able to implement on my own.
+                                *Problem is now closed
 [+]Level                      : Basic
 [+]Tread speead               : Relaxed / Paced
 [+]LINK                       : https://www.geeksforgeeks.org/longest-increasing-odd-even-subsequence/
 """
 
+
+
+
+def findSolutionOp(lis):
+    lis.insert(0, 0)
+    length = len(lis)
+    dp = [0]*(length)
+    
+    for i in range(1, length):
+        for j in range(i):
+            if(lis[j]<lis[i]):
+                if((lis[j]+lis[i])%2!=0):
+                    dp[i] = max(dp[i], dp[j]+1)
+    return max(dp)
+    
 def findSolution(lis):
     length = len(lis)
     dp = [[0]*(length) for x in range(2)]
@@ -44,11 +64,11 @@ def findSolution(lis):
                 localMax = max(localMax, dp[line][j])
         dp[curr][x] = localMax+1
         ans = max(ans, localMax+1)
-   return ans 
+    return ans 
 
 
 if __name__ == "__main__":
-    lis = [5, 6, 9, 4, 7, 8]
     lis = [1, 12, 2, 22, 5, 30, 31, 14, 17, 11]
-    print(findSolution(lis))
+    lis = [5, 6, 9, 4, 7, 8]
+    print(findSolutionOp(lis))
     
