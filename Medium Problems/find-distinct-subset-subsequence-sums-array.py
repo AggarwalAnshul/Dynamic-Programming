@@ -21,12 +21,12 @@ Output : 0 2 3 4 5 6 7 8 9 10 11 12
 Input : arr[] = {20, 30, 50}
 Output : 0 20 30 50 70 80 100
  
-[+]Temporal marker            : 09:05, | Saturday Sept21, 19
-[+]Temporal marker untethered : 24:48(R*)  | Saturday Sept21, 19
-[+]Comments                   : O(N^3) Solution in record 13 mins
-                                Looking for something more optimized
-                                XXXProblem is now closedXX
-[+]Level                      : Medium
+[+]Temporal marker            : 09:05, | Sunday Sept22, 19
+[+]Temporal marker untethered : 09:15  | Sunday Sept22, 19
+[+]Comments                   : *had a clear apporach in my mind
+                                *Record time to implement the solution
+                                *Problem is now closed
+[+]Level                      : Baisc
 [+]Tread speead               : Paced
 [+]LINK                       : https://www.geeksforgeeks.org/find-distinct-subset-subsequence-sums-array/
 """
