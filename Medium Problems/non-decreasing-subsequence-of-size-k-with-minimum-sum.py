@@ -23,13 +23,16 @@ Output : 206
 [+]Temporal marker untethered :  Sun, 21:10 | Sep 22, 19
 [+]Comments                   : *Took about an hour
                                 *Temporal marker distorted due to PCC
-                                *Problem nwo closed 
-[+]Level                      : 
-[+]Tread speead               : 
+                                *GFG has recursive solution only
+                                *Hence unable to see if there can be an O(N*N) Solution
+                                *Problem is closed now
+                                *Problem nwo closed
+[+]Level                      : Medium
+[+]Tread speead               : Relaxed
 [+]LINK                       : https://www.geeksforgeeks.org/non-decreasing-subsequence-of-size-k-with-minimum-sum
 """
 
-
+#S-Complexity: O(N*N)  | T-Complexity: O(N*N*N)
 import sys
 def findSolution(lis, lim):
     length = len(lis)

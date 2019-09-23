@@ -29,18 +29,34 @@ Output : 4
 #S-Complexity: O(1) | T-Complexity: O(N)
 def findSolution(lis):
     length = len(lis)
-    balanced_length = 0
-    number_of_open_braces = 0
-    if(length>0 and lis[0]=="("):
-        number_of_open_braces = 1
+    balanced_length = 0 
+    number_of_open_brace = 0 
+    if(length>0 and lis[0]=="("): #Initialized
+        number_of_open_ = 1
 
-    for i in range(1, length):
-        if(lis[i]=="("):
-            number_of_open_braces +=1
-        elif(number_of_open_braces>0 ):
-            number_of_open_braces -=1
-            balanced_length += 2
-    return balanced_length
+    for i in range(1, length): #Check for each characters
+        if(lis[i]=="("): #If it's a Opening brace
+            count +=1      #Increase the opening brace counter
+        elif(count>0):   #If it's a closing brace, Check if there's a opening brace 
+            count-=1     #to make it balanced, reduce opening brace count by 1
+            balancedLength+=2       #Increase the length of balanced stringby one
+    return balancedLength
+
+
+def findSolution(lis):
+    length = len(lis)
+    balancedLength = 0 #This is the balanced string length counter
+    number_of_open_brace = 0 #This tracks how many open braces are left until now
+    if(length>0 and lis[0]=="("): #Initialized
+        count = 1
+
+    for i in range(1, length): #Check for each characters
+        if(lis[i]=="("): #If it's a Opening brace
+            count +=1      #Increase the opening brace counter
+        elif(count>0):   #If it's a closing brace, Check if there's a opening brace 
+            count-=1     #to make it balanced, reduce opening brace count by 1
+            balancedLength+=2       #Increase the length of balanced stringby one
+    return balancedLength
 
 #S-Complexity: O(N) | T-Complexity: O(N)
 def findSolutionOb(lis):
@@ -57,11 +73,10 @@ def findSolutionOb(lis):
         else:
             dp[i] = dp[i-1]+1
     return count
-
 if __name__ == "__main__":
     string = "()())"
+    string = "()(((((()"
     string = "())))((("
     string = "((("
-    string = "()(((((()"
-
+   
     print("Balanced string length is: "+str(findSolution(string)))
