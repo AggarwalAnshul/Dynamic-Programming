@@ -1,4 +1,4 @@
-#M.
+#M.67
 
 """
 Probability of getting at least K heads in N tosses of Coins
@@ -20,12 +20,15 @@ So the probability is 4/8 or 0.5
 
 
 [+]Temporal marker            :  Tue, 12:17 | Sep 24, 19
-[+]Temporal marker untethered :  Tue, 12:17 | Sep 24, 19
-[+]Comments                   : *
-                                *
-                                *
-[+]Level                      :
-[+]Tread speed                :
+[+]Temporal marker untethered :  Tue, 14:25 | Sep 24, 19
+[+]Comments                   : *Mine dp solution was termed Naive by GFG, stating it will overflow
+                                *however it is correct (30 Mins)
+                                *A new approach was given using logarithmic solution, that relly
+                                *opened the avenues of mind, took almost 1.5 hours to understand
+                                *and fully implemented
+                                *Problem is closed now
+[+]Level                      : Medium
+[+]Tread speed                : Steady / Intermittent
 [+]LINK                       : https://www.geeksforgeeks.org/probability-getting-least-k-heads-n-tosses-coins
 """
 import math
