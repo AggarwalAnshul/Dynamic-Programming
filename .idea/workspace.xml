@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count-number-ways-reach-destination-maze.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="count-number-ways-reach-destination-maze.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+            <state relative-caret-position="27">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count-triplets-whose-sum-equal-perfect-cube.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Medium Problems/count-triplets-whose-sum-equal-perfect-cube.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count-number-binary-strings-without-consecutive-1s.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-binary-strings-without-consecutive-1s.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -85,6 +103,7 @@
       <find>factora</find>
       <find>print</find>
       <find>findSolution</find>
+      <find>11798692818055232550147578884125865608089028544560913468519228968187430794620907976123201977895385245239705082830656904630178314159866370495211539023461052682811230321796555930907722724384131648527339458407317543768</find>
     </findStrings>
     <replaceStrings>
       <replace>, z</replace>
@@ -124,14 +143,15 @@
         <option value="$PROJECT_DIR$/Medium Problems/count-number-of-paths-with-k-turns.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/count-triplets-whose-sum-equal-perfect-cube.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/count-number-binary-strings-without-consecutive-1s.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="699" />
-    <option name="height" value="784" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -188,8 +208,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.count-number-ways-reach-destination-maze">
-    <configuration name="count-all-increasing-subsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.count-number-binary-strings-without-consecutive-1s">
+    <configuration name="count-number-binary-strings-without-consecutive-1s" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +221,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-all-increasing-subsequences.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-number-binary-strings-without-consecutive-1s.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +281,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="probability-getting-least-k-heads-n-tosses-coins" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="count-triplets-whose-sum-equal-perfect-cube" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,26 +293,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/probability-getting-least-k-heads-n-tosses-coins.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-triplets-whose-sum-equal-perfect-cube.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.probability-getting-least-k-heads-n-tosses-coins" />
-      <item itemvalue="Python.count-all-increasing-subsequences" />
       <item itemvalue="Python.count-number-of-paths-with-k-turns" />
       <item itemvalue="Python.count-number-ways-jump-reach-end" />
       <item itemvalue="Python.count-number-ways-reach-destination-maze" />
+      <item itemvalue="Python.count-triplets-whose-sum-equal-perfect-cube" />
+      <item itemvalue="Python.count-number-binary-strings-without-consecutive-1s" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count-number-binary-strings-without-consecutive-1s" />
+        <item itemvalue="Python.count-triplets-whose-sum-equal-perfect-cube" />
         <item itemvalue="Python.count-number-ways-reach-destination-maze" />
         <item itemvalue="Python.count-number-ways-jump-reach-end" />
         <item itemvalue="Python.count-number-of-paths-with-k-turns" />
-        <item itemvalue="Python.count-all-increasing-subsequences" />
-        <item itemvalue="Python.probability-getting-least-k-heads-n-tosses-coins" />
       </list>
     </recent_temporary>
   </component>
@@ -384,12 +404,12 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29062957" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.072474375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.19133034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4349776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6696562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -596,8 +616,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+        <state relative-caret-position="27">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/count-triplets-whose-sum-equal-perfect-cube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-binary-strings-without-consecutive-1s.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
