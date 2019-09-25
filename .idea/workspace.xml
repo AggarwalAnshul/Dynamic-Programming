@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium Problems/Eulerian-Number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium Problems/box-stacking-problem-dp-22.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium Problems/lobb-number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count-number-ways-jump-reach-end.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="count-number-ways-jump-reach-end.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="991">
-              <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count-number-ways-reach-destination-maze.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -117,6 +123,7 @@
         <option value="$PROJECT_DIR$/Medium Problems/count-all-increasing-subsequences.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-number-of-paths-with-k-turns.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py" />
       </list>
     </option>
   </component>
@@ -181,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.count-number-ways-jump-reach-end">
+  <component name="RunManager" selected="Python.count-number-ways-reach-destination-maze">
     <configuration name="count-all-increasing-subsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,7 +243,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="longest-common-subsequence-with-at-most-k-changes-allowed" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="count-number-ways-reach-destination-maze" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +255,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/longest-common-subsequence-with-at-most-k-changes-allowed.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,18 +281,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.probability-getting-least-k-heads-n-tosses-coins" />
-      <item itemvalue="Python.longest-common-subsequence-with-at-most-k-changes-allowed" />
       <item itemvalue="Python.count-all-increasing-subsequences" />
       <item itemvalue="Python.count-number-of-paths-with-k-turns" />
       <item itemvalue="Python.count-number-ways-jump-reach-end" />
+      <item itemvalue="Python.count-number-ways-reach-destination-maze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count-number-ways-reach-destination-maze" />
         <item itemvalue="Python.count-number-ways-jump-reach-end" />
         <item itemvalue="Python.count-number-of-paths-with-k-turns" />
         <item itemvalue="Python.count-all-increasing-subsequences" />
         <item itemvalue="Python.probability-getting-least-k-heads-n-tosses-coins" />
-        <item itemvalue="Python.longest-common-subsequence-with-at-most-k-changes-allowed" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +363,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569337019618</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&#10;Added a new problem">
+      <created>1569339149518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569339149518</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added a new modified LIS paradigm problem">
+      <created>1569339197038</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569339197038</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -368,7 +389,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.19133034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4349776" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4349776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -393,7 +414,9 @@
     <MESSAGE value="Added 66th problem, Quite tricky one, Good problem" />
     <MESSAGE value="added a new problem" />
     <MESSAGE value="Added a new problem on alterate path selection in a matrix | Moderate difficulty for dp apporach| Recusive is pretty easy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new problem on alterate path selection in a matrix | Moderate difficulty for dp apporach| Recusive is pretty easy" />
+    <MESSAGE value="&#10;Added a new problem" />
+    <MESSAGE value="Added a new modified LIS paradigm problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new modified LIS paradigm problem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Medium Problems/probability-getting-least-k-heads-n-tosses-coins.py">
@@ -566,8 +589,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="991">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
         </state>
       </provider>
     </entry>
