@@ -9,11 +9,12 @@ string in a given string. Length of palindrome sub string is greater than or equ
 [+]Comments                   : *Laid it off for the day
                                 *yesterday was pretty drowsy and low
                                 *Solved in about an hour today
-                                *Tried recursive apporach, redundant solution was computing up
+                                *Tried recursive approach, redundant solution was computing up
                                 *Tabulization worked fine
                                 *One step closer to know LCS category inside out
                                 *Matter is closed now
-                                *Don't let go of that transgression acquired last night[+]Tread speed                : Relaxed
+                                *Don't let go of that transgression acquired last night
+[+]Tread speed                : Relaxed
 [+]Level                      : Medium
 [+]LINK                       : https://www.geeksforg eeks.org/count-palindrome-sub-strings-string/
 """
