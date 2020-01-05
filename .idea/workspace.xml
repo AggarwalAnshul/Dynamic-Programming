@@ -4,11 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/Medium Problems/collect-maximum-coins-before-hitting-a-dead-end.py" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a new modified LIS paradigm problem">
-      <change afterPath="$PROJECT_DIR$/Medium Problems/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium Problems/count-palindrome-sub-strings-string.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/count-palindrome-sub-strings-string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium Problems/lcs-formed-consecutive-segments-least-length-k.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/lcs-formed-consecutive-segments-least-length-k.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,38 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Medium Problems/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py">
+      <file leaf-file-name="count-strings-can-formed-using-b-c-given-constraints.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="count-palindrome-sub-strings-string.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Medium Problems/count-palindrome-sub-strings-string.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28809">
-              <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
+            <state relative-caret-position="661">
+              <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -60,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="newFile" />
         <option value="one" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -126,6 +96,8 @@
         <option value="$PROJECT_DIR$/Medium Problems/test2.py" />
         <option value="$PROJECT_DIR$/Medium Problems/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-palindrome-sub-strings-string.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/count-binary-strings-k-times-appearing-adjacent-two-set-bits.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" />
       </list>
     </option>
   </component>
@@ -139,7 +111,40 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="go" type="cbb8eebc:String" user="go" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="go" type="cbb8eebc:String" user="go" />
+              <item name="Medium Problems" type="cbb8eebc:String" user="Medium Problems" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -157,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.count-palindrome-sub-strings-string">
+  <component name="RunManager" selected="Python.count-strings-can-formed-using-b-c-given-constraints">
     <configuration name="bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,7 +181,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="count-number-binary-strings-without-consecutive-1s" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="count-binary-strings-k-times-appearing-adjacent-two-set-bits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-number-binary-strings-without-consecutive-1s.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-binary-strings-k-times-appearing-adjacent-two-set-bits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +217,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="count-possible-decodings-given-digit-sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="count-strings-can-formed-using-b-c-given-constraints" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-possible-decodings-given-digit-sequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,19 +254,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.count-number-binary-strings-without-consecutive-1s" />
-      <item itemvalue="Python.count-possible-decodings-given-digit-sequence" />
       <item itemvalue="Python.lcs-formed-consecutive-segments-least-length-k" />
       <item itemvalue="Python.bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" />
       <item itemvalue="Python.count-palindrome-sub-strings-string" />
+      <item itemvalue="Python.count-binary-strings-k-times-appearing-adjacent-two-set-bits" />
+      <item itemvalue="Python.count-strings-can-formed-using-b-c-given-constraints" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.count-strings-can-formed-using-b-c-given-constraints" />
+        <item itemvalue="Python.count-binary-strings-k-times-appearing-adjacent-two-set-bits" />
         <item itemvalue="Python.count-palindrome-sub-strings-string" />
         <item itemvalue="Python.bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" />
         <item itemvalue="Python.lcs-formed-consecutive-segments-least-length-k" />
-        <item itemvalue="Python.count-possible-decodings-given-digit-sequence" />
-        <item itemvalue="Python.count-number-binary-strings-without-consecutive-1s" />
       </list>
     </recent_temporary>
   </component>
@@ -346,14 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569339197038</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added a new paradigm category - BITMASKING">
+      <created>1577755515183</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577755515183</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3001464" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29941434" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -385,23 +397,28 @@
     <MESSAGE value="Added a new problem on alterate path selection in a matrix | Moderate difficulty for dp apporach| Recusive is pretty easy" />
     <MESSAGE value="&#10;Added a new problem" />
     <MESSAGE value="Added a new modified LIS paradigm problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new modified LIS paradigm problem" />
+    <MESSAGE value="Added a new paradigm category - BITMASKING" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new paradigm category - BITMASKING" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" log-message="true" suspend="NONE" type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Medium Problems/probability-getting-least-k-heads-n-tosses-coins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Medium Problems/count-all-increasing-subsequences.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2241">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-of-paths-with-k-turns.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -683,17 +700,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Medium Problems/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="75" column="16" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-palindrome-sub-strings-string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
           <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/count-binary-strings-k-times-appearing-adjacent-two-set-bits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
         </state>
       </provider>
     </entry>
