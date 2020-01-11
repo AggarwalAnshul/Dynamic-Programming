@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Medium Problems/maximum-subarray-sum-using-prefix-sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maximum-profit-sale-wines.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maximum-profit-sale-wines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+            <state relative-caret-position="1242">
+              <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximum-subarray-sum-using-prefix-sum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Medium Problems/maximum-subarray-sum-using-prefix-sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -110,6 +119,7 @@
         <option value="$PROJECT_DIR$/Medium Problems/count-binary-strings-k-times-appearing-adjacent-two-set-bits.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" />
         <option value="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/maximum-subarray-sum-using-prefix-sum.py" />
       </list>
     </option>
   </component>
@@ -174,25 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.maximum-profit-sale-wines">
-    <configuration name="bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.maximum-subarray-sum-using-prefix-sum">
     <configuration name="count-binary-strings-k-times-appearing-adjacent-two-set-bits" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,20 +257,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="maximum-subarray-sum-using-prefix-sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/maximum-subarray-sum-using-prefix-sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" />
       <item itemvalue="Python.count-palindrome-sub-strings-string" />
       <item itemvalue="Python.count-binary-strings-k-times-appearing-adjacent-two-set-bits" />
       <item itemvalue="Python.count-strings-can-formed-using-b-c-given-constraints" />
       <item itemvalue="Python.maximum-profit-sale-wines" />
+      <item itemvalue="Python.maximum-subarray-sum-using-prefix-sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maximum-subarray-sum-using-prefix-sum" />
         <item itemvalue="Python.maximum-profit-sale-wines" />
         <item itemvalue="Python.count-strings-can-formed-using-b-c-given-constraints" />
         <item itemvalue="Python.count-binary-strings-k-times-appearing-adjacent-two-set-bits" />
         <item itemvalue="Python.count-palindrome-sub-strings-string" />
-        <item itemvalue="Python.bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578227375373</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added 2 new problems | Selective Recursive Paradigm">
+      <created>1578723269812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578723269812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,13 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-reach-destination-maze.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -743,8 +753,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+        <state relative-caret-position="1242">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/maximum-subarray-sum-using-prefix-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
