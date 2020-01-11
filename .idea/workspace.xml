@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="count-strings-can-formed-using-b-c-given-constraints.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="count-strings-can-formed-using-b-c-given-constraints.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+            <state relative-caret-position="135">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maximum-profit-sale-wines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -98,6 +109,7 @@
         <option value="$PROJECT_DIR$/Medium Problems/count-palindrome-sub-strings-string.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-binary-strings-k-times-appearing-adjacent-two-set-bits.py" />
         <option value="$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py" />
+        <option value="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" />
       </list>
     </option>
   </component>
@@ -162,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.count-strings-can-formed-using-b-c-given-constraints">
+  <component name="RunManager" selected="Python.maximum-profit-sale-wines">
     <configuration name="bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,7 +247,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lcs-formed-consecutive-segments-least-length-k" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="maximum-profit-sale-wines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,26 +259,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/lcs-formed-consecutive-segments-least-length-k.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.lcs-formed-consecutive-segments-least-length-k" />
       <item itemvalue="Python.bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" />
       <item itemvalue="Python.count-palindrome-sub-strings-string" />
       <item itemvalue="Python.count-binary-strings-k-times-appearing-adjacent-two-set-bits" />
       <item itemvalue="Python.count-strings-can-formed-using-b-c-given-constraints" />
+      <item itemvalue="Python.maximum-profit-sale-wines" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maximum-profit-sale-wines" />
         <item itemvalue="Python.count-strings-can-formed-using-b-c-given-constraints" />
         <item itemvalue="Python.count-binary-strings-k-times-appearing-adjacent-two-set-bits" />
         <item itemvalue="Python.count-palindrome-sub-strings-string" />
         <item itemvalue="Python.bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person" />
-        <item itemvalue="Python.lcs-formed-consecutive-segments-least-length-k" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577755515183</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added 2 new problems | Selective Recursive Paradigm">
+      <created>1578227375373</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578227375373</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -370,7 +389,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.19133034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.88938713" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95665175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -398,7 +417,8 @@
     <MESSAGE value="&#10;Added a new problem" />
     <MESSAGE value="Added a new modified LIS paradigm problem" />
     <MESSAGE value="Added a new paradigm category - BITMASKING" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new paradigm category - BITMASKING" />
+    <MESSAGE value="Added 2 new problems | Selective Recursive Paradigm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 new problems | Selective Recursive Paradigm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,13 +439,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-of-paths-with-k-turns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-number-ways-jump-reach-end.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -723,8 +736,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Medium Problems/count-strings-can-formed-using-b-c-given-constraints.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="25" column="78" lean-forward="true" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="78" />
+        <state relative-caret-position="135">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="46" column="67" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
         </state>
       </provider>
     </entry>

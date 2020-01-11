@@ -21,7 +21,6 @@ Asked in Google Interview
 [+]Temporal marker            :  Sun, 14:21 | Jan 05, 20
 [+]Temporal marker untethered :  Sun, 14:26(R*) | Jan 05, 20
 [+]Comments                   : *Solution devised in Record time
-                                *DP Solution devised in acceptable time ~ Good
                                 *Had some trouble on DP solution in python, as was incorrectly conceiving
                                 *3D array. The code worked flawlessly in JAVA.
                                 *Python code working fine after a brake.
