@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/painters-partition-problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added Painters Partition Problem">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/painters-partition-problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/painters-partition-problem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578723269812</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added Painters Partition Problem">
+      <created>1580790312850</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580790312851</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,45 +309,46 @@
     <MESSAGE value="Added a new modified LIS paradigm problem" />
     <MESSAGE value="Added a new paradigm category - BITMASKING" />
     <MESSAGE value="Added 2 new problems | Selective Recursive Paradigm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 2 new problems | Selective Recursive Paradigm" />
+    <MESSAGE value="Added Painters Partition Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Painters Partition Problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1580790223939">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1580790311121">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1580790223939" />
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1580790186878">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1580790311121" />
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1580835492775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580790186878" />
-    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1580790186877">
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580835492775" />
+    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1580835492775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580790186877" />
-    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1580790186877">
+    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580835492775" />
+    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1580835492775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580790186877" />
-    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1580790186878">
+    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580835492775" />
+    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1580835492775">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580790186878" />
+    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580835492775" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1580789937034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580747406196">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580790318445">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1580747406196" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1580788154013">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1580790318445" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1580830074896">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580788154013" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580830074896" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -352,7 +360,7 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
       <default-breakpoints>
-        <breakpoint enabled="true" log-message="true" suspend="NONE" type="python-exception">
+        <breakpoint log-message="true" suspend="NONE" type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
             <option name="notifyOnTerminate" value="true" />
           </properties>

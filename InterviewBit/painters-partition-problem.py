@@ -55,16 +55,53 @@ Output 2:
     11
 
 [+]Temporal marker           : Tue, 9:47 | Feb 04, 20
-[+]Temporal marker untethered: Tue, 9:47 | Feb 04, 20
+[+]Temporal marker untethered: Tue, 22:28 | Feb 04, 20
 [+]Comments                  : Took about a day or to come up with a DP solution with complexity O(k*N*N)
                                 * DP Solution devised on my own
                                 *for the more optimized binary solution would need help
+                                *for understanding this problem use:
+                                    https://www.topcoder.com/community/competitive-programming/tutorials/binary-search
+                                *Binary search solution took a long time to understand, implement and finally perfect.
+[+]Complexity                : Binary Search : O(log(sum(N)) | DP: O(painters*boards*boards)
 [+]Level                     : Medium Level
 [+]Tread Speed               : Relaxed
 [+]LINK                      : https://www.interviewbit.com/problems/painters-partition-problem
 
 """
 import sys
+
+
+def isPossible(mid, painters, board):
+    painter = 1
+    local = 0
+    for x in board:
+        if local + x <= mid:
+            local += x
+        else:
+            local = x
+            painter += 1
+    if painter < painters + 1:
+        return True
+    return False
+
+
+def paints(painters, time, board):
+    right = 0
+    left = -sys.maxsize + 1
+    for x in board:
+        right += x
+        left = max(left, x)
+    while left < right:
+        mid = (left + right) // 2
+        print("mid: " + str(mid))
+        if isPossible(mid, painters, board):
+            print("possible")
+            right = mid  # if x is possible and x-1 isn't still all x+1 to right of it would be still possible
+        else:
+            print("impossible")
+            left = mid + 1
+        print("left: " + str(left) + " right: " + str(right))
+    return left
 
 
 def paint(painters, time, board):
@@ -86,4 +123,4 @@ def paint(painters, time, board):
 if __name__ == '__main__':
     # inputData = [painters, time, board[] ]
     inputData = [3, 10, [640, 435, 647, 352, 8, 90, 960, 329, 859]]
-    print(paint(inputData[0], inputData[1], inputData[2]))
+    print(paints(inputData[0], inputData[1], inputData[2]))
