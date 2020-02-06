@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a solution similar to painter's partition problem.">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/matrix-search.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a new problem on binary search">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/search-for-a-range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.matrix-search">
+  <component name="RunManager" selected="Python.sorted-insert-position">
     <configuration name="allocate-books" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,48 +106,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maximum-profit-sale-wines" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/maximum-profit-sale-wines.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="maximum-subarray-sum-using-prefix-sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Medium Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Medium Problems/maximum-subarray-sum-using-prefix-sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="painters-partition-problem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,20 +127,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="search-for-a-range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/search-for-a-range.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sorted-insert-position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.maximum-profit-sale-wines" />
-      <item itemvalue="Python.maximum-subarray-sum-using-prefix-sum" />
       <item itemvalue="Python.painters-partition-problem" />
       <item itemvalue="Python.allocate-books" />
       <item itemvalue="Python.matrix-search" />
+      <item itemvalue="Python.search-for-a-range" />
+      <item itemvalue="Python.sorted-insert-position" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sorted-insert-position" />
+        <item itemvalue="Python.search-for-a-range" />
         <item itemvalue="Python.matrix-search" />
         <item itemvalue="Python.allocate-books" />
         <item itemvalue="Python.painters-partition-problem" />
-        <item itemvalue="Python.maximum-subarray-sum-using-prefix-sum" />
-        <item itemvalue="Python.maximum-profit-sale-wines" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580837465266</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added a new problem on binary search">
+      <created>1580920837872</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1580920837872</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -325,49 +334,50 @@
     <MESSAGE value="Added Painters Partition Problem" />
     <MESSAGE value="Added a optimal solution for painters partition problem" />
     <MESSAGE value="Added a solution similar to painter's partition problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a solution similar to painter's partition problem." />
+    <MESSAGE value="Added a new problem on binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new problem on binary search" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1580837463612">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1580965919159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1580837463612" />
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1580920210976">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1580965919159" />
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1580965836749">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580920210976" />
-    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1580920210976">
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1580965836749" />
+    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1580965836749">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580920210976" />
-    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1580920210976">
+    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1580965836749" />
+    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1580965836749">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580920210976" />
-    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1580920210976">
+    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1580965836749" />
+    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1580965836749">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580920210976" />
+    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1580965836749" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1580789937034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580837468562">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580920842612">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1580837468562" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1580918251597">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1580920842612" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1580965651460">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580918251597" />
-    <state x="346" y="89" key="search.everywhere.popup" timestamp="1580836247726">
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580965651460" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1580922238452">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1580836247726" />
+    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1580922238452" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
