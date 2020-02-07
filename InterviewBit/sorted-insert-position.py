@@ -24,25 +24,28 @@ Here are few examples.
 """
 
 
+def searchInsert(array, element):
+    left = 0
+    right = len(array) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if array[mid] == element:
+            return mid
+        elif array[mid] > element:
+            right = mid - 1
+        else:
+            left = mid + 1
+    print("array[mid]: "+str(array[mid])+" mid: "+str(mid))
+    if array[mid] > element:
+        return mid
+    return mid + 1
+
+
 class Solution:
     # @param A : list of integers
     # @param B : integer
     # @return an integer
-    def searchInsert(self, array, element):
-        left = 0
-        right = len(array) - 1
-        while left <= right:
-            mid = (left + right) // 2
-            if array[mid] == element:
-                return mid
-            elif array[mid] > element:
-                right = mid - 1
-            else:
-                left = mid + 1
-        print("array[mid]: "+str(array[mid])+" mid: "+str(mid))
-        if (array[mid] > element):
-            return mid
-        return mid + 1
+    pass
 
 
 if __name__ == '__main__':
@@ -56,4 +59,4 @@ if __name__ == '__main__':
          658, 686, 689, 690, 691, 709, 716, 717, 737, 738, 746, 759, 765, 775, 778, 783, 786, 787, 791, 797, 801, 806,
          815, 820, 822, 823, 832, 839, 841, 847, 859, 873, 877, 880, 886, 904, 909, 911, 917, 919, 937, 946, 948, 951,
          961, 971, 979, 980, 986, 993], 902]
-    print(obj.searchInsert(array[0], array[1]))
+    print(searchInsert(array[0], array[1]))
