@@ -28,33 +28,23 @@ def findSolution(array, element):
     left = 0
     right = length - 1
     while left <= right:
-        print('left: '+str(left)+' right: '+str(right))
         mid = (left + right) // 2
-        print('mid: '+str(mid)+" >> "+str(array[mid]))
         if array[mid] == element:
             return mid
         elif array[mid] > array[right]:
-            print('pivot is in the right...')
             if array[mid] < element or element <= array[right]:
-                print('searching in the right of mid')
                 left = mid + 1
             else:
-                print('searching to the left of mid...')
                 right = mid
         elif array[mid] < array[left]:
-            print('pivot is the left part...')
             # pivot is the left part
             if array[left] <= element or element < array[mid]:
-                print('searching to the left of mid...')
                 right = mid - 1
             else:
-                print('searching to the right of mid')
                 left = mid + 1
         elif array[mid] > element:
-            print("normal searching to the left...")
             right = mid-1
         else:
-            print('normal searching to the right...')
             left = mid + 1
     return -1
 

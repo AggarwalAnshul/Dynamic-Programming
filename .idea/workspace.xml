@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added Circular sorted array search problem">
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Optimized the last solution.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" afterDir="false" />
     </list>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581152482036</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Optimized the last solution.">
+      <created>1581153858713</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581153858713</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -360,17 +367,18 @@
     <MESSAGE value="Added a simple binary search expected index problem" />
     <MESSAGE value="Adding a new problem | Implement power function" />
     <MESSAGE value="Added Circular sorted array search problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Circular sorted array search problem" />
+    <MESSAGE value="Optimized the last solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized the last solution." />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581152480536">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581153857667">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581152480536" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581153857667" />
     <state width="1345" height="319" key="GridCell.Tab.0.bottom" timestamp="1581153728427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -391,10 +399,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581152485053">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581153860795">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581152485053" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581153860795" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581151960961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
