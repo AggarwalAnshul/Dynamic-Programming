@@ -10,34 +10,43 @@
 """
 
 
-def findSolution(n, p, d):
-    if(n==0):
-        return 0
-    if(p==0):
+#
+#
+# def powerOne(x, y):
+#     if x == 1 or x == 0:
+#         return x
+#     if y == 1:
+#         return x
+#     if y == 0:
+#         return 1
+#     exp = y
+#     ans = 1
+#     while exp > 0:
+#         if exp % 2 == 1:
+#             ans *= x
+#             exp -= 1
+#         else:
+#             ans = ans * ans
+#             exp = exp // 2
+#     return ans
+
+
+def power(x, y):  # return x**y
+    print('calculating for power...'+str(y))
+    if x == 1 or x == 0:
+        return x
+    if y == 0:
         return 1
-    lis = [1]
-    num = n
-    temp = num % d
-    while temp != lis[0]:
-        lis.append(temp)
-        num *= 3
-        temp = num % d
-        # print('num: '+str(num))
-    repeat = len(lis)
-    return lis[(p % repeat)]
+    if y == 1:
+        return x
+    if y%2==1:  # if y is odd
+        print('this is odd...')
+        return power(x, y - 1) * x
+    else:
+        print('this is even...')
+        return power(x * x, y // 2)
 
 
-data = [1234567, 546578, 254]
-data = [0, 0, 1]
-data = [213, 231, 1]
-data = [ 71045970, 41535484, 64735492]
-print(findSolution(data[0], data[1], data[2]))
-"""
-for x in range(1, 100000):
-    # print('checking for x: '+str(x))
-    count: int = 0
-    if (data[0]**x)%data[2] != findSolution(data[0], x, data[2]):
-        # print('false for the case: ', x)
-        count+=1
-print('wrong count is: '+str(count))
-"""
+data = [38008787, 36381741, 11333711]
+print('calculating for an answer...')
+print(power(data[0], data[1]) % data[2])

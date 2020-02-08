@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a simple binary search expected index problem">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Adding a new problem | Implement power function">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Dynamic-Programming" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,28 +65,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.implement-power-function">
-    <configuration name="allocate-books" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/allocate-books.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.rotated-sorted-array-search">
     <configuration name="implement-power-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/matrix-search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rotated-sorted-array-search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,19 +172,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.allocate-books" />
+      <item itemvalue="Python.implement-power-function" />
       <item itemvalue="Python.matrix-search" />
+      <item itemvalue="Python.rotated-sorted-array-search" />
       <item itemvalue="Python.search-for-a-range" />
       <item itemvalue="Python.sorted-insert-position" />
-      <item itemvalue="Python.implement-power-function" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rotated-sorted-array-search" />
         <item itemvalue="Python.implement-power-function" />
         <item itemvalue="Python.sorted-insert-position" />
         <item itemvalue="Python.search-for-a-range" />
         <item itemvalue="Python.matrix-search" />
-        <item itemvalue="Python.allocate-books" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580965951390</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adding a new problem | Implement power function">
+      <created>1581050532900</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581050532900</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -342,49 +352,50 @@
     <MESSAGE value="Added a solution similar to painter's partition problem." />
     <MESSAGE value="Added a new problem on binary search" />
     <MESSAGE value="Added a simple binary search expected index problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a simple binary search expected index problem" />
+    <MESSAGE value="Adding a new problem | Implement power function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a new problem | Implement power function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1580965950321">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581050530381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1580965950321" />
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom" timestamp="1581009770450">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581050530381" />
+    <state width="1345" height="300" key="GridCell.Tab.0.bottom" timestamp="1581149745592">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581009770450" />
-    <state width="1345" height="161" key="GridCell.Tab.0.center" timestamp="1581009770450">
+    <state width="1345" height="300" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581149745592" />
+    <state width="1345" height="300" key="GridCell.Tab.0.center" timestamp="1581149745591">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581009770450" />
-    <state width="1345" height="161" key="GridCell.Tab.0.left" timestamp="1581009770450">
+    <state width="1345" height="300" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581149745591" />
+    <state width="1345" height="300" key="GridCell.Tab.0.left" timestamp="1581149745591">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581009770450" />
-    <state width="1345" height="161" key="GridCell.Tab.0.right" timestamp="1581009770450">
+    <state width="1345" height="300" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581149745591" />
+    <state width="1345" height="300" key="GridCell.Tab.0.right" timestamp="1581149745591">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="161" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581009770450" />
+    <state width="1345" height="300" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581149745591" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1580789937034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1580965953909">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581050537822">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1580965953909" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1580965651460">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581050537822" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581151960961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580965651460" />
-    <state x="346" y="89" key="search.everywhere.popup" timestamp="1581007522181">
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581151960961" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581145006439">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1581007522181" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1581145006439" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
