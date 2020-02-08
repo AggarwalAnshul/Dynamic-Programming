@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Adding a new problem | Implement power function">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added Circular sorted array search problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/rotated-sorted-array-search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,11 +171,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.implement-power-function" />
       <item itemvalue="Python.matrix-search" />
-      <item itemvalue="Python.rotated-sorted-array-search" />
       <item itemvalue="Python.search-for-a-range" />
       <item itemvalue="Python.sorted-insert-position" />
+      <item itemvalue="Python.implement-power-function" />
+      <item itemvalue="Python.rotated-sorted-array-search" />
     </list>
     <recent_temporary>
       <list>
@@ -332,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581050532900</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added Circular sorted array search problem">
+      <created>1581152482036</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581152482036</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -353,41 +359,42 @@
     <MESSAGE value="Added a new problem on binary search" />
     <MESSAGE value="Added a simple binary search expected index problem" />
     <MESSAGE value="Adding a new problem | Implement power function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding a new problem | Implement power function" />
+    <MESSAGE value="Added Circular sorted array search problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Circular sorted array search problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581050530381">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581152480536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581050530381" />
-    <state width="1345" height="300" key="GridCell.Tab.0.bottom" timestamp="1581149745592">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581152480536" />
+    <state width="1345" height="319" key="GridCell.Tab.0.bottom" timestamp="1581153728427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="300" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581149745592" />
-    <state width="1345" height="300" key="GridCell.Tab.0.center" timestamp="1581149745591">
+    <state width="1345" height="319" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581153728427" />
+    <state width="1345" height="319" key="GridCell.Tab.0.center" timestamp="1581153728427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="300" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581149745591" />
-    <state width="1345" height="300" key="GridCell.Tab.0.left" timestamp="1581149745591">
+    <state width="1345" height="319" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581153728427" />
+    <state width="1345" height="319" key="GridCell.Tab.0.left" timestamp="1581153728427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="300" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581149745591" />
-    <state width="1345" height="300" key="GridCell.Tab.0.right" timestamp="1581149745591">
+    <state width="1345" height="319" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581153728427" />
+    <state width="1345" height="319" key="GridCell.Tab.0.right" timestamp="1581153728427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="300" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581149745591" />
+    <state width="1345" height="319" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581153728427" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1580789937034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581050537822">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581152485053">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581050537822" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581152485053" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581151960961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

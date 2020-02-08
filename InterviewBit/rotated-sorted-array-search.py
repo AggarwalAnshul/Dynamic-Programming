@@ -10,6 +10,11 @@
                              *I can rest now
                              *for the temporal marker, Watched one hour episode, Did laundry TWICE
                              *Would create much more cleaner & efficient solution soon
+                             *Much more cleaner|efficient solution devised in about 20 minutes. Watched
+                                a YT video on the problem to understood the partial PseudoStructure.
+                                Completed the conceptual design & later code teh solution on my own
+                            *Solution is completely accepted.
+                            *Matter is closed for now.
 
 [+]Level                     :MEDIUM
 [+]Tread Speed               :Relaxed  | Paced
@@ -18,59 +23,95 @@
 """
 
 
-def binarySearch(arrays, element):
-    print('searching for...' + str(element) + ' in >> ' + str(arrays))
-    left = 0
-    right = len(arrays) - 1
-    while left <= right:
-        mid = (left + right) // 2
-        if arrays[mid] == element:
-            print(str(element) + ' is found at: ' + str(mid))
-            return mid
-        elif arrays[mid] > element:
-            right = mid - 1
-        else:
-            left = mid + 1
-    return -1
-
-
-def findSolution(arrays, element):
-    pivot = findPivot(arrays)
-    print('pivot found at position...' + str(pivot) + ' >> ' + str(arrays[pivot]))
-    if arrays[pivot] == element:
-        return pivot
-    elif element > arrays[len(arrays) - 1]:
-        print('inside first half..')
-        return binarySearch(arrays[:pivot + 1], element)
-    else:
-        print('inside second half...')
-        temp = binarySearch(arrays[pivot:], element)
-        if temp != -1:
-            temp += pivot
-        return temp
-
-
-def findPivot(arrays):
-    length = len(arrays)
+def findSolution(array, element):
+    length = len(array)
     left = 0
     right = length - 1
     while left <= right:
-        print('left: ' + str(left) + ' right: ' + str(right))
+        print('left: '+str(left)+' right: '+str(right))
         mid = (left + right) // 2
-        if arrays[mid] < arrays[mid - 1] and arrays[mid] < arrays[mid + 1]:
-            print('returning mid: ' + str(mid))
+        print('mid: '+str(mid)+" >> "+str(array[mid]))
+        if array[mid] == element:
             return mid
-        elif arrays[mid] < arrays[left]:
-            right = mid
-        elif arrays[mid] > arrays[right]:
-            if right == length - 1 and abs(left - right) == 1:
-                return right
+        elif array[mid] > array[right]:
+            print('pivot is in the right...')
+            if array[mid] < element or element <= array[right]:
+                print('searching in the right of mid')
+                left = mid + 1
             else:
-                left = mid
+                print('searching to the left of mid...')
+                right = mid
+        elif array[mid] < array[left]:
+            print('pivot is the left part...')
+            # pivot is the left part
+            if array[left] <= element or element < array[mid]:
+                print('searching to the left of mid...')
+                right = mid - 1
+            else:
+                print('searching to the right of mid')
+                left = mid + 1
+        elif array[mid] > element:
+            print("normal searching to the left...")
+            right = mid-1
         else:
-            return 0
+            print('normal searching to the right...')
+            left = mid + 1
     return -1
 
+#
+# def binarySearch(arrays, element):
+#     print('searching for...' + str(element) + ' in >> ' + str(arrays))
+#     left = 0
+#     right = len(arrays) - 1
+#     while left <= right:
+#         mid = (left + right) // 2
+#         if arrays[mid] == element:
+#             print(str(element) + ' is found at: ' + str(mid))
+#             return mid
+#         elif arrays[mid] > element:
+#             right = mid - 1
+#         else:
+#             left = mid + 1
+#     return -1
+#
+#
+# def findSolution(arrays, element):
+#     pivot = findPivot(arrays)
+#     print('pivot found at position...' + str(pivot) + ' >> ' + str(arrays[pivot]))
+#     if arrays[pivot] == element:
+#         return pivot
+#     elif element > arrays[len(arrays) - 1]:
+#         print('inside first half..')
+#         return binarySearch(arrays[:pivot + 1], element)
+#     else:
+#         print('inside second half...')
+#         temp = binarySearch(arrays[pivot:], element)
+#         if temp != -1:
+#             temp += pivot
+#         return temp
+#
+#
+# def findPivot(arrays):
+#     length = len(arrays)
+#     left = 0
+#     right = length - 1
+#     while left <= right:
+#         print('left: ' + str(left) + ' right: ' + str(right))
+#         mid = (left + right) // 2
+#         if arrays[mid] < arrays[mid - 1] and arrays[mid] < arrays[mid + 1]:
+#             print('returning mid: ' + str(mid))
+#             return mid
+#         elif arrays[mid] < arrays[left]:
+#             right = mid
+#         elif arrays[mid] > arrays[right]:
+#             if right == length - 1 and abs(left - right) == 1:
+#                 return right
+#             else:
+#                 left = mid
+#         else:
+#             return 0
+#     return -1
+#
 array = [180, 181, 182, 183, 184, 187, 188, 189, 191, 192, 193, 194, 195, 196, 201, 202, 203, 204, 3, 4, 5, 6, 7, 8, 9,
          10, 14,
          16, 17, 18, 19, 23, 26, 27, 28, 29, 32, 33, 36, 37, 38, 39, 41, 42, 43, 45, 48, 51, 52, 53, 54, 56, 62, 63, 64,
@@ -96,3 +137,4 @@ array = [180, 181, 182, 183, 184, 187, 188, 189, 191, 192, 193, 194, 195, 196, 2
 
 print("searching pivot for lis: " + str(array))
 print(findSolution(array, 42))
+
