@@ -14,15 +14,57 @@
                                 a YT video on the problem to understood the partial PseudoStructure.
                                 Completed the conceptual design & later code teh solution on my own
                             *Solution is completely accepted.
-                            *Matter is closed for now.
+                            *Matter is OFFICIALLY CLOSED NOW!
 
 [+]Level                     :MEDIUM
 [+]Tread Speed               :Relaxed  | Paced
 [+]LINK                      : https://www.interviewbit.com/problems/rotated-sorted-array-search
 
 """
+#An Alterante versin of YT Video Solution, Completely accepted
+def findSolution(array, element):
+    length = len(array)
+    left = 0
+    right = length-1
+    while left <= right:
+        mid = (left + right)//2
+        if array[mid] == element:
+            return mid
+        if array[mid] > array[left]:
+            if array[left] <= element < array[mid]:
+                right = mid - 1
+            else:
+                left = mid+1
+        else:
+            if array[mid]>element and element <= array[right]:
+                left = mid+1
+            else:
+                right = mid-1
+    return -1
 
+#THE YT VIDEO VERSION
+# def findSolution:
+#     length = len(array)
+#     left = 0
+#     right = length - 1
+#     while left <= right:
+#         mid = (left + right) // 2
+#         if array[mid] == element:
+#             return mid
+#         if array[mid] < array[right]:
+#             if array[mid] < element <= array[right]:
+#                 left = mid + 1
+#             else:
+#                 right = mid - 1
+#         else:
+#             if array[left] <= element < array[mid]:
+#                 right = mid - 1
+#             else:
+#                 left = mid + 1
+#     return -1
 
+"""
+THIS IS THE SOLUTION I DEVISED AFTER GETTING INSPIRATION FROM A YT VIDEO
 def findSolution(array, element):
     length = len(array)
     left = 0
@@ -47,8 +89,9 @@ def findSolution(array, element):
         else:
             left = mid + 1
     return -1
+"""
 
-#
+#THIS IS THE ORIGINAL SOLUTION I CAME UP WITH
 # def binarySearch(arrays, element):
 #     print('searching for...' + str(element) + ' in >> ' + str(arrays))
 #     left = 0
