@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="this commit can be ignored | Did beautification">
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added Median of Two sorted array problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/implement-power-function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.median-of-array">
+  <component name="RunManager" selected="Python.implement-power-function">
     <configuration name="implement-power-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,9 +180,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.implement-power-function" />
         <item itemvalue="Python.median-of-array" />
         <item itemvalue="Python.rotated-sorted-array-search" />
-        <item itemvalue="Python.implement-power-function" />
         <item itemvalue="Python.sorted-insert-position" />
         <item itemvalue="Python.search-for-a-range" />
       </list>
@@ -358,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581155128095</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added Median of Two sorted array problem">
+      <created>1581315456354</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581315456354</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -382,33 +391,34 @@
     <MESSAGE value="Added Circular sorted array search problem" />
     <MESSAGE value="Optimized the last solution." />
     <MESSAGE value="this commit can be ignored | Did beautification" />
-    <option name="LAST_COMMIT_MESSAGE" value="this commit can be ignored | Did beautification" />
+    <MESSAGE value="Added Median of Two sorted array problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Median of Two sorted array problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581155126964">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581315454531">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581155126964" />
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1581313571504">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581315454531" />
+    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1581318805674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581313571504" />
-    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1581313571504">
+    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581318805674" />
+    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1581318805674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581313571504" />
-    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1581313571504">
+    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581318805674" />
+    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1581318805673">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581313571504" />
-    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1581313571504">
+    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581318805673" />
+    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1581318805674">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581313571504" />
+    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581318805674" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581169109106">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -429,10 +439,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581155131811">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581315458917">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581155131811" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581315458917" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581151960961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

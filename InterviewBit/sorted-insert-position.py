@@ -14,7 +14,7 @@ Here are few examples.
 
 [+]Temporal marker           : Thu, 10:38 | Feb 06, 20
 [+]Temporal marker untethered: Thu, 10:45 | Feb 06, 20
-[+]Comments                  :new the apporach
+[+]Comments                  :knew the appraach
                              *solution is accepted
                              *Matter is fully closed now, pushing the solution now.
 [+]Level                     :easy

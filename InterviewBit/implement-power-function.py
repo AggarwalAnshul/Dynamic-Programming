@@ -1,52 +1,36 @@
 """
 
 [+]Temporal marker           : Thu, 22:15 | Feb 06, 20
-[+]Temporal marker untethered: Thu, 22:15 | Feb 06, 20
-[+]Comments                  :
-[+]Level                     :
-[+]Tread Speed               :
+[+]Temporal marker untethered: Mon, 12:45 | Feb 10, 20
+[+]Comments                  :Switched focus to another problem which would explain temporal marker
+                                *Couldn't have found the log(n) technique to exponentiate w/o GFG
+                                *Devised the solution on my own after understanding the logic
+                                *The solution was still not being accepted
+                                *The catch was to take % of individual results, which would keep down the overall
+                                result significantly low and hence large number multiplication overhead won't be an issue
+                                for us.This also doesn't impacts the result's accuracy
+                                *Also learnt about the mod of negative numbers from this problem
+                                *Great problem.
+                                *MATTER IS CLOSED NOW.
+[+]Level                     :MEDIUM
+[+]Tread Speed               :RELAXED
 [+]LINK                      : https://www.interviewbit.com/problems/implement-power-function
 
 """
 
 
-#
-#
-# def powerOne(x, y):
-#     if x == 1 or x == 0:
-#         return x
-#     if y == 1:
-#         return x
-#     if y == 0:
-#         return 1
-#     exp = y
-#     ans = 1
-#     while exp > 0:
-#         if exp % 2 == 1:
-#             ans *= x
-#             exp -= 1
-#         else:
-#             ans = ans * ans
-#             exp = exp // 2
-#     return ans
-
-
-def power(x, y):  # return x**y
-    print('calculating for power...'+str(y))
-    if x == 1 or x == 0:
+def power(x, y, m):  # return x**y
+    if x == 0:
         return x
     if y == 0:
         return 1
-    if y == 1:
-        return x
-    if y%2==1:  # if y is odd
-        print('this is odd...')
-        return power(x, y - 1) * x
+    if y & 1:
+        return (power(x, y - 1, m) * x) % m
     else:
-        print('this is even...')
-        return power(x * x, y // 2)
+        y = power(x, y // 2, m)
+        return (y * y) % m
 
 
 data = [38008787, 36381741, 11333711]
-print('calculating for an answer...')
-print(power(data[0], data[1]) % data[2])
+data = [-1, 1, 20]
+print(power(data[0], data[1], data[2]))
