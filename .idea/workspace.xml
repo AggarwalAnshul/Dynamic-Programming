@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Solved Implement the power function">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/alindrome-string.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added check palindrome string problem">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/longest-common-prefix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.alindrome-string">
+  <component name="RunManager" selected="Python.longest-common-prefix">
     <configuration name="alindrome-string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +99,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/implement-power-function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="longest-common-prefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/longest-common-prefix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,41 +170,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sorted-insert-position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/sorted-insert-position.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.sorted-insert-position" />
       <item itemvalue="Python.implement-power-function" />
       <item itemvalue="Python.rotated-sorted-array-search" />
       <item itemvalue="Python.median-of-array" />
       <item itemvalue="Python.alindrome-string" />
+      <item itemvalue="Python.longest-common-prefix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.longest-common-prefix" />
         <item itemvalue="Python.alindrome-string" />
         <item itemvalue="Python.implement-power-function" />
         <item itemvalue="Python.median-of-array" />
         <item itemvalue="Python.rotated-sorted-array-search" />
-        <item itemvalue="Python.sorted-insert-position" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581319155401</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added check palindrome string problem">
+      <created>1581323212303</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1581323212303</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -399,33 +406,34 @@
     <MESSAGE value="this commit can be ignored | Did beautification" />
     <MESSAGE value="Added Median of Two sorted array problem" />
     <MESSAGE value="Solved Implement the power function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved Implement the power function" />
+    <MESSAGE value="Added check palindrome string problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added check palindrome string problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581319153929">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581323210994">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581319153929" />
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1581323122976">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581323210994" />
+    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1581326345021">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581323122976" />
-    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1581323122976">
+    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581326345021" />
+    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1581326345020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581323122976" />
-    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1581323122976">
+    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581326345020" />
+    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1581326345020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581323122976" />
-    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1581323122976">
+    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581326345020" />
+    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1581326345020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581323122976" />
+    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581326345020" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581169109106">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -446,10 +454,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581319157143">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581323213540">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581319157143" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581323213540" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581151960961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
