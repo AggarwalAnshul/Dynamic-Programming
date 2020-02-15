@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Optimized the solution | longest palindromic substring">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/minimum-characters-required-to-make-a-string-palindromic.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a new problem on LongestPalindromicSubstring Paradigm">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/implement-strstr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.minimum-characters-required-to-make-a-string-palindromic">
+  <component name="RunManager" selected="Python.implement-strstr">
     <configuration name="amazing-subarrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="count-and-say" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="implement-strstr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/count-and-say.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/implement-strstr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +143,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.count-and-say" />
       <item itemvalue="Python.amazing-subarrays" />
       <item itemvalue="Python.stringoholics" />
       <item itemvalue="Python.longest-palindromic-substring" />
       <item itemvalue="Python.minimum-characters-required-to-make-a-string-palindromic" />
+      <item itemvalue="Python.implement-strstr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.implement-strstr" />
         <item itemvalue="Python.minimum-characters-required-to-make-a-string-palindromic" />
         <item itemvalue="Python.longest-palindromic-substring" />
         <item itemvalue="Python.stringoholics" />
         <item itemvalue="Python.amazing-subarrays" />
-        <item itemvalue="Python.count-and-say" />
       </list>
     </recent_temporary>
   </component>
@@ -387,11 +387,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581746327117</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added a new problem on LongestPalindromicSubstring Paradigm">
+      <created>1581747740791</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1581747740791</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added job scheduling problem based on my version of kadane's algorithm" />
     <MESSAGE value="Added a new problem of path choosing under constraints" />
     <MESSAGE value="Added new problem of alternate path moving in the matrix to collect max coins" />
     <MESSAGE value="Added 66th problem, Quite tricky one, Good problem" />
@@ -416,7 +422,8 @@
     <MESSAGE value="Added a simple String problem from House-G" />
     <MESSAGE value="Added new Solution | Longest Substring Palindrome" />
     <MESSAGE value="Optimized the solution | longest palindromic substring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized the solution | longest palindromic substring" />
+    <MESSAGE value="Added a new problem on LongestPalindromicSubstring Paradigm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new problem on LongestPalindromicSubstring Paradigm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -427,26 +434,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581532274592" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581746325828">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581747739742">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581746325828" />
-    <state width="1345" height="573" key="GridCell.Tab.0.bottom" timestamp="1581747720283">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581747739742" />
+    <state width="1345" height="342" key="GridCell.Tab.0.bottom" timestamp="1581749420328">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="573" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581747720283" />
-    <state width="1345" height="573" key="GridCell.Tab.0.center" timestamp="1581747720283">
+    <state width="1345" height="342" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581749420328" />
+    <state width="1345" height="342" key="GridCell.Tab.0.center" timestamp="1581749420328">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="573" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581747720283" />
-    <state width="1345" height="573" key="GridCell.Tab.0.left" timestamp="1581747720283">
+    <state width="1345" height="342" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581749420328" />
+    <state width="1345" height="342" key="GridCell.Tab.0.left" timestamp="1581749420328">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="573" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581747720283" />
-    <state width="1345" height="573" key="GridCell.Tab.0.right" timestamp="1581747720283">
+    <state width="1345" height="342" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581749420328" />
+    <state width="1345" height="342" key="GridCell.Tab.0.right" timestamp="1581749420328">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="573" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581747720283" />
+    <state width="1345" height="342" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581749420328" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581747338324">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -467,10 +474,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581743948468" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581746329081">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581747743526">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581746329081" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581747743526" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581531408107">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
