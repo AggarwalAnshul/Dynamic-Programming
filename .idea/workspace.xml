@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a simple String problem from House-G">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/amazing-subarrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/longest-palindromic-substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/stringoholics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Medium Problems/longest-palindrome-substring-set-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Medium Problems/longest-palindrome-substring-set-1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,34 +25,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>strin</find>
-      <find />
-      <find>{</find>
-      <find>}</find>
-      <find>cpots</find>
-      <find>k</find>
-      <find>Solution</find>
-      <find>findSolutionR</find>
-      <find>lis</find>
-      <find>factora</find>
-      <find>print</find>
-      <find>11798692818055232550147578884125865608089028544560913468519228968187430794620907976123201977895385245239705082830656904630178314159866370495211539023461052682811230321796555930907722724384131648527339458407317543768</find>
-      <find>findSolution</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>, z</replace>
-      <replace>,</replace>
-      <replace>[</replace>
-      <replace>]</replace>
-      <replace>SolutionR</replace>
-      <replace>choices</replace>
-      <replace>#print</replace>
-      <replace>findSolutionObsolete</replace>
-      <replace>findSolutionRecursive</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,30 +37,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.amazing-subarrays">
-    <configuration name="alindrome-string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/alindrome-string.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.longest-palindromic-substring">
     <configuration name="amazing-subarrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,27 +82,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="implement-power-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/implement-power-function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="longest-common-prefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,20 +103,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="longest-palindromic-substring" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/longest-palindromic-substring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stringoholics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/stringoholics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.implement-power-function" />
-      <item itemvalue="Python.alindrome-string" />
       <item itemvalue="Python.longest-common-prefix" />
       <item itemvalue="Python.count-and-say" />
       <item itemvalue="Python.amazing-subarrays" />
+      <item itemvalue="Python.stringoholics" />
+      <item itemvalue="Python.longest-palindromic-substring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.longest-palindromic-substring" />
+        <item itemvalue="Python.stringoholics" />
         <item itemvalue="Python.amazing-subarrays" />
         <item itemvalue="Python.count-and-say" />
         <item itemvalue="Python.longest-common-prefix" />
-        <item itemvalue="Python.alindrome-string" />
-        <item itemvalue="Python.implement-power-function" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581329669979</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added a simple String problem from House-G">
+      <created>1581394899932</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1581394899932</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -429,54 +411,58 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581329669147">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581532274592">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581329669147" />
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1581394861715">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581532274592" />
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581394898262">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581394861715" />
-    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1581394861714">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581394898262" />
+    <state width="1345" height="573" key="GridCell.Tab.0.bottom" timestamp="1581743606045">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581394861714" />
-    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1581394861714">
+    <state width="1345" height="573" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581743606045" />
+    <state width="1345" height="573" key="GridCell.Tab.0.center" timestamp="1581743606045">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581394861714" />
-    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1581394861715">
+    <state width="1345" height="573" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581743606045" />
+    <state width="1345" height="573" key="GridCell.Tab.0.left" timestamp="1581743606045">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581394861715" />
-    <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581344486626">
+    <state width="1345" height="573" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581743606045" />
+    <state width="1345" height="573" key="GridCell.Tab.0.right" timestamp="1581743606045">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581344486626" />
-    <state width="1345" height="238" key="GridCell.Tab.1.center" timestamp="1581344486626">
+    <state width="1345" height="573" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581743606045" />
+    <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581536498316">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581344486626" />
-    <state width="1345" height="238" key="GridCell.Tab.1.left" timestamp="1581344486626">
+    <state width="1345" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581536498316" />
+    <state width="1345" height="238" key="GridCell.Tab.1.center" timestamp="1581536498316">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581344486626" />
-    <state width="1345" height="238" key="GridCell.Tab.1.right" timestamp="1581344486626">
+    <state width="1345" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581536498316" />
+    <state width="1345" height="238" key="GridCell.Tab.1.left" timestamp="1581536498316">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581344486626" />
-    <state x="2" y="0" key="SettingsEditor" timestamp="1580789937034">
+    <state width="1345" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581536498316" />
+    <state width="1345" height="238" key="GridCell.Tab.1.right" timestamp="1581536498316">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1580789937034" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581329673069">
+    <state width="1345" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581536498316" />
+    <state x="2" y="0" key="SettingsEditor" timestamp="1581743948468">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581329673069" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581392464797">
+    <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581743948468" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581394954851">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581392464797" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581394954851" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581531408107">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581531408107" />
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581327518702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

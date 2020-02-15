@@ -61,4 +61,5 @@ if __name__ == "__main__":
     string = "geeeg"
     string = "geekeg"
     string = "abcbdffb"
+    string = "abacdgfdcaba"
     print(findSolution(string))
