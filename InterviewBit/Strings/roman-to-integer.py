@@ -68,6 +68,6 @@ def findSolution(string):
 
 if __name__ == "__main__":
     data = ["MMCDMI", "XXXIX", "CCXLVI", "DCCLXXXIX", "MMCDXXI", "CLX", "CCVII", "MIX",
-            "MLXVI", "MDCCLXXVI", "MMXX"]
+            "MLXVI", "MDCCLXXVI", "MMXX","IVL","XXXXII","XXCV","DCCXIC","IIIC","MCD"]
     for value in data:
         print("input: " + value + " >> " + str(findSolution(value)))
