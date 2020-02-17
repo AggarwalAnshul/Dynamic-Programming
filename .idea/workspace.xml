@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Ignore this commit, updated certain descriptive parameters">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/add-binary-strings.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &quot;Add binary strings&quot;">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/multiply-strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.add-binary-strings">
+  <component name="RunManager" selected="Python.multiply-strings">
     <configuration name="add-binary-strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,27 +51,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/add-binary-strings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="everse-the-string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/everse-the-string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="length-of-last-word" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiply-strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +92,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/length-of-last-word.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/multiply-strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="power-of-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.length-of-last-word" />
-      <item itemvalue="Python.everse-the-string" />
       <item itemvalue="Python.roman-to-integer" />
       <item itemvalue="Python.integer-to-roman" />
       <item itemvalue="Python.add-binary-strings" />
+      <item itemvalue="Python.power-of-2" />
+      <item itemvalue="Python.multiply-strings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multiply-strings" />
+        <item itemvalue="Python.power-of-2" />
         <item itemvalue="Python.add-binary-strings" />
         <item itemvalue="Python.integer-to-roman" />
         <item itemvalue="Python.roman-to-integer" />
-        <item itemvalue="Python.everse-the-string" />
-        <item itemvalue="Python.length-of-last-word" />
       </list>
     </recent_temporary>
   </component>
@@ -450,11 +451,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581865144269</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Added &quot;Add binary strings&quot;">
+      <created>1581926249991</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1581926249991</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 2 new problems | Selective Recursive Paradigm" />
     <MESSAGE value="Added Painters Partition Problem" />
     <MESSAGE value="Added a optimal solution for painters partition problem" />
     <MESSAGE value="Added a solution similar to painter's partition problem." />
@@ -479,7 +486,8 @@
     <MESSAGE value="&quot;Convert Roman numbers to Numeral&quot; problem added" />
     <MESSAGE value="Added &quot;Number to Roman&quot; Problem" />
     <MESSAGE value="Ignore this commit, updated certain descriptive parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ignore this commit, updated certain descriptive parameters" />
+    <MESSAGE value="Added &quot;Add binary strings&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Add binary strings&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -490,26 +498,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581845686657" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581865143256">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581926248889">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581865143256" />
-    <state width="1345" height="328" key="GridCell.Tab.0.bottom" timestamp="1581926061463">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581926248889" />
+    <state width="1345" height="260" key="GridCell.Tab.0.bottom" timestamp="1581947270525">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="328" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581926061463" />
-    <state width="1345" height="328" key="GridCell.Tab.0.center" timestamp="1581926061463">
+    <state width="1345" height="260" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
+    <state width="1345" height="260" key="GridCell.Tab.0.center" timestamp="1581947270525">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="328" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581926061463" />
-    <state width="1345" height="328" key="GridCell.Tab.0.left" timestamp="1581926061463">
+    <state width="1345" height="260" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
+    <state width="1345" height="260" key="GridCell.Tab.0.left" timestamp="1581947270525">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="328" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581926061463" />
-    <state width="1345" height="328" key="GridCell.Tab.0.right" timestamp="1581926061463">
+    <state width="1345" height="260" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
+    <state width="1345" height="260" key="GridCell.Tab.0.right" timestamp="1581947270525">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="328" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581926061463" />
+    <state width="1345" height="260" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -526,14 +534,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1345" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581766422565" />
-    <state x="2" y="0" key="SettingsEditor" timestamp="1581839879810">
+    <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581839879810" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581865145753">
+    <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581926251498">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581865145753" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581926251498" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581531408107">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
