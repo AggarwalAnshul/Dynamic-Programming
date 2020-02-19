@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &quot;Add binary strings&quot;">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/multiply-strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="&quot;Added multiply strings&quot;">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/justified-text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/pretty-json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Strings/zigzag-string.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +39,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.multiply-strings">
-    <configuration name="add-binary-strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pretty-json">
+    <configuration name="justified-text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,28 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/add-binary-strings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="integer-to-roman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/integer-to-roman.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/justified-text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="roman-to-integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pretty-json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +115,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/roman-to-integer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/pretty-json.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zigzag-string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/zigzag-string.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,19 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.roman-to-integer" />
-      <item itemvalue="Python.integer-to-roman" />
-      <item itemvalue="Python.add-binary-strings" />
       <item itemvalue="Python.power-of-2" />
       <item itemvalue="Python.multiply-strings" />
+      <item itemvalue="Python.justified-text" />
+      <item itemvalue="Python.zigzag-string" />
+      <item itemvalue="Python.pretty-json" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pretty-json" />
+        <item itemvalue="Python.zigzag-string" />
+        <item itemvalue="Python.justified-text" />
         <item itemvalue="Python.multiply-strings" />
         <item itemvalue="Python.power-of-2" />
-        <item itemvalue="Python.add-binary-strings" />
-        <item itemvalue="Python.integer-to-roman" />
-        <item itemvalue="Python.roman-to-integer" />
       </list>
     </recent_temporary>
   </component>
@@ -458,11 +460,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581926249991</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="&quot;Added multiply strings&quot;">
+      <created>1581947294643</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1581947294643</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Painters Partition Problem" />
     <MESSAGE value="Added a optimal solution for painters partition problem" />
     <MESSAGE value="Added a solution similar to painter's partition problem." />
     <MESSAGE value="Added a new problem on binary search" />
@@ -487,7 +495,8 @@
     <MESSAGE value="Added &quot;Number to Roman&quot; Problem" />
     <MESSAGE value="Ignore this commit, updated certain descriptive parameters" />
     <MESSAGE value="Added &quot;Add binary strings&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Add binary strings&quot;" />
+    <MESSAGE value="&quot;Added multiply strings&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added multiply strings&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -498,26 +507,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581845686657" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581926248889">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1581947293427">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581926248889" />
-    <state width="1345" height="260" key="GridCell.Tab.0.bottom" timestamp="1581947270525">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1581947293427" />
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582116455033">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="260" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
-    <state width="1345" height="260" key="GridCell.Tab.0.center" timestamp="1581947270525">
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582116455033" />
+    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582116455032">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="260" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
-    <state width="1345" height="260" key="GridCell.Tab.0.left" timestamp="1581947270525">
+    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582116455032" />
+    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582116455032">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="260" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
-    <state width="1345" height="260" key="GridCell.Tab.0.right" timestamp="1581947270525">
+    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582116455032" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582116455032">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="260" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581947270525" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582116455032" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -538,10 +547,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581926251498">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1581947296361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581926251498" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581947296361" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581531408107">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -550,10 +559,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1581327518702" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581145006439">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582102512574">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1581145006439" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582102512574" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

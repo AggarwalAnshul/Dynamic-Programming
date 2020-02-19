@@ -1,23 +1,33 @@
 """
 
 [+]Temporal marker           : Mon, 13:33 | Feb 17, 20
-[+]Temporal marker untethered: Mon, 13:33 | Feb 17, 20
-[+]Comments                  :
+[+]Temporal marker untethered: Mon, 19:00 | Feb 17, 20
+[+]Comments                  :Solved the solution in acceptable timeframe
+                                 Solution on submission gave TLE Error
+                                 Editorial solution is a joke for this problem in all languages
+                                 Matter is closed now
 [+]Space Complexity          : O()
 [+]Time Complexity           : O()
-[+]Level                     :
-[+]Tread Speed               :
+[+]Level                     : MEDIUM
+[+]Tread Speed               : SUPER RELAXED & DISTRACTED
 [+]LINK                      : https://www.interviewbit.com/problems/power-of-2
 [+] Supplement Sources       : N/A
 """
 
 
+def editorial(number):
+    number = int(number)
+    if number >= 2 and number & number - 1 == 0:
+        return 1
+    return 0
+
+
 def findSolution(number):
-    #print("checking for Num: "+str(number))
+    # print("checking for Num: "+str(number))
     length = len(number)
     remainder = ""
     while int(number) > 2:
-        #print("\t"+str(number))
+        # print("\t"+str(number))
         index = 0
         length = len(number)
         divisor = ""
