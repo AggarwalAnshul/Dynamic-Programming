@@ -1,4 +1,18 @@
 """
+Find if Given number is power of 2 or not.
+More specifically, find if given number can be expressed as 2^k where k >= 1.
+
+Input:
+
+number length can be more than 64, which mean number can be greater than 2 ^ 64 (out of long long range)
+Output:
+
+return 1 if the number is a power of 2 else return 0
+
+Example:
+
+Input : 128
+Output : 1
 
 [+]Temporal marker           : Mon, 13:33 | Feb 17, 20
 [+]Temporal marker untethered: Mon, 19:00 | Feb 17, 20
