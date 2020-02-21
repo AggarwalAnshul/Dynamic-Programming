@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added Multiple Problem. strings chapter almost finished now.">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/min-xor-value.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added Multiple String problem | Incepted Bit manipulations">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/number-of-1-bits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Strings/power-of-2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.min-xor-value">
+  <component name="RunManager" selected="Python.number-of-1-bits">
     <configuration name="justified-text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiply-strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="number-of-1-bits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Strings" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Strings/multiply-strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/number-of-1-bits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,19 +143,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.multiply-strings" />
       <item itemvalue="Python.justified-text" />
       <item itemvalue="Python.zigzag-string" />
       <item itemvalue="Python.pretty-json" />
       <item itemvalue="Python.min-xor-value" />
+      <item itemvalue="Python.number-of-1-bits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number-of-1-bits" />
         <item itemvalue="Python.min-xor-value" />
         <item itemvalue="Python.pretty-json" />
         <item itemvalue="Python.zigzag-string" />
         <item itemvalue="Python.justified-text" />
-        <item itemvalue="Python.multiply-strings" />
       </list>
     </recent_temporary>
   </component>
@@ -472,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582116558724</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Added Multiple String problem | Incepted Bit manipulations">
+      <created>1582268610769</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1582268610769</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a solution similar to painter's partition problem." />
     <MESSAGE value="Added a new problem on binary search" />
     <MESSAGE value="Added a simple binary search expected index problem" />
     <MESSAGE value="Adding a new problem | Implement power function" />
@@ -501,7 +506,8 @@
     <MESSAGE value="Added &quot;Add binary strings&quot;" />
     <MESSAGE value="&quot;Added multiply strings&quot;" />
     <MESSAGE value="Added Multiple Problem. strings chapter almost finished now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Multiple Problem. strings chapter almost finished now." />
+    <MESSAGE value="Added Multiple String problem | Incepted Bit manipulations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Multiple String problem | Incepted Bit manipulations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -512,26 +518,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1581845686657" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582116556661">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582268609568">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582116556661" />
-    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582268341958">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582268609568" />
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582270038668">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582268341958" />
-    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582268341958">
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582270038668" />
+    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582270038668">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582268341958" />
-    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582268341958">
+    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582270038668" />
+    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582270038668">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582268341958" />
-    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582268341958">
+    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582270038668" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582270038668">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582268341958" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582270038668" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -552,10 +558,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582116559786">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582268614406">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582116559786" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582268614406" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581531408107">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
