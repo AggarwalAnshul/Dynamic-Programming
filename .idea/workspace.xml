@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Initialized Two Pointers">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/intersection-of-sorted-arrays.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added program to find intersection of two sorted arrays">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/minimize-the-absolute-difference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.intersection-of-sorted-arrays">
+  <component name="RunManager" selected="Python.minimize-the-absolute-difference">
+    <configuration name="3-sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="divide-integers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="single-number-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="minimize-the-absolute-difference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,32 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number-ii.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="single-number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/minimize-the-absolute-difference.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.single-number" />
-      <item itemvalue="Python.single-number-ii" />
       <item itemvalue="Python.divide-integers" />
       <item itemvalue="Python.merge-two-sorted-lists-ii" />
       <item itemvalue="Python.intersection-of-sorted-arrays" />
+      <item itemvalue="Python.3-sum" />
+      <item itemvalue="Python.minimize-the-absolute-difference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.minimize-the-absolute-difference" />
+        <item itemvalue="Python.3-sum" />
         <item itemvalue="Python.intersection-of-sorted-arrays" />
         <item itemvalue="Python.merge-two-sorted-lists-ii" />
         <item itemvalue="Python.divide-integers" />
-        <item itemvalue="Python.single-number-ii" />
-        <item itemvalue="Python.single-number" />
       </list>
     </recent_temporary>
   </component>
@@ -169,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added a new problem of path choosing under constraints">
-      <created>1569218924324</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1569218924324</updated>
     </task>
     <task id="LOCAL-00004" summary="Added new problem of alternate path moving in the matrix to collect max coins">
       <created>1569226862025</created>
@@ -513,11 +507,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582359872537</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added program to find intersection of two sorted arrays">
+      <created>1582361027045</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1582361027045</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Solved Implement the power function" />
     <MESSAGE value="Added check palindrome string problem" />
     <MESSAGE value="Added a simple String problem from House-G" />
     <MESSAGE value="Added new Solution | Longest Substring Palindrome" />
@@ -542,7 +542,8 @@
     <MESSAGE value="Added &quot;Find the number appearing once in lis when all occurs thrice&quot;" />
     <MESSAGE value="Added &quot;divide w/o standard operators&quot;" />
     <MESSAGE value="Initialized Two Pointers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized Two Pointers" />
+    <MESSAGE value="Added program to find intersection of two sorted arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added program to find intersection of two sorted arrays" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -553,26 +554,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582271134635" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582359869011">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582380245126">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582359869011" />
-    <state width="1345" height="309" key="GridCell.Tab.0.bottom" timestamp="1582360617311">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582380245126" />
+    <state width="1345" height="309" key="GridCell.Tab.0.bottom" timestamp="1582380112271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582360617311" />
-    <state width="1345" height="309" key="GridCell.Tab.0.center" timestamp="1582360617311">
+    <state width="1345" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
+    <state width="1345" height="309" key="GridCell.Tab.0.center" timestamp="1582380112271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582360617311" />
-    <state width="1345" height="309" key="GridCell.Tab.0.left" timestamp="1582360617311">
+    <state width="1345" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
+    <state width="1345" height="309" key="GridCell.Tab.0.left" timestamp="1582380112271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582360617311" />
-    <state width="1345" height="309" key="GridCell.Tab.0.right" timestamp="1582360617311">
+    <state width="1345" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
+    <state width="1345" height="309" key="GridCell.Tab.0.right" timestamp="1582380112271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582360617311" />
+    <state width="1345" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -593,10 +594,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582359874766">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582361028522">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582359874766" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582361028522" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582345757108">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
