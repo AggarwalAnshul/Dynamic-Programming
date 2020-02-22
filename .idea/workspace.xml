@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &quot;Count different-bits-sum-pairwise.py&quot;">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &quot;Find the number appearing once in lis&quot;">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number-ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.single-number">
+  <component name="RunManager" selected="Python.single-number-ii">
     <configuration name="different-bits-sum-pairwise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,27 +50,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/different-bits-sum-pairwise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="min-xor-value" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/min-xor-value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,6 +100,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="single-number-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number-ii.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="single-number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,19 +143,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.min-xor-value" />
       <item itemvalue="Python.number-of-1-bits" />
       <item itemvalue="Python.reverse-bits" />
       <item itemvalue="Python.different-bits-sum-pairwise" />
       <item itemvalue="Python.single-number" />
+      <item itemvalue="Python.single-number-ii" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.single-number-ii" />
         <item itemvalue="Python.single-number" />
         <item itemvalue="Python.different-bits-sum-pairwise" />
         <item itemvalue="Python.reverse-bits" />
         <item itemvalue="Python.number-of-1-bits" />
-        <item itemvalue="Python.min-xor-value" />
       </list>
     </recent_temporary>
   </component>
@@ -499,11 +499,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582282758990</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Added &quot;Find the number appearing once in lis&quot;">
+      <created>1582294265622</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1582294265622</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Circular sorted array search problem" />
     <MESSAGE value="Optimized the last solution." />
     <MESSAGE value="this commit can be ignored | Did beautification" />
     <MESSAGE value="Added Median of Two sorted array problem" />
@@ -528,7 +534,8 @@
     <MESSAGE value="Added &quot;Count number of set bits in unsigned integer&quot;" />
     <MESSAGE value="Added &quot;Reverse the unsigned number&quot;" />
     <MESSAGE value="Added &quot;Count different-bits-sum-pairwise.py&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Count different-bits-sum-pairwise.py&quot;" />
+    <MESSAGE value="Added &quot;Find the number appearing once in lis&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Find the number appearing once in lis&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -539,26 +546,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582271134635" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582282757859">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582294264491">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582282757859" />
-    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582294211349">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582294264491" />
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582346560747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582294211349" />
-    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582294211349">
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
+    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582346560747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582294211349" />
-    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582294211349">
+    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
+    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582346560747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582294211349" />
-    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582294211349">
+    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582346560747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582294211349" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -579,14 +586,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582282760681">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582294267425">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582282760681" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581531408107">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582294267425" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582345757108">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581531408107" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582345757108" />
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581327518702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
