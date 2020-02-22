@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &quot;Find the number appearing once in lis&quot;">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number-ii.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &quot;Find the number appearing once in lis when all occurs thrice&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/divide-integers.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/divide-integers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.single-number-ii">
+  <component name="RunManager" selected="Python.divide-integers">
     <configuration name="different-bits-sum-pairwise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="number-of-1-bits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="divide-integers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/number-of-1-bits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/divide-integers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +143,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.number-of-1-bits" />
       <item itemvalue="Python.reverse-bits" />
       <item itemvalue="Python.different-bits-sum-pairwise" />
       <item itemvalue="Python.single-number" />
       <item itemvalue="Python.single-number-ii" />
+      <item itemvalue="Python.divide-integers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.divide-integers" />
         <item itemvalue="Python.single-number-ii" />
         <item itemvalue="Python.single-number" />
         <item itemvalue="Python.different-bits-sum-pairwise" />
         <item itemvalue="Python.reverse-bits" />
-        <item itemvalue="Python.number-of-1-bits" />
       </list>
     </recent_temporary>
   </component>
@@ -506,11 +506,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582294265622</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Added &quot;Find the number appearing once in lis when all occurs thrice&quot;">
+      <created>1582346702318</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1582346702318</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized the last solution." />
     <MESSAGE value="this commit can be ignored | Did beautification" />
     <MESSAGE value="Added Median of Two sorted array problem" />
     <MESSAGE value="Solved Implement the power function" />
@@ -535,7 +541,8 @@
     <MESSAGE value="Added &quot;Reverse the unsigned number&quot;" />
     <MESSAGE value="Added &quot;Count different-bits-sum-pairwise.py&quot;" />
     <MESSAGE value="Added &quot;Find the number appearing once in lis&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Find the number appearing once in lis&quot;" />
+    <MESSAGE value="Added &quot;Find the number appearing once in lis when all occurs thrice&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;Find the number appearing once in lis when all occurs thrice&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -546,26 +553,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582271134635" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582294264491">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582346699689">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582294264491" />
-    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582346560747">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582346699689" />
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom" timestamp="1582356045523">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
-    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582346560747">
+    <state width="1345" height="607" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582356045523" />
+    <state width="1345" height="607" key="GridCell.Tab.0.center" timestamp="1582356045523">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
-    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582346560747">
+    <state width="1345" height="607" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582356045523" />
+    <state width="1345" height="607" key="GridCell.Tab.0.left" timestamp="1582356045523">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
-    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582346560747">
+    <state width="1345" height="607" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582356045523" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right" timestamp="1582356045523">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582346560747" />
+    <state width="1345" height="607" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582356045523" />
     <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -586,10 +593,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582294267425">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582346705174">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582294267425" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582346705174" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582345757108">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
