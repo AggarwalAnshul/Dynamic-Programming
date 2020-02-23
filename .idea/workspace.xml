@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added program to find intersection of two sorted arrays">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/minimize-the-absolute-difference.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="solved one more problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.minimize-the-absolute-difference">
+  <component name="RunManager" selected="Python.3-sum">
     <configuration name="3-sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,8 +151,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.minimize-the-absolute-difference" />
         <item itemvalue="Python.3-sum" />
+        <item itemvalue="Python.minimize-the-absolute-difference" />
         <item itemvalue="Python.intersection-of-sorted-arrays" />
         <item itemvalue="Python.merge-two-sorted-lists-ii" />
         <item itemvalue="Python.divide-integers" />
@@ -170,13 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added new problem of alternate path moving in the matrix to collect max coins">
-      <created>1569226862025</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1569226862025</updated>
     </task>
     <task id="LOCAL-00005" summary="Added 66th problem, Quite tricky one, Good problem">
       <created>1569303185676</created>
@@ -514,11 +506,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582361027045</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="solved one more problem">
+      <created>1582380259408</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1582380259408</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added check palindrome string problem" />
     <MESSAGE value="Added a simple String problem from House-G" />
     <MESSAGE value="Added new Solution | Longest Substring Palindrome" />
     <MESSAGE value="Optimized the solution | longest palindromic substring" />
@@ -543,7 +541,8 @@
     <MESSAGE value="Added &quot;divide w/o standard operators&quot;" />
     <MESSAGE value="Initialized Two Pointers" />
     <MESSAGE value="Added program to find intersection of two sorted arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added program to find intersection of two sorted arrays" />
+    <MESSAGE value="solved one more problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved one more problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -554,54 +553,58 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582271134635" />
+    <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1582451328549">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
     <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582380245126">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582380245126" />
-    <state width="1345" height="309" key="GridCell.Tab.0.bottom" timestamp="1582380112271">
+    <state width="1345" height="309" key="GridCell.Tab.0.bottom" timestamp="1582466831895">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
-    <state width="1345" height="309" key="GridCell.Tab.0.center" timestamp="1582380112271">
+    <state width="1345" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
+    <state width="1345" height="309" key="GridCell.Tab.0.center" timestamp="1582466831895">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
-    <state width="1345" height="309" key="GridCell.Tab.0.left" timestamp="1582380112271">
+    <state width="1345" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
+    <state width="1345" height="309" key="GridCell.Tab.0.left" timestamp="1582466831895">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
-    <state width="1345" height="309" key="GridCell.Tab.0.right" timestamp="1582380112271">
+    <state width="1345" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
+    <state width="1345" height="309" key="GridCell.Tab.0.right" timestamp="1582466831895">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582380112271" />
-    <state width="1345" height="238" key="GridCell.Tab.1.bottom" timestamp="1581766422565">
+    <state width="1345" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
+    <state width="1345" height="244" key="GridCell.Tab.1.bottom" timestamp="1582455098502">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581766422565" />
-    <state width="1345" height="238" key="GridCell.Tab.1.center" timestamp="1581766422565">
+    <state width="1345" height="244" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
+    <state width="1345" height="244" key="GridCell.Tab.1.center" timestamp="1582455098502">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1581766422565" />
-    <state width="1345" height="238" key="GridCell.Tab.1.left" timestamp="1581766422564">
+    <state width="1345" height="244" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
+    <state width="1345" height="244" key="GridCell.Tab.1.left" timestamp="1582455098502">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1581766422564" />
-    <state width="1345" height="238" key="GridCell.Tab.1.right" timestamp="1581766422565">
+    <state width="1345" height="244" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
+    <state width="1345" height="244" key="GridCell.Tab.1.right" timestamp="1582455098502">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1581766422565" />
+    <state width="1345" height="244" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582361028522">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582380260536">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582361028522" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582345757108">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582380260536" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582448315158">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582345757108" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582448315158" />
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581327518702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -613,6 +616,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
