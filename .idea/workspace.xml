@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="solved one more problem">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum-zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/diffk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" afterDir="false" />
     </list>
@@ -36,7 +39,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.3-sum">
+  <component name="RunManager" selected="Python.counting-triangles">
+    <configuration name="3-sum-zero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum-zero.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3-sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,28 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="divide-integers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/divide-integers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="intersection-of-sorted-arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="counting-triangles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/intersection-of-sorted-arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge-two-sorted-lists-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="diffk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/merge-two-sorted-lists-ii.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/diffk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,19 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.divide-integers" />
-      <item itemvalue="Python.merge-two-sorted-lists-ii" />
-      <item itemvalue="Python.intersection-of-sorted-arrays" />
       <item itemvalue="Python.3-sum" />
       <item itemvalue="Python.minimize-the-absolute-difference" />
+      <item itemvalue="Python.3-sum-zero" />
+      <item itemvalue="Python.counting-triangles" />
+      <item itemvalue="Python.diffk" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.counting-triangles" />
+        <item itemvalue="Python.diffk" />
+        <item itemvalue="Python.3-sum-zero" />
         <item itemvalue="Python.3-sum" />
         <item itemvalue="Python.minimize-the-absolute-difference" />
-        <item itemvalue="Python.intersection-of-sorted-arrays" />
-        <item itemvalue="Python.merge-two-sorted-lists-ii" />
-        <item itemvalue="Python.divide-integers" />
       </list>
     </recent_temporary>
   </component>
@@ -169,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added 66th problem, Quite tricky one, Good problem">
-      <created>1569303185676</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1569303185676</updated>
     </task>
     <task id="LOCAL-00006" summary="added a new problem">
       <created>1569315275652</created>
@@ -513,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582380259408</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="solved one more problem">
+      <created>1582466897103</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1582466897108</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -549,58 +552,58 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582271134635">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582532211515">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582271134635" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582532211515" />
     <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1582451328549">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582380245126">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582466894102">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582380245126" />
-    <state width="1345" height="309" key="GridCell.Tab.0.bottom" timestamp="1582466831895">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582466894102" />
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1582552309206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
-    <state width="1345" height="309" key="GridCell.Tab.0.center" timestamp="1582466831895">
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
+    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1582552309206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
-    <state width="1345" height="309" key="GridCell.Tab.0.left" timestamp="1582466831895">
+    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
+    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1582552309206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
-    <state width="1345" height="309" key="GridCell.Tab.0.right" timestamp="1582466831895">
+    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
+    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1582552309206">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="309" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582466831895" />
-    <state width="1345" height="244" key="GridCell.Tab.1.bottom" timestamp="1582455098502">
+    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
+    <state width="1345" height="244" key="GridCell.Tab.1.bottom" timestamp="1582544534215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
-    <state width="1345" height="244" key="GridCell.Tab.1.center" timestamp="1582455098502">
+    <state width="1345" height="244" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
+    <state width="1345" height="244" key="GridCell.Tab.1.center" timestamp="1582544534215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
-    <state width="1345" height="244" key="GridCell.Tab.1.left" timestamp="1582455098502">
+    <state width="1345" height="244" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
+    <state width="1345" height="244" key="GridCell.Tab.1.left" timestamp="1582544534215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
-    <state width="1345" height="244" key="GridCell.Tab.1.right" timestamp="1582455098502">
+    <state width="1345" height="244" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
+    <state width="1345" height="244" key="GridCell.Tab.1.right" timestamp="1582544534215">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582455098502" />
+    <state width="1345" height="244" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582380260536">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582466921888">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582380260536" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582466921888" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582448315158">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -609,50 +612,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1581327518702" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582102512574">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582540695801">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582102512574" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582540695801" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
