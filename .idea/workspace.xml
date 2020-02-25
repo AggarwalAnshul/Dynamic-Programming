@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="solved one more problem">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum-zero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/diffk.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added some fresh problems on Two pointers!">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.counting-triangles">
+  <component name="RunManager" selected="Python.max-continuous-series-of-1s">
     <configuration name="3-sum-zero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minimize-the-absolute-difference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="max-continuous-series-of-1s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/minimize-the-absolute-difference.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,19 +144,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.3-sum" />
-      <item itemvalue="Python.minimize-the-absolute-difference" />
       <item itemvalue="Python.3-sum-zero" />
+      <item itemvalue="Python.3-sum" />
       <item itemvalue="Python.counting-triangles" />
       <item itemvalue="Python.diffk" />
+      <item itemvalue="Python.max-continuous-series-of-1s" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.max-continuous-series-of-1s" />
         <item itemvalue="Python.counting-triangles" />
         <item itemvalue="Python.diffk" />
         <item itemvalue="Python.3-sum-zero" />
         <item itemvalue="Python.3-sum" />
-        <item itemvalue="Python.minimize-the-absolute-difference" />
       </list>
     </recent_temporary>
   </component>
@@ -172,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added a new problem">
-      <created>1569315275652</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1569315275652</updated>
     </task>
     <task id="LOCAL-00007" summary="added a new problem">
       <created>1569329168678</created>
@@ -516,11 +507,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582466897108</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Added some fresh problems on Two pointers!">
+      <created>1582552439446</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1582552439446</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a simple String problem from House-G" />
     <MESSAGE value="Added new Solution | Longest Substring Palindrome" />
     <MESSAGE value="Optimized the solution | longest palindromic substring" />
     <MESSAGE value="Added a new problem on LongestPalindromicSubstring Paradigm" />
@@ -545,69 +542,70 @@
     <MESSAGE value="Initialized Two Pointers" />
     <MESSAGE value="Added program to find intersection of two sorted arrays" />
     <MESSAGE value="solved one more problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved one more problem" />
+    <MESSAGE value="Added some fresh problems on Two pointers!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some fresh problems on Two pointers!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582532211515">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582637757569">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582532211515" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582637757569" />
     <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1582451328549">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582466894102">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582552437808">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582466894102" />
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1582552309206">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582552437808" />
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1582637900851">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
-    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1582552309206">
+    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
+    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1582637900851">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
-    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1582552309206">
+    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
+    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1582637900851">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
-    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1582552309206">
+    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
+    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1582637900851">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582552309206" />
-    <state width="1345" height="244" key="GridCell.Tab.1.bottom" timestamp="1582544534215">
+    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
+    <state width="1345" height="330" key="GridCell.Tab.1.bottom" timestamp="1582615599943">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
-    <state width="1345" height="244" key="GridCell.Tab.1.center" timestamp="1582544534215">
+    <state width="1345" height="330" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582615599943" />
+    <state width="1345" height="330" key="GridCell.Tab.1.center" timestamp="1582615599942">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
-    <state width="1345" height="244" key="GridCell.Tab.1.left" timestamp="1582544534215">
+    <state width="1345" height="330" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582615599942" />
+    <state width="1345" height="330" key="GridCell.Tab.1.left" timestamp="1582615599942">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
-    <state width="1345" height="244" key="GridCell.Tab.1.right" timestamp="1582544534215">
+    <state width="1345" height="330" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582615599942" />
+    <state width="1345" height="330" key="GridCell.Tab.1.right" timestamp="1582615599942">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="244" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582544534215" />
+    <state width="1345" height="330" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582615599942" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582466921888">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582552441046">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582466921888" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582448315158">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582552441046" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582637516970">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582448315158" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582637516970" />
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581327518702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -619,6 +617,78 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
