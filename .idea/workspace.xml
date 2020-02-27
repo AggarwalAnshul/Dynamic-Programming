@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added some fresh problems on Two pointers!">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added another problem">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.pyi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/single-number.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
         <option value="newFile" />
         <option value="one" />
         <option value="Python Script" />
+        <option value="Python Stub" />
       </list>
     </option>
   </component>
@@ -34,11 +35,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Python.max-continuous-series-of-1s">
-    <configuration name="3-sum-zero" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.array-3-pointers">
+    <configuration name="array-3-pointers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,28 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum-zero.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3-sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,20 +128,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.3-sum-zero" />
-      <item itemvalue="Python.3-sum" />
       <item itemvalue="Python.counting-triangles" />
       <item itemvalue="Python.diffk" />
       <item itemvalue="Python.max-continuous-series-of-1s" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.array-3-pointers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.array-3-pointers" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.max-continuous-series-of-1s" />
         <item itemvalue="Python.counting-triangles" />
         <item itemvalue="Python.diffk" />
-        <item itemvalue="Python.3-sum-zero" />
-        <item itemvalue="Python.3-sum" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00007" summary="added a new problem">
-      <created>1569329168678</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1569329168678</updated>
     </task>
     <task id="LOCAL-00008" summary="Added a new problem on alterate path selection in a matrix | Moderate difficulty for dp apporach| Recusive is pretty easy">
       <created>1569337019617</created>
@@ -514,11 +513,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582552439446</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Added another problem">
+      <created>1582637916689</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1582637916690</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added new Solution | Longest Substring Palindrome" />
     <MESSAGE value="Optimized the solution | longest palindromic substring" />
     <MESSAGE value="Added a new problem on LongestPalindromicSubstring Paradigm" />
     <MESSAGE value="Added a new problem | find first occurence of substring in string" />
@@ -543,7 +548,8 @@
     <MESSAGE value="Added program to find intersection of two sorted arrays" />
     <MESSAGE value="solved one more problem" />
     <MESSAGE value="Added some fresh problems on Two pointers!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some fresh problems on Two pointers!" />
+    <MESSAGE value="Added another problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added another problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -558,50 +564,50 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582552437808">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582637913663">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582552437808" />
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom" timestamp="1582637900851">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582637913663" />
+    <state width="1345" height="458" key="GridCell.Tab.0.bottom" timestamp="1582779526784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
-    <state width="1345" height="609" key="GridCell.Tab.0.center" timestamp="1582637900851">
+    <state width="1345" height="458" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
+    <state width="1345" height="458" key="GridCell.Tab.0.center" timestamp="1582779526784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
-    <state width="1345" height="609" key="GridCell.Tab.0.left" timestamp="1582637900851">
+    <state width="1345" height="458" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
+    <state width="1345" height="458" key="GridCell.Tab.0.left" timestamp="1582779526784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
-    <state width="1345" height="609" key="GridCell.Tab.0.right" timestamp="1582637900851">
+    <state width="1345" height="458" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
+    <state width="1345" height="458" key="GridCell.Tab.0.right" timestamp="1582779526784">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="609" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582637900851" />
-    <state width="1345" height="330" key="GridCell.Tab.1.bottom" timestamp="1582615599943">
+    <state width="1345" height="458" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
+    <state width="1345" height="330" key="GridCell.Tab.1.bottom" timestamp="1582659216022">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582615599943" />
-    <state width="1345" height="330" key="GridCell.Tab.1.center" timestamp="1582615599942">
+    <state width="1345" height="330" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
+    <state width="1345" height="330" key="GridCell.Tab.1.center" timestamp="1582659216022">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582615599942" />
-    <state width="1345" height="330" key="GridCell.Tab.1.left" timestamp="1582615599942">
+    <state width="1345" height="330" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
+    <state width="1345" height="330" key="GridCell.Tab.1.left" timestamp="1582659216022">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582615599942" />
-    <state width="1345" height="330" key="GridCell.Tab.1.right" timestamp="1582615599942">
+    <state width="1345" height="330" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
+    <state width="1345" height="330" key="GridCell.Tab.1.right" timestamp="1582659216022">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582615599942" />
+    <state width="1345" height="330" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582552441046">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582637919584">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582552441046" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582637919584" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582637516970">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -617,78 +623,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>93</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>96</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>97</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>101</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
