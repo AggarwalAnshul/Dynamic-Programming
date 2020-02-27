@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added another problem">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.pyi" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added another problem like absolute sum &quot;Three Pointers&quot;">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/container-with-most-water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/remove-duplicates-from-sorted-array.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.pyi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
       <list>
         <option value="newFile" />
         <option value="one" />
-        <option value="Python Script" />
         <option value="Python Stub" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,7 +46,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.array-3-pointers">
+  <component name="RunManager" selected="Python.container-with-most-water">
     <configuration name="array-3-pointers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +68,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="container-with-most-water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/container-with-most-water.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="counting-triangles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +102,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="diffk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/diffk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,18 +154,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.counting-triangles" />
-      <item itemvalue="Python.diffk" />
       <item itemvalue="Python.max-continuous-series-of-1s" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.array-3-pointers" />
+      <item itemvalue="Python.container-with-most-water" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.container-with-most-water" />
         <item itemvalue="Python.array-3-pointers" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.max-continuous-series-of-1s" />
         <item itemvalue="Python.counting-triangles" />
-        <item itemvalue="Python.diffk" />
       </list>
     </recent_temporary>
   </component>
@@ -176,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added a new problem on alterate path selection in a matrix | Moderate difficulty for dp apporach| Recusive is pretty easy">
-      <created>1569337019617</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1569337019618</updated>
     </task>
     <task id="LOCAL-00009" summary="&#10;Added a new problem">
       <created>1569339149518</created>
@@ -520,11 +516,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582637916690</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Added another problem like absolute sum &quot;Three Pointers&quot;">
+      <created>1582779735178</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1582779735178</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized the solution | longest palindromic substring" />
     <MESSAGE value="Added a new problem on LongestPalindromicSubstring Paradigm" />
     <MESSAGE value="Added a new problem | find first occurence of substring in string" />
     <MESSAGE value="string validation paradigm" />
@@ -549,7 +551,8 @@
     <MESSAGE value="solved one more problem" />
     <MESSAGE value="Added some fresh problems on Two pointers!" />
     <MESSAGE value="Added another problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added another problem" />
+    <MESSAGE value="Added another problem like absolute sum &quot;Three Pointers&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added another problem like absolute sum &quot;Three Pointers&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -564,26 +567,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582637913663">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582779733595">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582637913663" />
-    <state width="1345" height="458" key="GridCell.Tab.0.bottom" timestamp="1582779526784">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582779733595" />
+    <state width="1345" height="458" key="GridCell.Tab.0.bottom" timestamp="1582824666628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
-    <state width="1345" height="458" key="GridCell.Tab.0.center" timestamp="1582779526784">
+    <state width="1345" height="458" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
+    <state width="1345" height="458" key="GridCell.Tab.0.center" timestamp="1582824666628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
-    <state width="1345" height="458" key="GridCell.Tab.0.left" timestamp="1582779526784">
+    <state width="1345" height="458" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
+    <state width="1345" height="458" key="GridCell.Tab.0.left" timestamp="1582824666628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
-    <state width="1345" height="458" key="GridCell.Tab.0.right" timestamp="1582779526784">
+    <state width="1345" height="458" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
+    <state width="1345" height="458" key="GridCell.Tab.0.right" timestamp="1582824666628">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582779526784" />
+    <state width="1345" height="458" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
     <state width="1345" height="330" key="GridCell.Tab.1.bottom" timestamp="1582659216022">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -604,10 +607,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582637919584">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582779736472">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582637919584" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582779736472" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582637516970">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
