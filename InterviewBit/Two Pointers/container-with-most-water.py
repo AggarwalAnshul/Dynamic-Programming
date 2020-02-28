@@ -2,24 +2,30 @@
 
 [+]Temporal marker           : Thu, 10:35 | Feb 27, 20
 [+]Temporal marker untethered: Thu, 10:35 | Feb 27, 20
-[+]Comments                  :
-[+]Space Complexity          : O()
-[+]Time Complexity           : O()
-[+]Level                     :
-[+]Tread Speed               :
+[+]Comments                  : Couldn't solve on my own.
+                                Solution straight form GFG / iB
+[+]Space Complexity          : O(1)
+[+]Time Complexity           : O(N)
+[+]Level                     : HARD
+[+]Tread Speed               : RELAXED
 [+]LINK                      : https://www.interviewbit.com/problems/container-with-most-water
 [+] Supplement Sources       : N/A
 """
 
-def experimental(lis):
-    length = len(lis)
-    lis.sort()
-    answer = 0
-    for index in range(length):
-        answer = max(answer, lis[index] * (length - 1 - index))
-    return answer
 
-#TLE
+def editorial(lis):
+    left, right = 0, len(lis) - 1
+    area = 0
+    while left < right:
+        area = max(area, min(lis[left], lis[right]) * (right - left))
+        if lis[left] < lis[right]:
+            left += 1
+        else:
+            right -= 1
+    return area
+
+
+# TLE
 def naive(lis):
     answer = 0
     for index in range(len(lis)):
@@ -90,4 +96,4 @@ if __name__ == "__main__":
             ]
     for x in data:
         print("input: " + str(x) + "\n\t\t naive: >> " + str(naive(x)) +
-              " | experimental: >> " + str(experimental(x)))
+              " | experimental: >> " + str(editorial(x)))

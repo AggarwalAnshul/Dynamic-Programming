@@ -52,9 +52,23 @@ def findSolution(lis):
             blue_count -= 1
     return lis
 
-
+def experimental(lis):
+    length = len(lis)
+    pointer = [0, 0, 0]
+    for element in lis:
+        pointer[element] += 1
+    for index in range(length):
+        if pointer[0] > 0:
+            lis[index] =0
+            pointer[0] -=1
+        elif pointer[1] > 0:
+            lis[index] = 1
+            pointer[1] -=1
+        else:
+            lis[index] = 2
+    return lis
 
 if __name__ == "__main__":
     data = [[0, 1, 2, 0, 1, 2]]
     for x in data:
-        print("input: " + str(x) + " >> " + str(findSolution(x)))
+        print("input: " + str(x) + " >> " + str(experimental(x)))
