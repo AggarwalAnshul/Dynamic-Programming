@@ -26,8 +26,9 @@ Try to do it in less than linear additional space complexity.
 [+] Supplement Sources       : N/A
 """
 
+
 def findSolution(lis, target):
-    print("target is : "+str(target))
+    print("target is : " + str(target))
     length = len(lis)
     nextIndex = 0
     count = 0
@@ -36,7 +37,7 @@ def findSolution(lis, target):
             lis[nextIndex] = lis[index]
             nextIndex += 1
             count += 1
-    return str(count) + " >> " +str(lis)
+    return str(count) + " >> " + str(lis)
 
 
 if __name__ == "__main__":
