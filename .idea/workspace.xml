@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added another problem like absolute sum &quot;Three Pointers&quot;">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/container-with-most-water.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/remove-duplicates-from-sorted-array.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added a new problem">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/instellysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/emove-duplicates-from-sorted-array-ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/array-3-pointers.pyi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/remove-duplicates-from-sorted-array.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/remove-duplicates-from-sorted-array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +36,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aggar\Desktop" />
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.container-with-most-water">
+  <component name="RunManager" selected="Python.emove-duplicates-from-sorted-array-ii">
     <configuration name="array-3-pointers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="counting-triangles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="emove-duplicates-from-sorted-array-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/counting-triangles.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/emove-duplicates-from-sorted-array-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,28 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max-continuous-series-of-1s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/max-continuous-series-of-1s.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="instellysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +122,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/instellysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,19 +153,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.counting-triangles" />
-      <item itemvalue="Python.max-continuous-series-of-1s" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.array-3-pointers" />
       <item itemvalue="Python.container-with-most-water" />
+      <item itemvalue="Python.emove-duplicates-from-sorted-array-ii" />
+      <item itemvalue="Python.instellysis" />
+      <item itemvalue="Python.solution" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.emove-duplicates-from-sorted-array-ii" />
+        <item itemvalue="Python.solution" />
+        <item itemvalue="Python.instellysis" />
         <item itemvalue="Python.container-with-most-water" />
         <item itemvalue="Python.array-3-pointers" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.max-continuous-series-of-1s" />
-        <item itemvalue="Python.counting-triangles" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00009" summary="&#10;Added a new problem">
-      <created>1569339149518</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1569339149518</updated>
     </task>
     <task id="LOCAL-00010" summary="Added a new modified LIS paradigm problem">
       <created>1569339197038</created>
@@ -523,11 +516,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582779735178</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Added a new problem">
+      <created>1582824729376</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1582824729376</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a new problem on LongestPalindromicSubstring Paradigm" />
     <MESSAGE value="Added a new problem | find first occurence of substring in string" />
     <MESSAGE value="string validation paradigm" />
     <MESSAGE value="Added another string validation paradigm" />
@@ -552,7 +551,8 @@
     <MESSAGE value="Added some fresh problems on Two pointers!" />
     <MESSAGE value="Added another problem" />
     <MESSAGE value="Added another problem like absolute sum &quot;Three Pointers&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added another problem like absolute sum &quot;Three Pointers&quot;" />
+    <MESSAGE value="Added a new problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new problem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
@@ -567,62 +567,66 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582779733595">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1582824728092">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582779733595" />
-    <state width="1345" height="458" key="GridCell.Tab.0.bottom" timestamp="1582824666628">
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1582824728092" />
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
-    <state width="1345" height="458" key="GridCell.Tab.0.center" timestamp="1582824666628">
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
+    <state width="1345" height="342" key="GridCell.Tab.0.bottom" timestamp="1582889002077">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
-    <state width="1345" height="458" key="GridCell.Tab.0.left" timestamp="1582824666628">
+    <state width="1345" height="342" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582889002077" />
+    <state width="1345" height="342" key="GridCell.Tab.0.center" timestamp="1582889002077">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
-    <state width="1345" height="458" key="GridCell.Tab.0.right" timestamp="1582824666628">
+    <state width="1345" height="342" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582889002077" />
+    <state width="1345" height="342" key="GridCell.Tab.0.left" timestamp="1582889002077">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="458" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582824666628" />
-    <state width="1345" height="330" key="GridCell.Tab.1.bottom" timestamp="1582659216022">
+    <state width="1345" height="342" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582889002077" />
+    <state width="1345" height="342" key="GridCell.Tab.0.right" timestamp="1582889002077">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
-    <state width="1345" height="330" key="GridCell.Tab.1.center" timestamp="1582659216022">
+    <state width="1345" height="342" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582889002077" />
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1582879601738">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
-    <state width="1345" height="330" key="GridCell.Tab.1.left" timestamp="1582659216022">
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582879601738" />
+    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1582879601738">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
-    <state width="1345" height="330" key="GridCell.Tab.1.right" timestamp="1582659216022">
+    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582879601738" />
+    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1582879601738">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="330" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582659216022" />
+    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582879601738" />
+    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1582879601738">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582879601738" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582779736472">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582824731239">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582779736472" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582637516970">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582824731239" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582871391302">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582637516970" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1582871391302" />
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581327518702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1581327518702" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582540695801">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582875352306">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582540695801" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1582875352306" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
