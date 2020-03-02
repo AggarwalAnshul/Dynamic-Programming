@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added max water in container problem">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Bit Manipulation/kth-smallest-element-in-the-array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/numrange.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/AnshulAggarwal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/AnshulAggarwal.xml" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added another problem on Two Pointers, a good one">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/palindrome-list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-duplicates-from-sorted-list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/container-with-most-water.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/container-with-most-water.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum-zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/Two Pointers/3-sum-zero.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,28 +48,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.numrange">
-    <configuration name="container-with-most-water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/container-with-most-water.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.remove-duplicates-from-sorted-list">
     <configuration name="kth-smallest-element-in-the-array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sort-by-color" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="palindrome-list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Two Pointers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Two Pointers/sort-by-color.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/palindrome-list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="temporary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="remove-duplicates-from-sorted-list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +120,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Bit Manipulation/temporary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-duplicates-from-sorted-list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,19 +155,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.sort-by-color" />
-      <item itemvalue="Python.temporary" />
-      <item itemvalue="Python.container-with-most-water" />
       <item itemvalue="Python.numrange" />
       <item itemvalue="Python.kth-smallest-element-in-the-array" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.palindrome-list" />
+      <item itemvalue="Python.remove-duplicates-from-sorted-list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.remove-duplicates-from-sorted-list" />
+        <item itemvalue="Python.palindrome-list" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.numrange" />
         <item itemvalue="Python.kth-smallest-element-in-the-array" />
-        <item itemvalue="Python.container-with-most-water" />
-        <item itemvalue="Python.temporary" />
-        <item itemvalue="Python.sort-by-color" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added Painters Partition Problem">
-      <created>1580790312850</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1580790312851</updated>
     </task>
     <task id="LOCAL-00015" summary="Added a optimal solution for painters partition problem">
       <created>1580835785051</created>
@@ -524,11 +518,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582905975297</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Added another problem on Two Pointers, a good one">
+      <created>1583044457924</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1583044457953</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added another problem on string traversal &amp; manipulation" />
     <MESSAGE value="&quot;Convert Roman numbers to Numeral&quot; problem added" />
     <MESSAGE value="Added &quot;Number to Roman&quot; Problem" />
     <MESSAGE value="Ignore this commit, updated certain descriptive parameters" />
@@ -553,69 +553,70 @@
     <MESSAGE value="Added a new problem on removing an element from the array" />
     <MESSAGE value="Added another easy problem on three pointers" />
     <MESSAGE value="Added max water in container problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added max water in container problem" />
+    <MESSAGE value="Added another problem on Two Pointers, a good one" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added another problem on Two Pointers, a good one" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1580789805669">
+    <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1580789805669" />
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582637757569">
+    <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1583126047204" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583055293390">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1582637757569" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583055293390" />
     <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1582451328549">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583044437795">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583044454643">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583044437795" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583044454643" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1582977125108">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1583144972608">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582977125108" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1582977125108">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583144972608" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1583144972607">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1582977125108" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1582977125108">
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583144972607" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1583144972607">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1582977125108" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1582977125108">
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583144972607" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1583144972608">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1582977125108" />
-    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1582893688908">
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583144972608" />
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1583117889252">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1582893688908" />
-    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1582893688908">
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583117889252" />
+    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1583117889252">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1582893688908" />
-    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1582893688908">
+    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583117889252" />
+    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1583117889252">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1582893688908" />
-    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1582893688908">
+    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583117889252" />
+    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1583117889252">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1582893688908" />
-    <state x="2" y="0" key="SettingsEditor" timestamp="1581926603957">
+    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583117889252" />
+    <state x="2" y="0" key="SettingsEditor" timestamp="1583126048383">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581926603957" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1582905977076">
+    <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583126048383" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583044460525">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1582905977076" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583044460525" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1582871391302">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
