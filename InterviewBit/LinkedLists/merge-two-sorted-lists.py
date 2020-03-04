@@ -48,79 +48,29 @@ class LinkedList:
             print(str(current.val), end=" -> ")
             current = current.next
         print("total elements: "+str(count))
-    def merges(self, one, two):
-        one_head = one.head
-        two_head = two.head
-        merged_head = self.head
-        merged_current = self.head
-        while one.head or two.head:
-            if one.head and two.head:
-                #print("both one & two | one: "+str(one.head.value)+" two: >> "+str(two.head.value))
-                if one.head.value < two.head.value:
-                    #print("\tchoosing one form both...")
-                    temp = one.head.next
-                    if merged.head is None:
-                        self.head = one.head
-                        merged_current = self.head
-                    else:
-                        merged_current.next = one.head
-                        merged_current = merged_current.next
-                    one.head.next = None
-                    one.head = temp
-                    #print("oneHead is now: "+str(one.head.value))
-                else:
-                    #print("\tchoosing two from both...")
-                    temp = two.head.next
-                    if merged.head is None:
-                        self.head = two.head
-                        merged_current = self.head
-                    else:
-                        merged_current.next = two.head
-                        merged_current = merged_current.next
-                    two.head.next = None
-                    two.head = temp
-                    #print("twohead is now: "+str(two.head.value))
-            elif two.head:
-                #print("only two...")
-                merged_current.next = two.head
-                two.head = None
-            else:
-                #print("only one...")
-                merged_current.next = one.head
-                one.head = None
-            #print("merged: >> "+str(self.print()))
-        print("merging is complete...")
-        self.print()
+
+    # @param one_head : head of first sorted linked List
+    # @param two_head: head of second sorted linked list
+    # @return the head of the merged sorted list
+    # This iteration is much more optimized & efficient
     def merge(self, one_head, two_head):
-        current = None
-        while one_head or two_head:
-            if one_head and two_head:
-                if one_head.val < two_head.val:
-                    temp = one_head.next
-                    if current is None:
-                        self.head = one_head
-                        current = self.head
-                    else:
-                        current.next = one_head
-                        current = current.next
-                    one_head.next = None
-                    one_head = temp
-                else:
-                    temp = two_head.next
-                    if current is None:
-                        self.head = two_head
-                        current = self.head
-                    else:
-                        current.next = two_head
-                        current = current.next
-                    two_head.next = None
-                    two_head = temp
-            elif two_head:
-                current.next = two_head
-                two_head = None
-            else:
+        current = Node(0)
+        save = current
+        while one_head and two_head:
+            if one_head.val < two_head.val:
                 current.next = one_head
-                one_head = None
+                one_head = one_head.next
+            else:
+                current.next = two_head
+                two_head = two_head.next
+            current = current.next
+        if two_head:
+            current.next = two_head
+            two_head = None
+        if one_head:
+            current.next = one_head
+            one_head = None
+        self.head = save.next
         self.print()
 
 
