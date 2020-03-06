@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; Merged two sorted linked lists to create third sorted list">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/problems/rotate-list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-nth-node-from-list-end.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; rotated right part of linked list by k spaces">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/reverse-link-list-ii.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/LinkedLists/merge-two-sorted-lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/merge-two-sorted-lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-duplicates-from-sorted-list-ii.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-duplicates-from-sorted-list-ii.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rotate-list">
+  <component name="RunManager" selected="Python.reverse-link-list-ii">
     <configuration name="merge-two-sorted-lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,27 +87,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove-duplicates-from-sorted-list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-duplicates-from-sorted-list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="remove-nth-node-from-list-end" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +100,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-nth-node-from-list-end.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse-link-list-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/reverse-link-list-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,17 +153,17 @@
     <list>
       <item itemvalue="Python.merge-two-sorted-lists" />
       <item itemvalue="Python.remove-duplicates-from-sorted-list-ii" />
-      <item itemvalue="Python.remove-duplicates-from-sorted-list" />
       <item itemvalue="Python.remove-nth-node-from-list-end" />
       <item itemvalue="Python.rotate-list" />
+      <item itemvalue="Python.reverse-link-list-ii" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverse-link-list-ii" />
         <item itemvalue="Python.rotate-list" />
         <item itemvalue="Python.remove-nth-node-from-list-end" />
         <item itemvalue="Python.remove-duplicates-from-sorted-list-ii" />
         <item itemvalue="Python.merge-two-sorted-lists" />
-        <item itemvalue="Python.remove-duplicates-from-sorted-list" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Added a new problem on binary search">
-      <created>1580920837872</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1580920837872</updated>
     </task>
     <task id="LOCAL-00018" summary="Added a simple binary search expected index problem">
       <created>1580965951390</created>
@@ -524,11 +514,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583301534342</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Added &gt;&gt; rotated right part of linked list by k spaces">
+      <created>1583329528405</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1583329528406</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ignore this commit, updated certain descriptive parameters" />
     <MESSAGE value="Added &quot;Add binary strings&quot;" />
     <MESSAGE value="&quot;Added multiply strings&quot;" />
     <MESSAGE value="Added Multiple Problem. strings chapter almost finished now." />
@@ -553,45 +549,46 @@
     <MESSAGE value="Added another problem on Two Pointers, a good one" />
     <MESSAGE value="Incepted Linked Lists | Solved two new problem on LL" />
     <MESSAGE value="Added &gt;&gt; Merged two sorted linked lists to create third sorted list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; Merged two sorted linked lists to create third sorted list" />
+    <MESSAGE value="Added &gt;&gt; rotated right part of linked list by k spaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; rotated right part of linked list by k spaces" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.768@0.0.1366.768" timestamp="1583126047204" />
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583055293390">
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583465420032">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583055293390" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583465420032" />
     <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1582451328549">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583301532941">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583329526918">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583301532941" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583329526918" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
-    <state width="1345" height="291" key="GridCell.Tab.0.bottom" timestamp="1583329469101">
+    <state width="1345" height="152" key="GridCell.Tab.0.bottom" timestamp="1583467090300">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="291" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583329469101" />
-    <state width="1345" height="291" key="GridCell.Tab.0.center" timestamp="1583329469101">
+    <state width="1345" height="152" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
+    <state width="1345" height="152" key="GridCell.Tab.0.center" timestamp="1583467090300">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="291" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583329469101" />
-    <state width="1345" height="291" key="GridCell.Tab.0.left" timestamp="1583329469101">
+    <state width="1345" height="152" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
+    <state width="1345" height="152" key="GridCell.Tab.0.left" timestamp="1583467090300">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="291" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583329469101" />
-    <state width="1345" height="291" key="GridCell.Tab.0.right" timestamp="1583329469101">
+    <state width="1345" height="152" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
+    <state width="1345" height="152" key="GridCell.Tab.0.right" timestamp="1583467090300">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="291" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583329469101" />
+    <state width="1345" height="152" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
     <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1583314657381">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -612,14 +609,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583126048383" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583301535983">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583329530941">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583301535983" />
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583323394486">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583329530941" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583462908159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583323394486" />
+    <state x="384" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583462908159" />
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581327518702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
