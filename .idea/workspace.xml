@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; rotated right part of linked list by k spaces">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/reverse-link-list-ii.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; Reverse the linked list II">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/reorder-list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,28 +44,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reverse-link-list-ii">
-    <configuration name="merge-two-sorted-lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists\merge-two-sorted-lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.reorder-list">
     <configuration name="remove-duplicates-from-sorted-list-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +79,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/remove-nth-node-from-list-end.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reorder-list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/reorder-list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,19 +151,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.merge-two-sorted-lists" />
       <item itemvalue="Python.remove-duplicates-from-sorted-list-ii" />
       <item itemvalue="Python.remove-nth-node-from-list-end" />
       <item itemvalue="Python.rotate-list" />
       <item itemvalue="Python.reverse-link-list-ii" />
+      <item itemvalue="Python.reorder-list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reorder-list" />
         <item itemvalue="Python.reverse-link-list-ii" />
         <item itemvalue="Python.rotate-list" />
         <item itemvalue="Python.remove-nth-node-from-list-end" />
         <item itemvalue="Python.remove-duplicates-from-sorted-list-ii" />
-        <item itemvalue="Python.merge-two-sorted-lists" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Added a simple binary search expected index problem">
-      <created>1580965951390</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1580965951390</updated>
     </task>
     <task id="LOCAL-00019" summary="Adding a new problem | Implement power function">
       <created>1581050532900</created>
@@ -521,11 +514,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583329528406</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Added &gt;&gt; Reverse the linked list II">
+      <created>1583467225175</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1583467225176</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Add binary strings&quot;" />
     <MESSAGE value="&quot;Added multiply strings&quot;" />
     <MESSAGE value="Added Multiple Problem. strings chapter almost finished now." />
     <MESSAGE value="Added Multiple String problem | Incepted Bit manipulations" />
@@ -550,7 +549,8 @@
     <MESSAGE value="Incepted Linked Lists | Solved two new problem on LL" />
     <MESSAGE value="Added &gt;&gt; Merged two sorted linked lists to create third sorted list" />
     <MESSAGE value="Added &gt;&gt; rotated right part of linked list by k spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; rotated right part of linked list by k spaces" />
+    <MESSAGE value="Added &gt;&gt; Reverse the linked list II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; Reverse the linked list II" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -565,54 +565,54 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583329526918">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583467223976">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583329526918" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583467223976" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
-    <state width="1345" height="152" key="GridCell.Tab.0.bottom" timestamp="1583467090300">
+    <state width="1345" height="458" key="GridCell.Tab.0.bottom" timestamp="1583475809834">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
-    <state width="1345" height="152" key="GridCell.Tab.0.center" timestamp="1583467090300">
+    <state width="1345" height="458" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583475809834" />
+    <state width="1345" height="458" key="GridCell.Tab.0.center" timestamp="1583475809834">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
-    <state width="1345" height="152" key="GridCell.Tab.0.left" timestamp="1583467090300">
+    <state width="1345" height="458" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583475809834" />
+    <state width="1345" height="458" key="GridCell.Tab.0.left" timestamp="1583475809834">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
-    <state width="1345" height="152" key="GridCell.Tab.0.right" timestamp="1583467090300">
+    <state width="1345" height="458" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583475809834" />
+    <state width="1345" height="458" key="GridCell.Tab.0.right" timestamp="1583475809834">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="152" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583467090300" />
-    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1583314657381">
+    <state width="1345" height="458" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583475809834" />
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1583469857148">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583314657381" />
-    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1583314657381">
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583469857148" />
+    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1583469857148">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583314657381" />
-    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1583314657381">
+    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583469857148" />
+    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1583469857148">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583314657381" />
-    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1583314657381">
+    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583469857148" />
+    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1583469857148">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583314657381" />
+    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583469857148" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1583126048383">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583126048383" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583329530941">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583467227136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583329530941" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583467227136" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583462908159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
