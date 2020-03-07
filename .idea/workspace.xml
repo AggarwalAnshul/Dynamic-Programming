@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; swap nodes in pairs of 2">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/add-two-numbers-as-lists.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; add-two-numbers-as-lists.py">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/LinkedLists/problems/list-cycle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\Two Pointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.add-two-numbers-as-lists">
+  <component name="RunManager" selected="Python.list-cycle">
     <configuration name="add-two-numbers-as-lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +90,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="list-cycle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/problems/list-cycle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="reorder-list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +124,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/reorder-list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="reverse-link-list-ii" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/reverse-link-list-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,19 +154,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.reverse-link-list-ii" />
       <item itemvalue="Python.reorder-list" />
       <item itemvalue="Python.k-reverse-linked-list" />
       <item itemvalue="Python.swap-list-nodes-in-pairs" />
       <item itemvalue="Python.add-two-numbers-as-lists" />
+      <item itemvalue="Python.list-cycle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.list-cycle" />
         <item itemvalue="Python.add-two-numbers-as-lists" />
         <item itemvalue="Python.swap-list-nodes-in-pairs" />
         <item itemvalue="Python.k-reverse-linked-list" />
         <item itemvalue="Python.reorder-list" />
-        <item itemvalue="Python.reverse-link-list-ii" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00022" summary="this commit can be ignored | Did beautification">
-      <created>1581153937116</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1581153937116</updated>
     </task>
     <task id="LOCAL-00023" summary="this commit can be ignored | Did beautification">
       <created>1581155128095</created>
@@ -524,11 +517,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583546793455</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Added &gt;&gt; add-two-numbers-as-lists.py">
+      <created>1583551485092</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1583551485092</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Multiple String problem | Incepted Bit manipulations" />
     <MESSAGE value="Added &quot;Count number of set bits in unsigned integer&quot;" />
     <MESSAGE value="Added &quot;Reverse the unsigned number&quot;" />
     <MESSAGE value="Added &quot;Count different-bits-sum-pairwise.py&quot;" />
@@ -553,7 +552,8 @@
     <MESSAGE value="Added &gt;&gt; Reverse the linked list II" />
     <MESSAGE value="Added &gt;&gt; Reorder the linked list" />
     <MESSAGE value="Added &gt;&gt; swap nodes in pairs of 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; swap nodes in pairs of 2" />
+    <MESSAGE value="Added &gt;&gt; add-two-numbers-as-lists.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; add-two-numbers-as-lists.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -568,30 +568,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583546792280">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1583551484197">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583546792280" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583551484197" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
-    <state width="1345" height="242" key="GridCell.Tab.0.bottom" timestamp="1583551035764">
+    <state width="1345" height="242" key="GridCell.Tab.0.bottom" timestamp="1583561258747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="242" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583551035764" />
-    <state width="1345" height="242" key="GridCell.Tab.0.center" timestamp="1583551035763">
+    <state width="1345" height="242" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583561258747" />
+    <state width="1345" height="242" key="GridCell.Tab.0.center" timestamp="1583561258747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="242" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583551035763" />
-    <state width="1345" height="242" key="GridCell.Tab.0.left" timestamp="1583551035763">
+    <state width="1345" height="242" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583561258747" />
+    <state width="1345" height="242" key="GridCell.Tab.0.left" timestamp="1583561258747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="242" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583551035763" />
-    <state width="1345" height="242" key="GridCell.Tab.0.right" timestamp="1583551035763">
+    <state width="1345" height="242" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583561258747" />
+    <state width="1345" height="242" key="GridCell.Tab.0.right" timestamp="1583561258747">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="242" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583551035763" />
+    <state width="1345" height="242" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583561258747" />
     <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1583548644845">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -612,10 +612,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583551228456" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583546795380">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1583551486667">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583546795380" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583551486667" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1583462908159">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
