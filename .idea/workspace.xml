@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Incepted | Stacks &amp; Queues">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go.iml" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt; redundant-braces.py">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/nearest-smaller-element.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.redundant-braces">
+  <component name="RunManager" selected="Python.nearest-smaller-element">
     <configuration name="Simplify Directory Path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nearest-smaller-element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/LinkedLists/mergeSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/nearest-smaller-element.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,19 +154,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.mergeSort" />
       <item itemvalue="Python.median-of-array" />
       <item itemvalue="Python.sort-list" />
       <item itemvalue="Python.Simplify Directory Path" />
       <item itemvalue="Python.redundant-braces" />
+      <item itemvalue="Python.nearest-smaller-element" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nearest-smaller-element" />
         <item itemvalue="Python.redundant-braces" />
         <item itemvalue="Python.Simplify Directory Path" />
         <item itemvalue="Python.sort-list" />
         <item itemvalue="Python.median-of-array" />
-        <item itemvalue="Python.mergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -181,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Added a simple String problem from House-G">
-      <created>1581326375259</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1581326375259</updated>
     </task>
     <task id="LOCAL-00028" summary="Added a simple String problem from House-G">
       <created>1581329669979</created>
@@ -525,11 +517,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584456372426</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Added &gt; redundant-braces.py">
+      <created>1584460552383</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1584460552383</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;Find the number appearing once in lis when all occurs thrice&quot;" />
     <MESSAGE value="Added &quot;divide w/o standard operators&quot;" />
     <MESSAGE value="Initialized Two Pointers" />
     <MESSAGE value="Added program to find intersection of two sorted arrays" />
@@ -554,7 +552,8 @@
     <MESSAGE value="Added &gt;&gt; partition-list.py (Simple manipulation of nodes)" />
     <MESSAGE value="Added &gt;&gt; sort-list (merge sort implementation using linked lists)" />
     <MESSAGE value="Incepted | Stacks &amp; Queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Incepted | Stacks &amp; Queues" />
+    <MESSAGE value="Added &gt; redundant-braces.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &gt; redundant-braces.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -573,30 +572,30 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1584460456717">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1584460551440">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584460456717" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584460551440" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
-    <state width="1345" height="280" key="GridCell.Tab.0.bottom" timestamp="1584460523439">
+    <state width="1345" height="221" key="GridCell.Tab.0.bottom" timestamp="1584511437374">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="280" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584460523439" />
-    <state width="1345" height="280" key="GridCell.Tab.0.center" timestamp="1584460523439">
+    <state width="1345" height="221" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584511437374" />
+    <state width="1345" height="221" key="GridCell.Tab.0.center" timestamp="1584511437373">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="280" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584460523439" />
-    <state width="1345" height="280" key="GridCell.Tab.0.left" timestamp="1584460523439">
+    <state width="1345" height="221" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584511437373" />
+    <state width="1345" height="221" key="GridCell.Tab.0.left" timestamp="1584511437373">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="280" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584460523439" />
-    <state width="1345" height="280" key="GridCell.Tab.0.right" timestamp="1584460523439">
+    <state width="1345" height="221" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584511437373" />
+    <state width="1345" height="221" key="GridCell.Tab.0.right" timestamp="1584511437374">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="280" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584460523439" />
+    <state width="1345" height="221" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584511437374" />
     <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1584459572798">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -617,10 +616,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583562230056" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584456374076">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584460554352">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584456374076" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584460554352" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584430406560">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -708,52 +707,52 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>66</line>
+          <line>69</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>67</line>
+          <line>70</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>69</line>
+          <line>72</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>70</line>
+          <line>73</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>71</line>
+          <line>74</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>73</line>
+          <line>76</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>72</line>
+          <line>75</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>74</line>
+          <line>77</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>75</line>
+          <line>78</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
-          <line>68</line>
+          <line>71</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
