@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt; redundant-braces.py">
-      <change afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/nearest-smaller-element.py" afterDir="false" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt; nearest-smaller-element.py | Good questions">
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/largest-rectangle-in-histogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nearest-smaller-element">
+  <component name="RunManager" selected="Python.largest-rectangle-in-histogram">
     <configuration name="Simplify Directory Path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +70,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="median-of-array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="largest-rectangle-in-histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/median-of-array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/largest-rectangle-in-histogram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sort-list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sliding-window-maximum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/LinkedLists/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists\sort-list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,19 +155,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.median-of-array" />
-      <item itemvalue="Python.sort-list" />
       <item itemvalue="Python.Simplify Directory Path" />
       <item itemvalue="Python.redundant-braces" />
       <item itemvalue="Python.nearest-smaller-element" />
+      <item itemvalue="Python.largest-rectangle-in-histogram" />
+      <item itemvalue="Python.sliding-window-maximum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.largest-rectangle-in-histogram" />
+        <item itemvalue="Python.sliding-window-maximum" />
         <item itemvalue="Python.nearest-smaller-element" />
         <item itemvalue="Python.redundant-braces" />
         <item itemvalue="Python.Simplify Directory Path" />
-        <item itemvalue="Python.sort-list" />
-        <item itemvalue="Python.median-of-array" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added a simple String problem from House-G">
-      <created>1581329669979</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1581329669979</updated>
     </task>
     <task id="LOCAL-00029" summary="Added a simple String problem from House-G">
       <created>1581394899932</created>
@@ -524,11 +518,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584460552383</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Added &gt; nearest-smaller-element.py | Good questions">
+      <created>1584511580051</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1584511580051</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added &quot;divide w/o standard operators&quot;" />
     <MESSAGE value="Initialized Two Pointers" />
     <MESSAGE value="Added program to find intersection of two sorted arrays" />
     <MESSAGE value="solved one more problem" />
@@ -553,7 +553,8 @@
     <MESSAGE value="Added &gt;&gt; sort-list (merge sort implementation using linked lists)" />
     <MESSAGE value="Incepted | Stacks &amp; Queues" />
     <MESSAGE value="Added &gt; redundant-braces.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt; redundant-braces.py" />
+    <MESSAGE value="Added &gt; nearest-smaller-element.py | Good questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &gt; nearest-smaller-element.py | Good questions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -564,62 +565,62 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583546372407" />
-    <state x="526" y="275" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1583571759208">
+    <state x="526" y="275" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1584547491176">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="526" y="275" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.768@0.0.1366.768" timestamp="1583571759208" />
+    <state x="526" y="275" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1366.768@0.0.1366.768" timestamp="1584547491176" />
     <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1582451328549">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1582451328549" />
-    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1584460551440">
+    <state x="345" y="0" key="CommitChangelistDialog2" timestamp="1584511578969">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584460551440" />
+    <state x="345" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584511578969" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1582876383492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582876383492" />
-    <state width="1345" height="221" key="GridCell.Tab.0.bottom" timestamp="1584511437374">
+    <state width="1345" height="251" key="GridCell.Tab.0.bottom" timestamp="1584596392572">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="221" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584511437374" />
-    <state width="1345" height="221" key="GridCell.Tab.0.center" timestamp="1584511437373">
+    <state width="1345" height="251" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584596392572" />
+    <state width="1345" height="251" key="GridCell.Tab.0.center" timestamp="1584596392572">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="221" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584511437373" />
-    <state width="1345" height="221" key="GridCell.Tab.0.left" timestamp="1584511437373">
+    <state width="1345" height="251" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584596392572" />
+    <state width="1345" height="251" key="GridCell.Tab.0.left" timestamp="1584596392572">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="221" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584511437373" />
-    <state width="1345" height="221" key="GridCell.Tab.0.right" timestamp="1584511437374">
+    <state width="1345" height="251" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584596392572" />
+    <state width="1345" height="251" key="GridCell.Tab.0.right" timestamp="1584596392572">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="221" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584511437374" />
-    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1584459572798">
+    <state width="1345" height="251" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584596392572" />
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom" timestamp="1584522288428">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584459572798" />
-    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1584459572798">
+    <state width="1345" height="237" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584522288428" />
+    <state width="1345" height="237" key="GridCell.Tab.1.center" timestamp="1584522288428">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584459572798" />
-    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1584459572798">
+    <state width="1345" height="237" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584522288428" />
+    <state width="1345" height="237" key="GridCell.Tab.1.left" timestamp="1584522288428">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584459572798" />
-    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1584459572798">
+    <state width="1345" height="237" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584522288428" />
+    <state width="1345" height="237" key="GridCell.Tab.1.right" timestamp="1584522288428">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584459572798" />
+    <state width="1345" height="237" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584522288428" />
     <state x="2" y="0" key="SettingsEditor" timestamp="1583562230056">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="2" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583562230056" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584460554352">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1584511586638">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584460554352" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584511586638" />
     <state x="384" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1584430406560">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -628,6 +629,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="324" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1581327518702" />
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584537856976">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1584537856976" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582875352306">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -754,6 +759,141 @@
           <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/redundant-braces.py</url>
           <line>71</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/sliding-window-maximum.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="156" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
