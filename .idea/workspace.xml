@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt; min-stack.py">
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Optimized &gt; min-stack.py">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py" afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py" />
     </list>
@@ -45,9 +45,12 @@
       <file leaf-file-name="min-stack.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="-175">
+              <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+              <folding>
+                <element signature="e#1911#2428#0" expanded="false" />
+                <element signature="e#2881#3447#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +69,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -417,13 +423,6 @@
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
     </task>
-    <task id="LOCAL-00030" summary="Added new Solution | Longest Substring Palindrome">
-      <created>1581744059258</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1581744059259</updated>
-    </task>
     <task id="LOCAL-00031" summary="Optimized the solution | longest palindromic substring">
       <created>1581746327117</created>
       <option name="number" value="00031" />
@@ -760,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584854758075</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Added &gt; min-stack.py">
+      <created>1584860127213</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1584860127213</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -782,7 +788,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1202,9 +1208,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="27" column="58" lean-forward="false" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding />
+        <state relative-caret-position="-175">
+          <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <element signature="e#1911#2428#0" expanded="false" />
+            <element signature="e#2881#3447#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
