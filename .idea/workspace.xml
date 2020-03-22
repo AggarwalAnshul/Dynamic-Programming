@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Optimized &gt; min-stack.py">
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint/subtract.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py" afterPath="$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="min-stack.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subtract.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint/subtract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+              <folding>
+                <element signature="e#1241#1315#0" expanded="false" />
+                <element signature="e#1350#1473#0" expanded="false" />
+                <element signature="e#2052#2255#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="min-stack.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-175">
@@ -67,6 +81,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-&gt;</find>
+      <find>-71 -&gt; 40 -&gt; 66 -&gt; 77 -&gt; 14 -&gt; -35 -&gt; 9 -&gt; -5 -&gt; -33 -&gt; 3 -&gt; -18 -&gt; 26 -&gt; -43 -&gt; -54 -&gt; 34 -&gt; 21 -&gt; 67 -&gt; 23 -&gt; 17 -&gt; 41 -&gt; 3 -&gt; 38 -&gt; 4 -&gt; 45 -&gt; 93 -&gt; 92 -&gt; 99 -&gt; 24</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>,</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -77,6 +100,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py" />
+        <option value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint/subtract.py" />
       </list>
     </option>
   </component>
@@ -146,6 +170,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dynamic-Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dynamic-Programming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewBit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stacks And Queues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckPoint" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -172,24 +218,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.min-stack">
-    <configuration default="false" name="largest-rectangle-in-histogram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="go" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/largest-rectangle-in-histogram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.subtract">
     <configuration default="false" name="nearest-smaller-element" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,6 +283,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="go" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="subtract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="go" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint/subtract.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -393,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.largest-rectangle-in-histogram" />
-      <item index="1" class="java.lang.String" itemvalue="Python.nearest-smaller-element" />
-      <item index="2" class="java.lang.String" itemvalue="Python.redundant-braces" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sliding-window-maximum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.min-stack" />
+      <item index="0" class="java.lang.String" itemvalue="Python.nearest-smaller-element" />
+      <item index="1" class="java.lang.String" itemvalue="Python.redundant-braces" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sliding-window-maximum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.min-stack" />
+      <item index="4" class="java.lang.String" itemvalue="Python.subtract" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.min-stack" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nearest-smaller-element" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sliding-window-maximum" />
-        <item index="3" class="java.lang.String" itemvalue="Python.redundant-braces" />
-        <item index="4" class="java.lang.String" itemvalue="Python.largest-rectangle-in-histogram" />
+        <item index="0" class="java.lang.String" itemvalue="Python.subtract" />
+        <item index="1" class="java.lang.String" itemvalue="Python.min-stack" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nearest-smaller-element" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sliding-window-maximum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.redundant-braces" />
       </list>
     </recent_temporary>
   </component>
@@ -422,13 +468,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Optimized the solution | longest palindromic substring">
-      <created>1581746327117</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1581746327117</updated>
     </task>
     <task id="LOCAL-00032" summary="Added a new problem on LongestPalindromicSubstring Paradigm">
       <created>1581747740791</created>
@@ -766,7 +805,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584860127213</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Optimized &gt; min-stack.py">
+      <created>1584861615748</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1584861615748</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TodoView">
@@ -805,7 +851,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added program to find intersection of two sorted arrays" />
     <MESSAGE value="solved one more problem" />
     <MESSAGE value="Added some fresh problems on Two pointers!" />
     <MESSAGE value="Added another problem" />
@@ -830,7 +875,8 @@
     <MESSAGE value="Added &gt; redundant-braces.py" />
     <MESSAGE value="Added &gt; nearest-smaller-element.py | Good questions" />
     <MESSAGE value="Added &gt; min-stack.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt; min-stack.py" />
+    <MESSAGE value="Optimized &gt; min-stack.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized &gt; min-stack.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -1186,6 +1232,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
+      <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1198,6 +1245,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <element signature="e#1911#2428#0" expanded="false" />
+            <element signature="e#2881#3447#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/nearest-smaller-element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1206,13 +1264,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/min-stack.py">
+    <entry file="file://$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint/subtract.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="34" column="71" lean-forward="false" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="372">
+          <caret line="61" column="39" lean-forward="false" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
           <folding>
-            <element signature="e#1911#2428#0" expanded="false" />
-            <element signature="e#2881#3447#0" expanded="false" />
+            <element signature="e#1241#1315#0" expanded="false" />
+            <element signature="e#1350#1473#0" expanded="false" />
+            <element signature="e#2052#2255#0" expanded="false" />
           </folding>
         </state>
       </provider>
