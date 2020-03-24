@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Closed &gt;&gt; Combination-sum.py">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/subsets-ii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\Anshul\Documents\Dynamic-Programming" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -37,11 +37,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mbination-sum-ii.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mbination-sum-ii.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subsets-ii.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/subsets-ii.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/subset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-775">
+              <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -108,6 +128,7 @@
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/experimental.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
+        <option value="$PROJECT_DIR$/InterviewBit/BackTracking/subsets-ii.py" />
       </list>
     </option>
   </component>
@@ -243,24 +264,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mbination-sum-ii">
-    <configuration default="false" name="subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/BackTracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="go" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/BackTracking/subset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.subsets-ii">
     <configuration default="false" name="combinations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,6 +329,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="go" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="subsets-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/BackTracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="go" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/BackTracking/subsets-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -464,19 +485,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.subset" />
-      <item index="1" class="java.lang.String" itemvalue="Python.combinations" />
-      <item index="2" class="java.lang.String" itemvalue="Python.experimental" />
-      <item index="3" class="java.lang.String" itemvalue="Python.combination-sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
+      <item index="0" class="java.lang.String" itemvalue="Python.combinations" />
+      <item index="1" class="java.lang.String" itemvalue="Python.experimental" />
+      <item index="2" class="java.lang.String" itemvalue="Python.combination-sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
+      <item index="4" class="java.lang.String" itemvalue="Python.subsets-ii" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
-        <item index="1" class="java.lang.String" itemvalue="Python.combination-sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.experimental" />
-        <item index="3" class="java.lang.String" itemvalue="Python.combinations" />
-        <item index="4" class="java.lang.String" itemvalue="Python.subset" />
+        <item index="0" class="java.lang.String" itemvalue="Python.subsets-ii" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
+        <item index="2" class="java.lang.String" itemvalue="Python.combination-sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.experimental" />
+        <item index="4" class="java.lang.String" itemvalue="Python.combinations" />
       </list>
     </recent_temporary>
   </component>
@@ -493,13 +514,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00038" summary="&quot;Convert Roman numbers to Numeral&quot; problem added">
-      <created>1581846171320</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1581846171320</updated>
     </task>
     <task id="LOCAL-00039" summary="Added &quot;Number to Roman&quot; Problem">
       <created>1581865076040</created>
@@ -837,7 +851,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585051425987</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Added &gt;&gt; combination-sum.py">
+      <created>1585053080266</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1585053080266</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView">
@@ -858,7 +879,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32073012" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -895,7 +916,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a bonus real life &quot;interview problem&quot; of nishant &amp; solved remove duplicates from the array" />
     <MESSAGE value="Added a new problem on removing an element from the array" />
     <MESSAGE value="Added another easy problem on three pointers" />
     <MESSAGE value="Added max water in container problem" />
@@ -920,7 +940,8 @@
     <MESSAGE value="Incepted &gt;&gt; BACKTRACKING &lt;&lt; Added : subset.py" />
     <MESSAGE value="Added &gt;&gt; Combinations.py" />
     <MESSAGE value="Closed &gt;&gt; Combination-sum.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Closed &gt;&gt; Combination-sum.py" />
+    <MESSAGE value="Added &gt;&gt; combination-sum.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; combination-sum.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -1498,13 +1519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/subset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1546,8 +1560,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/subset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/subsets-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding />
         </state>
       </provider>
