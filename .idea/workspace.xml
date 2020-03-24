@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/go.iml" afterPath="$PROJECT_DIR$/.idea/go.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Closed &gt;&gt; Combination-sum.py">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +25,7 @@
       <file leaf-file-name="combinations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combinations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
+            <state relative-caret-position="620">
               <caret line="134" column="71" lean-forward="false" selection-start-line="134" selection-start-column="71" selection-end-line="134" selection-end-column="71" />
               <folding>
                 <element signature="e#2052#3034#0" expanded="false" />
@@ -39,14 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="combination-sum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mbination-sum-ii.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combination-sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+            <state relative-caret-position="212">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="43" selection-end-column="34" />
               <folding>
-                <element signature="e#1408#2167#0" expanded="false" />
-                <element signature="e#2202#2870#0" expanded="false" />
+                <element signature="e#1983#2651#0" expanded="false" />
+                <element signature="e#2719#2973#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/combinations.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/experimental.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py" />
+        <option value="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
       </list>
     </option>
   </component>
@@ -124,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,7 +221,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -223,7 +232,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,24 +243,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.combination-sum">
-    <configuration default="false" name="nextgreater" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="go" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/Stacks And Queues/CheckPoint/nextgreater.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.mbination-sum-ii">
     <configuration default="false" name="subset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,6 +308,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="go" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mbination-sum-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterviewBit/BackTracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="go" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -455,19 +464,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.nextgreater" />
-      <item index="1" class="java.lang.String" itemvalue="Python.subset" />
-      <item index="2" class="java.lang.String" itemvalue="Python.combinations" />
-      <item index="3" class="java.lang.String" itemvalue="Python.experimental" />
-      <item index="4" class="java.lang.String" itemvalue="Python.combination-sum" />
+      <item index="0" class="java.lang.String" itemvalue="Python.subset" />
+      <item index="1" class="java.lang.String" itemvalue="Python.combinations" />
+      <item index="2" class="java.lang.String" itemvalue="Python.experimental" />
+      <item index="3" class="java.lang.String" itemvalue="Python.combination-sum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.combination-sum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.experimental" />
-        <item index="2" class="java.lang.String" itemvalue="Python.combinations" />
-        <item index="3" class="java.lang.String" itemvalue="Python.subset" />
-        <item index="4" class="java.lang.String" itemvalue="Python.nextgreater" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
+        <item index="1" class="java.lang.String" itemvalue="Python.combination-sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.experimental" />
+        <item index="3" class="java.lang.String" itemvalue="Python.combinations" />
+        <item index="4" class="java.lang.String" itemvalue="Python.subset" />
       </list>
     </recent_temporary>
   </component>
@@ -484,13 +493,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Added another problem on string traversal &amp; manipulation">
-      <created>1581841214210</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1581841214210</updated>
     </task>
     <task id="LOCAL-00038" summary="&quot;Convert Roman numbers to Numeral&quot; problem added">
       <created>1581846171320</created>
@@ -828,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584973727872</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Closed &gt;&gt; Combination-sum.py">
+      <created>1585051425987</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1585051425987</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TodoView">
@@ -846,10 +855,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32073012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -862,12 +871,30 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32073012" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39895698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added a new problem" />
     <MESSAGE value="Added a bonus real life &quot;interview problem&quot; of nishant &amp; solved remove duplicates from the array" />
     <MESSAGE value="Added a new problem on removing an element from the array" />
     <MESSAGE value="Added another easy problem on three pointers" />
@@ -892,7 +919,8 @@
     <MESSAGE value="Added &gt;&gt; nextGreater.py (CheckPoint problem)" />
     <MESSAGE value="Incepted &gt;&gt; BACKTRACKING &lt;&lt; Added : subset.py" />
     <MESSAGE value="Added &gt;&gt; Combinations.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; Combinations.py" />
+    <MESSAGE value="Closed &gt;&gt; Combination-sum.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closed &gt;&gt; Combination-sum.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -1255,6 +1283,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combinations.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="71" lean-forward="false" selection-start-line="134" selection-start-column="71" selection-end-line="134" selection-end-column="71" />
+          <folding>
+            <element signature="e#2052#3034#0" expanded="false" />
+            <element signature="e#3110#3500#0" expanded="false" />
+            <element signature="e#3556#4179#0" expanded="false" />
+            <element signature="e#4248#4651#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1983#2651#0" expanded="false" />
+            <element signature="e#2719#2973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/experimental.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combinations.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="134" column="71" lean-forward="false" selection-start-line="134" selection-start-column="71" selection-end-line="134" selection-end-column="71" />
           <folding>
@@ -1271,8 +1331,8 @@
         <state relative-caret-position="782">
           <caret line="70" column="29" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
           <folding>
-            <element signature="e#1408#2167#0" expanded="false" />
-            <element signature="e#2202#2870#0" expanded="false" />
+            <element signature="e#1983#2651#0" expanded="false" />
+            <element signature="e#2719#2973#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1454,7 +1514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combinations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
+        <state relative-caret-position="620">
           <caret line="134" column="71" lean-forward="false" selection-start-line="134" selection-start-column="71" selection-end-line="134" selection-end-column="71" />
           <folding>
             <element signature="e#2052#3034#0" expanded="false" />
@@ -1465,21 +1525,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-          <folding>
-            <element signature="e#1408#2167#0" expanded="false" />
-            <element signature="e#2202#2870#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/experimental.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/combination-sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#1983#2651#0" expanded="false" />
+            <element signature="e#2719#2973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding />
         </state>
       </provider>
