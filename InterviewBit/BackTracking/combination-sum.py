@@ -28,12 +28,18 @@ Example : itertools.combinations in python.
 
 
 [+]Temporal marker           : 22:32 Hours | Monday 23, 2020
-[+]Temporal marker untethered: 11:12 Hours | Monday 23, 2020
-[+]Comments                  :
-[+]Space Complexity          : O()
-[+]Time Complexity           : O()
-[+]Level                     :
-[+]Tread Speed               :
+[+]Temporal marker untethered: 11:12 Hours | Monday 24, 2020
+[+]Comments                  : Actually I did solve the problem yesterday night but I wasn't too happy with solution
+                                >> Today mornign the solution was an improvement
+                                >> took me about 20 mins or so
+                                >> Editorial was an eye opener
+                                >> they anyways used sort and set fucntion hence bringin my solution to same level
+                                >> Anyways, understood the editorial solution inside out.
+                                >> MAtter is closed now
+[+]Space Complexity          : O(2^n)
+[+]Time Complexity           : O(2^n)
+[+]Level                     : MEDIUM
+[+]Tread Speed               : Relaxed
 [+]LINK                      : https://www.interviewbit.com/problems/nearest-smaller-element
 [+] Supplement Sources       : N/A
 
@@ -42,31 +48,6 @@ Example : itertools.combinations in python.
 
 #Accepetd but can be optimized further
 def combinationSum(lis, target):
-    dp = [[0 for y in range(len(lis)+1)] for x in range(target+1)]
-    dp[0] = [1]*(len(lis)+1)
-    for i in range(1, target+1):
-        for j in range(1, len(lis)+1):
-            if i >= lis[j-1]:
-                dp[i][j] = dp[i][j-1] + dp[ i-lis[j-1]][j]
-            else:
-                dp[i][j] = dp[i][j-1]
-
-
-    def findset(row, col, dp):
-        if row < 0:
-            return []
-        if row == 0:
-            return [ [ ] ]
-        temp = []
-        for index in range(1, col):
-            if dp[row][index] > 0:
-                for item in findset(row-lis[index-1], col, dp):
-                    intermediate = sorted(item + [lis[index-1]])
-                    temp.append(intermediate)
-        return temp
-
-    return findset(target, len(lis)+1, dp)
-def combination(lis, target):
     def driver(index, sum, lis, target):
         if sum == target:
             return [[]]
@@ -88,6 +69,7 @@ def combination(lis, target):
             ans.append(x)
     return ans
 
+#OUT of scope, using library function
 def quick(lis, target):
     import itertools as iter
     ans = []
@@ -98,6 +80,27 @@ def quick(lis, target):
                 ans.append(item)
     return sorted(ans)
 
+def combination_experimental(lis, target):
+    lis = list(set(lis))
+    lis.sort(reverse=True)
+    frontier = [(0, [])]
+    solution = []
+    while frontier:
+        sum, subset_so_far = frontier.pop()
+        if sum == target:
+            solution.append(subset_so_far)
+            continue
+        if sum > target:
+            continue
+        for candidate in lis:
+            if not subset_so_far or candidate >= subset_so_far[-1]:
+                frontier.append( (sum + candidate,
+                                  subset_so_far + [candidate]))
+    return solution
+
+
+
+
 if __name__ == '__main__':
     test_cases = [
         [[2, 3, 6, 7],7],
@@ -105,4 +108,4 @@ if __name__ == '__main__':
     ]
     for test_case in test_cases:
         print("input: "+str(test_case)+
-              "\n\toutput: "+str(quick(test_case[0], test_case[1])))
+              "\n\toutput: "+str(combination_experimental(test_case[0], test_case[1])))
