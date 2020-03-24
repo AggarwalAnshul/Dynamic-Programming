@@ -131,3 +131,5 @@ if __name__ == '__main__':
         print("Input: "+str(test_case)
               + "\n\t Naive: " + str(driver_obsolete(test_case[0], test_case[1]))
               + "\n\t NEW  : " + str(drive(test_case[0], test_case[1])))
+
+    a = list(map(int, input("\nEnter the numbers : ").strip().split()))[:n]
