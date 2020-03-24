@@ -28,7 +28,7 @@ Example : itertools.combinations in python.
 
 
 [+]Temporal marker           : 22:32 Hours | Monday 23, 2020
-[+]Temporal marker untethered: 22:32 Hours | Monday 23, 2020
+[+]Temporal marker untethered: 11:12 Hours | Monday 23, 2020
 [+]Comments                  :
 [+]Space Complexity          : O()
 [+]Time Complexity           : O()
@@ -39,6 +39,8 @@ Example : itertools.combinations in python.
 
 
 '''
+
+#Accepetd but can be optimized further
 def combinationSum(lis, target):
     dp = [[0 for y in range(len(lis)+1)] for x in range(target+1)]
     dp[0] = [1]*(len(lis)+1)
@@ -64,29 +66,38 @@ def combinationSum(lis, target):
         return temp
 
     return findset(target, len(lis)+1, dp)
-
-
 def combination(lis, target):
     def driver(index, sum, lis, target):
-        if index == len(lis):
-            return []
-        sum += lis[index]
         if sum == target:
-            return [ [] ]
-        if index == len(lis):
-            return []
+            return [[]]
         if sum > target:
             return []
-
+        if index == len(lis):
+            return []
         temp = []
         for item in driver(index, sum+lis[index], lis, target):
             temp.append([lis[index]]+item)
-        for item in driver(index+1, sum + lis[index], lis, target):
-            temp.append([lis[index]]+item)
+        for item in driver(index+1, sum+lis[index], lis, target):
+            temp.append([lis[index]] + item)
         for item in driver(index+1, sum, lis, target):
-            temp.append([lis[index]]+item)
+            temp.append([] + item)
         return temp
-    driver(0,0, lis, target)
+    ans = []
+    for x in sorted(driver(0, 0, lis, target)):
+        if not ans or ans[-1]!= x:
+            ans.append(x)
+    return ans
+
+def quick(lis, target):
+    import itertools as iter
+    ans = []
+    length = len(lis)
+    for pair in range(1, length+1):
+        for item in iter.combinations_with_replacement(lis, pair):
+            if sum(item) == target:
+                ans.append(item)
+    return sorted(ans)
+
 if __name__ == '__main__':
     test_cases = [
         [[2, 3, 6, 7],7],
@@ -94,4 +105,4 @@ if __name__ == '__main__':
     ]
     for test_case in test_cases:
         print("input: "+str(test_case)+
-              "\n\toutput: "+str(combination(test_case[0], test_case[1])))
+              "\n\toutput: "+str(quick(test_case[0], test_case[1])))
