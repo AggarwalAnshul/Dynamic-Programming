@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py" />
+    <list default="true" id="34e070e5-ce66-4426-856a-21858033d853" name="Default" comment="Added &gt;&gt; generate-a">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py" afterPath="$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,27 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="palindrome-partitioning.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="palindrome-partitioning.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-725">
-              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+            <state relative-caret-position="901">
+              <caret line="108" column="28" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
               <folding>
-                <element signature="e#1439#2394#0" expanded="false" />
-                <element signature="e#2431#3354#0" expanded="false" />
-                <element signature="e#3516#3704#0" expanded="false" />
-                <element signature="e#5027#5044#0" expanded="false" />
+                <element signature="e#1691#3683#1" expanded="false" />
+                <element signature="e#4018#4206#0" expanded="false" />
+                <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+                <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generate-all-parentheses-ii.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generate-all-parentheses-ii.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="174">
+              <caret line="138" column="63" lean-forward="true" selection-start-line="138" selection-start-column="63" selection-end-line="138" selection-end-column="63" />
+              <folding>
+                <element signature="e#1808#4591#1" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +91,8 @@
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/mbination-sum-ii.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/subsets-ii.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/letter-phone.py" />
-        <option value="$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py" />
         <option value="$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py" />
+        <option value="$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py" />
       </list>
     </option>
   </component>
@@ -154,7 +156,7 @@
       <recent name="C:\Users\aggar\PycharmProjects\Dynamic-Programming\InterviewBit\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.palindrome-partitioning">
+  <component name="RunManager" selected="Python.generate-all-parentheses-ii">
     <configuration default="false" name="mbination-sum-ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,8 +385,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.palindrome-partitioning" />
-        <item index="1" class="java.lang.String" itemvalue="Python.generate-all-parentheses-ii" />
+        <item index="0" class="java.lang.String" itemvalue="Python.generate-all-parentheses-ii" />
+        <item index="1" class="java.lang.String" itemvalue="Python.palindrome-partitioning" />
         <item index="2" class="java.lang.String" itemvalue="Python.letter-phone" />
         <item index="3" class="java.lang.String" itemvalue="Python.subsets-ii" />
         <item index="4" class="java.lang.String" itemvalue="Python.mbination-sum-ii" />
@@ -404,13 +406,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569132824249</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Added &quot;Add binary strings&quot;">
-      <created>1581926249991</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1581926249991</updated>
     </task>
     <task id="LOCAL-00042" summary="&quot;Added multiply strings&quot;">
       <created>1581947294643</created>
@@ -748,7 +743,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585060763424</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Finally solved palindrome-partitioning problem!">
+      <created>1585204256646</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1585204256647</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView">
@@ -761,15 +763,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32073012" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5554107" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9713168" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5554107" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -806,7 +808,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added max water in container problem" />
     <MESSAGE value="Added another problem on Two Pointers, a good one" />
     <MESSAGE value="Incepted Linked Lists | Solved two new problem on LL" />
     <MESSAGE value="Added &gt;&gt; Merged two sorted linked lists to create third sorted list" />
@@ -831,7 +832,8 @@
     <MESSAGE value="Added &gt;&gt; combination-sum.py" />
     <MESSAGE value="Added &gt;&gt; subsets II (only unique)" />
     <MESSAGE value="Added &gt;&gt; letter-phone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &gt;&gt; letter-phone" />
+    <MESSAGE value="Finally solved palindrome-partitioning problem!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally solved palindrome-partitioning problem!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="546" y="262" width="820" height="292" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1583126047204">
@@ -1187,20 +1189,20 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="3" />
+        <state relative-caret-position="1836">
+          <caret line="108" column="28" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
           <folding>
-            <element signature="e#1439#2394#0" expanded="false" />
-            <element signature="e#2431#3354#0" expanded="false" />
-            <element signature="e#3516#3704#0" expanded="false" />
-            <element signature="e#5027#5044#0" expanded="false" />
+            <element signature="e#1691#3683#1" expanded="false" />
+            <element signature="e#4018#4206#0" expanded="false" />
+            <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+            <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1209,7 +1211,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1808#4591#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="108" column="28" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+          <folding>
+            <element signature="e#1691#3683#1" expanded="false" />
+            <element signature="e#4018#4206#0" expanded="false" />
+            <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+            <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1808#4591#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1691#3683#1" expanded="false" />
+            <element signature="e#4018#4206#0" expanded="false" />
+            <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+            <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#1808#4591#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1691#3683#1" expanded="false" />
+            <element signature="e#4018#4206#0" expanded="false" />
+            <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+            <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="e#1808#4591#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="3" />
+          <folding>
+            <element signature="e#1691#3683#1" expanded="false" />
+            <element signature="e#4018#4206#0" expanded="false" />
+            <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+            <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1808#4591#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,23 +1585,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="901">
+          <caret line="108" column="28" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+          <folding>
+            <element signature="e#1691#3683#1" expanded="false" />
+            <element signature="e#4018#4206#0" expanded="false" />
+            <marker date="1585230120554" expanded="false" signature="1758:2719" ph="..." />
+            <marker date="1585230120554" expanded="false" signature="2751:3679" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/palindrome-partitioning.py">
+    <entry file="file://$PROJECT_DIR$/InterviewBit/BackTracking/generate-all-parentheses-ii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="174">
+          <caret line="138" column="63" lean-forward="true" selection-start-line="138" selection-start-column="63" selection-end-line="138" selection-end-column="63" />
           <folding>
-            <element signature="e#1439#2394#0" expanded="false" />
-            <element signature="e#2431#3354#0" expanded="false" />
-            <element signature="e#3516#3704#0" expanded="false" />
-            <element signature="e#5027#5044#0" expanded="false" />
+            <element signature="e#1808#4591#1" expanded="false" />
           </folding>
         </state>
       </provider>

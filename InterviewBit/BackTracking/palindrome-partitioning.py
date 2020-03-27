@@ -27,19 +27,24 @@ In the given example,
 
 [+]Temporal marker           : 10:04 Hours | Tuesday 24, 2020
 [+]Temporal marker untethered: 12:00 Hours | Thursday 26, 2020
-[+]Comments                  : >> The solution was easy per-se
-                                >> the desecription was shitty!
-                                >> it was literally though i was adding fix for all the corner cases
-                                >> finally "12" gave me real idea, what was the expected output!
-                                >> really pathetic description
+[+]Comments                  : >>Took some real time to solve the problems
+                                >>temporal markers are exagerrated
+                                >>Didn't worked after 12 on Wednesday
+                                >>Solved in around 1.5 - 2 hours today on Thursday
+                                >>SOlved this solution w/o any hint or google whatsoever
+                                >>This problem is making me feel real good
+                                >> Editorial solution is much more elegant conceptually
+                                >>Editorial solution has been flashed
+                                >> Matter is closed now
 
-[+]Space Complexity          : O(3^n)
-[+]Time Complexity           : O(3^n)
-[+]Level                     : EASY
-[+]Tread Speed               : Paced
+[+]Space Complexity          : O(2^n)
+[+]Time Complexity           : O(2^n)
+[+]Level                     : MEDIUM
+[+]Tread Speed               : Relaxed
 [+]LINK                      : https://www.interviewbit.com/problems/nearest-smaller-element
 [+] Supplement Sources       : N/A
 """
+""" Obsolete Incorrect developments
 def partition_obsolete(string):
 
     def driver(start, end, string, partition):
@@ -94,8 +99,14 @@ def partition_partial(string):
         frontier.append((left+1, right, partitions_so_far+[string[left]]))
 
     return (list(set(tuple((x)) for x in solution)))
+"""
 
-#Accepted FInally, I'm SO FREKAING HAPPYYYYYYY!!!!!!!!!!!!!!!!!!!!!!
+#Accepted Finally, I'm SO FREKAING HAPPYYYYYYY!!!!!!!!!!!!!!!!!!!!!!#
+#   if it's palindrome:
+#       if it's last element
+#          add to solution and continue
+#       add this to the partition
+#  keep on building the palindrome candidate
 def partition(string):
     frontier = [ ("", 0, [])]
     def isPalindrome(string):
@@ -109,66 +120,33 @@ def partition(string):
 
     while frontier:
         print(frontier)
-        string_so_far, index,partition_so_far = frontier.pop()
+        string_so_far, index, partition_so_far = frontier.pop()
+
         if index == len(string):
-            if not string_so_far:
-                print("adding >> "+str(partition_so_far))
+            if not string_so_far or string_so_far and isPalindrome(string_so_far):
                 solution.append(partition_so_far)
             continue
 
-        if string_so_far:
-            new_string_so_far = string_so_far + string[index]
-            if isPalindrome(new_string_so_far):
-                # 1. add it to the partition
-                frontier.append(("", index+1, partition_so_far+[new_string_so_far]))
-                # 2. keep on building the palindrome candidate
-                frontier.append((new_string_so_far, index+1, partition_so_far))
-            else:
-                if index+1 == len(string):
-                    if isPalindrome(new_string_so_far):
-                        solution.append(partition_so_far+[new_string_so_far])
-                else:
-                    # keep on building the candidate
-                    frontier.append((new_string_so_far, index+1, partition_so_far))
-        else:
-            # 1. build the string
-            frontier.append((string[index], index+1, partition_so_far))
-            # 2. add to partition
-            frontier.append(("", index+1, partition_so_far+[string[index]]))
-
-    # while frontier:
-    #     print(str(frontier))
-    #     string_so_far, index, partition_so_far = frontier.pop()
-    #     if index == len(string):
-    #         print("\t\t\tAdding: "+str(partition_so_far))
-    #         solution.append(partition_so_far)
-    #         continue
-    #
-    #
-    #     # Choice1: This is a palindrome part
-    #     if not string_so_far:
-    #         frontier.append(("", index + 1, partition_so_far + [string[index]]))
-    #
-    #     if not string_so_far:
-    #         frontier.append((string_so_far + string[index], index + 1, partition_so_far))
-    #         if not index + 1 == len(string):
-    #             pass
-    #             # this builds the palindrome candidate
-    #
-    #     else:
-    #         if isPalindrome(string_so_far+string[index]):
-    #             # this adds the palindrome to the partition
-    #             frontier.append(("", index+1, partition_so_far+[string_so_far+string[index]]))
-    #             frontier.append((string_so_far + string[index], index + 1, partition_so_far))
-    #             if not index+1 == len(string):
-    #                 pass
-    #                 # this builds teh palindrome candidate
-    #
-    #         else:
-    #             continue
-    #     # Choice 2: This is not a part of Palindrome
+        new_string_so_far = string_so_far + string[index]
+        if isPalindrome(new_string_so_far):
+            if index+1 == len(string):
+                solution.append(partition_so_far+[new_string_so_far])
+                continue
+            frontier.append(("", index+1, partition_so_far+[new_string_so_far]))
+        frontier.append((new_string_so_far, index + 1, partition_so_far))
 
     return sorted(solution)
+
+# Editorial Inspired
+def partition_experimental(string):
+    def driver(string, solution, partition):
+        if len(string) == 0:
+            solution.append(partition)
+        for index in range(1, len(string)+1):
+            if string[:index]==string[index-1::-1]:
+                driver(string[index:], solution, partition+[string[:index]])
+        return solution
+    return driver(string, [], [])
 
 if __name__ == '__main__':
     test_cases = [
@@ -178,6 +156,6 @@ if __name__ == '__main__':
         "abc",
         "aab",
     ]
-    for index in range(1):
+    for index in range(len(test_cases)):
         test_case = test_cases[index]
-        print("input: "+str(test_case)+ "\nOUTPUT: "+str(partition(test_case)))
+        print("input: "+str(test_case)+ "\nOUTPUT: "+str(partition_experimental(test_case)))
