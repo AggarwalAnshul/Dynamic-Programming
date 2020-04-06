@@ -121,4 +121,4 @@ if __name__ == "__main__":
     ]
     for index in range(len(test_cases)):
         test_case = test_cases[index]
-        print("input: "+str(test_case)+"\n\tOUTPUT: :"+str(equal_experimental(test_case)))
+        print("input: "+str(test_case)+"\n\tOUTPUT: :"+str(equal(test_case)))
