@@ -21,16 +21,25 @@ If there are multiple such windows, return the first occurring minimum window ( 
 """
 """
 [+]Temporal marker            :1246 Hours | Tuesday 07, 2020
-[+]Temporal marker Untethered :1246 Hours | Tuesday 07, 2020
-[+]Comments                   : Laying off @ 1439 Hours very lighyt
-[+]Space Complexity           : O()
-[+]Time Complexity            : O()
-[+]Level                      : 
-[+]Tread Speed                :
+[+]Temporal marker Untethered :1520 Hours | Tuesday 14, 2020
+[+]Comments                   :
+                                Laying off @ 1439 Hours very light
+                                Finally this is solved
+                                I did figure the approach on day one
+                                couldn't implement properly
+                                finally today, saw partial implementation from GFG 40%
+                                Implemented in about an hour
+                                this matter is officially closed now
+
+[+]Space Complexity           : O(N)
+[+]Time Complexity            : O(N)
+[+]Level                      :  MEDIUM | UPPER
+[+]Tread Speed                : SUPER RELAXED & LAID OFF
 [+]LINK                      : https://www.interviewbit.com/problems/window-string.py
 [+] Supplement Sources       : N/A
 
 """
+
 
 # OBSOLETE, Giving partial results
 def windowString_partial(string, target):
@@ -62,7 +71,7 @@ def windowString_partial(string, target):
                 working_set.remove(current_char)
         end += 1
     if not working_set:
-        propect_ans = string[start:end+1]
+        propect_ans = string[start:end + 1]
         if len(ans) > len(propect_ans):
             ans = propect_ans
     return ans
@@ -91,8 +100,8 @@ def windowString_abandoned(string, target):
                     worklist[current_char] = 1
                 else:
                     worklist[current_char] += 1
-                
-                #remove from the checklist
+
+                # remove from the checklist
                 if current_char in checklist:
                     if checklist[current_char] == 1:
                         checklist.pop(current_char)
@@ -105,7 +114,7 @@ def windowString_abandoned(string, target):
                 return string[start:end]
             if not ans or len(ans) > end - start:
                 ans = string[start:end]
-            #remove the first
+            # remove the first
             removed_char = string[start]
             checklist[removed_char] = 1
             if removed_char in worklist:
@@ -124,24 +133,39 @@ def windowString_abandoned(string, target):
     return ans
 
 
-def windowString(string, target):
-    characters_seen, checklist = {}, {}
-    global_set = set(target)
-    start, end = 0, 0
-  
-    # preparing the data
-    for char in target:
-        if char in checklist:
-            checklist[char] += 1
-        else:
-            checklist[char] = 1
-    
-    while start < length and end < length:
-        
+# ACCEPTED!
+def windowString(string, pattern):
+    window_start, window_length, min_window = 0, 0, ""
+    string_length, pattern_length = len(string), len(pattern)
+    pattern_hash, string_hash = {}, {}
 
-        
+    # hashing the pattern
+    for char in pattern:
+        pattern_hash[char] = pattern_hash.get(char, 0) + 1
 
-    
+    # finding the minimum window
+    for index, char in enumerate(string):
+        if char in pattern_hash:
+            string_hash[char] = string_hash.get(char, 0) + 1
+            if string_hash.get(char) <= pattern_hash.get(char):
+                window_length += 1
+
+        # Prospective window found
+        if window_length == pattern_length:
+            # Stripping the window from the start
+            while (not pattern_hash.get(string[window_start], None) or
+                   string_hash[string[window_start]] > pattern_hash[string[window_start]]):
+                string_hash[string[window_start]] = string_hash.get(string[window_start], 1) - 1
+                window_start += 1
+            # Assigning the new window
+            if not min_window or len(min_window) > len(string[window_start:index + 1]):
+                min_window = string[window_start:index + 1]
+            # Discarding the first window character
+            string_hash[string[window_start]] = string_hash.get(string[window_start],
+                                                                1) - 1  # 1 so that hashvalue not gets in negative for single instance
+            window_length, window_start = window_length - 1, window_start + 1
+    return min_window
+
 
 if __name__ == "__main__":
     test_cases = [
@@ -151,5 +175,5 @@ if __name__ == "__main__":
     ]
     for index in range(len(test_cases)):
         test_case = test_cases[index]
-        print("input: "+str(test_case)+"\n\tOUTPUT: :" +
+        print("input: " + str(test_case) + "\n\tOUTPUT: :" +
               str(windowString(test_case[0], test_case[1])))
